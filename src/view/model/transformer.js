@@ -10,7 +10,7 @@ const NOW = new Date().getTime()
  * @param day
  * @returns {*}
  */
-function getStatus(histories, day) {
+function getStatus (histories, day) {
   if (day > NOW) {
     return 'Future'
   }
@@ -49,7 +49,7 @@ function getStatus(histories, day) {
  * @param days
  * @returns {{}}
  */
-function getStausMap(histories, days) {
+function getStausMap (histories, days) {
   let statusMap = {}
   days.forEach(day => {
     statusMap[day.key] = getStatus(histories, day.key)
@@ -77,7 +77,7 @@ export const STATUS_SEQUENCE_MAP = {
   "Duplicate": 14
 }
 
-export function transformSprintData(sprint) {
+export function transformSprintData (sprint) {
   if (!sprint.days) {
     let { startDate, endDate } = sprint;
 
@@ -204,7 +204,7 @@ export function transformSprintData(sprint) {
   ]
 
   let lastDay;
-  for(let day of sprint.days) {
+  for (let day of sprint.days) {
     if (day.key <= NOW) {
       lastDay = day
     } else {
