@@ -1,0 +1,34 @@
+%relative-wrapper {
+  position: relative;
+}
+
+%full-expand {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+%normal-full-expand {
+  width: 100%;
+  height: 100%
+}
+
+// A better method to make block element absolute center
+// Please make sure that parent element set 'position: relative' and its size was larger than the children element
+%absolute-center-better {
+  position: absolute;
+  top: 0;
+  right: -50%;
+  left: -50%;
+  bottom: 0;
+  margin: auto;
+}
+
+%single-line-text-overflow-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+

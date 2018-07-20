@@ -1,0 +1,8 @@
+{
+  "script": "api/bin/www",
+  "restartable": "rs",
+  "watch": [
+    "api/"
+  ],
+  "ext": "js json"
+}

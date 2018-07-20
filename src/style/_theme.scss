@@ -1,0 +1,62 @@
+.default-jira-theme {
+  // "Future": 0,
+  // "In Analysis": 1,
+  // "Ready For Development": 2,
+  // "Open": 3,
+  // "Reopened": 4,
+  // "In Progress": 5,
+  // "Code Review": 6,
+  // "Ready for QA": 7,
+  // "In QA Testing": 8,
+  // "QA Verified": 9,
+  // "Resolved": 10,
+  // "Closed": 11,
+  // "Cannot Reproduce": 12,
+  // "Won't Fix": 13,
+  // "Duplicate": 14
+  .status-0 {
+    background-color: #fff;
+    border-color: #fff;
+    color: #fff;
+  }
+  .status-1, .status-2 {
+    background-color: #eee;
+    border-color: #eee;
+    color: #555;
+  }
+  .status-3 {
+    background-color: #4a6785;
+    border-color: #4a6785;
+    color: #fff;
+  }
+  .status-4 {
+    color: #fff;
+    background-color: #8eb021;
+    border-color: #8eb021;
+  }
+  .status-5, .status-6 {
+    background-color: #ffd351;
+    border-color: #ffd351;
+    color: #594300;
+  }
+  .status-7 {
+    color: #fff;
+    background-color: #654982;
+    border-color: #654982;
+  }
+  .status-8, .status-9 {
+    color: #fff;
+    background-color: #f15c75;
+    border-color: #f15c75;
+  }
+  .status-10, .status-11 {
+    background-color: #14892c;
+    border-color: #14892c;
+    color: #fff;
+  }
+  .status-12, .status-13, .status-14 {
+    color: #fff;
+    background-color: #3b7fc4;
+    border-color: #3b7fc4;
+  }
+}
