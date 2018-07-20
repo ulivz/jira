@@ -1,0 +1,1115 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "613587",
+  "self": "https://jira.xxx.com/rest/api/2/issue/613587",
+  "key": "ULIVZ-38677",
+  "fields": {
+    "customfield_16053": null,
+    "customfield_16052": null,
+    "customfield_16050": null,
+    "customfield_14550": null,
+    "customfield_12250": null,
+    "customfield_16450": null,
+    "customfield_14553": null,
+    "customfield_16853": null,
+    "customfield_10350": null,
+    "customfield_16852": null,
+    "customfield_14551": null,
+    "fixVersions": [],
+    "customfield_14552": null,
+    "resolution": null,
+    "customfield_10355": null,
+    "customfield_12655": null,
+    "customfield_10356": null,
+    "customfield_13976": "0",
+    "customfield_17251": null,
+    "lastViewed": null,
+    "customfield_14660": null,
+    "customfield_15357": null,
+    "customfield_14661": null,
+    "customfield_14662": null,
+    "priority": {
+      "self": "https://jira.xxx.com/rest/api/2/priority/3",
+      "iconUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+      "name": "P3",
+      "id": "3"
+    },
+    "customfield_13975": "3w 2d 18h 33m 40s",
+    "labels": [],
+    "customfield_11950": null,
+    "customfield_12757": null,
+    "aggregatetimeoriginalestimate": 180,
+    "timeestimate": 180,
+    "versions": [],
+    "issuelinks": [
+      {
+        "id": "316445",
+        "self": "https://jira.xxx.com/rest/api/2/issueLink/316445",
+        "type": {
+          "id": "10840",
+          "name": "Cloners",
+          "inward": "is cloned by",
+          "outward": "clones",
+          "self": "https://jira.xxx.com/rest/api/2/issueLinkType/10840"
+        },
+        "inwardIssue": {
+          "id": "618493",
+          "key": "ULIVZ-38961",
+          "self": "https://jira.xxx.com/rest/api/2/issue/618493",
+          "fields": {
+            "summary": "Build the C++ driver benchmarks in evergreen",
+            "status": {
+              "self": "https://jira.xxx.com/rest/api/2/status/3",
+              "description": "This issue is being actively worked on at the moment by the assignee.",
+              "iconUrl": "https://jira.xxx.com/images/icons/statuses/inprogress.png",
+              "name": "In Progress",
+              "id": "3",
+              "statusCategory": {
+                "self": "https://jira.xxx.com/rest/api/2/statuscategory/4",
+                "id": 4,
+                "key": "indeterminate",
+                "colorName": "yellow",
+                "name": "In Progress"
+              }
+            },
+            "priority": {
+              "self": "https://jira.xxx.com/rest/api/2/priority/3",
+              "iconUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+              "name": "P3",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://jira.xxx.com/rest/api/2/issuetype/84",
+              "id": "84",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 15615
+            }
+          }
+        }
+      }
+    ],
+    "assignee": null,
+    "status": {
+      "self": "https://jira.xxx.com/rest/api/2/status/1",
+      "description": "The issue is open and awaits assignment.",
+      "iconUrl": "https://jira.xxx.com/images/icons/statuses/open.png",
+      "name": "Open",
+      "id": "1",
+      "statusCategory": {
+        "self": "https://jira.xxx.com/rest/api/2/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "blue-gray",
+        "name": "To Do"
+      }
+    },
+    "customfield_16151": null,
+    "components": [],
+    "customfield_16150": null,
+    "customfield_10050": {
+      "self": "https://jira.xxx.com/rest/api/2/customFieldOption/18550",
+      "value": "Facebook",
+      "id": "18550"
+    },
+    "customfield_12350": null,
+    "customfield_10051": null,
+    "customfield_10052": null,
+    "customfield_12352": null,
+    "customfield_14652": null,
+    "customfield_10053": null,
+    "customfield_12351": null,
+    "customfield_10450": null,
+    "customfield_12750": null,
+    "customfield_10451": null,
+    "customfield_14255": null,
+    "customfield_12752": [
+      "com.atlassian.greenhopper.service.sprint.Sprint@4f26998[id=7644,rapidViewId=2128,state=ACTIVE,name=Facebook S15 2018-07-27,startDate=2018-07-16T04:45:51.186+02:00,endDate=2018-07-29T13:45:00.000+02:00,completeDate=<null>,sequence=7368,goal=]"
+    ],
+    "customfield_14656": null,
+    "customfield_10453": 3,
+    "customfield_12751": "Not started",
+    "customfield_16955": null,
+    "customfield_10454": null,
+    "customfield_16954": null,
+    "customfield_10455": null,
+    "customfield_12753": "ULIVZ-33797",
+    "customfield_14655": null,
+    "aggregatetimeestimate": 180,
+    "customfield_17351": null,
+    "creator": {
+      "self": "https://jira.xxx.com/rest/api/2/user?username=john",
+      "name": "john",
+      "key": "john",
+      "emailAddress": "john@ebay.com",
+      "avatarUrls": {
+        "48x48": "https://avatars1.githubusercontent.com/u/6374832?s=40&v=4",
+        "24x24": "https://jira.xxx.com/secure/useravatar?size=small&avatarId=16516",
+        "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&avatarId=16516",
+        "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&avatarId=16516"
+      },
+      "displayName": "John Ken",
+      "active": true,
+      "timeZone": "Europe/Berlin"
+    },
+    "customfield_15297": null,
+    "customfield_17751": null,
+    "customfield_15298": null,
+    "subtasks": [],
+    "customfield_15295": null,
+    "customfield_15296": null,
+    "reporter": {
+      "self": "https://jira.xxx.com/rest/api/2/user?username=john",
+      "name": "john",
+      "key": "john",
+      "emailAddress": "john@ebay.com",
+      "avatarUrls": {
+        "48x48": "https://avatars1.githubusercontent.com/u/6374832?s=40&v=4",
+        "24x24": "https://jira.xxx.com/secure/useravatar?size=small&avatarId=16516",
+        "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&avatarId=16516",
+        "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&avatarId=16516"
+      },
+      "displayName": "John Ken",
+      "active": true,
+      "timeZone": "Europe/Berlin"
+    },
+    "customfield_15299": null,
+    "customfield_17752": null,
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 180,
+      "percent": 0
+    },
+    "customfield_13950": null,
+    "customfield_10316": null,
+    "progress": {
+      "progress": 0,
+      "total": 180,
+      "percent": 0
+    },
+    "votes": {
+      "self": "https://jira.xxx.com/rest/api/2/issue/ULIVZ-38677/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    },
+    "customfield_16251": null,
+    "customfield_17065": null,
+    "issuetype": {
+      "self": "https://jira.xxx.com/rest/api/2/issuetype/84",
+      "id": "84",
+      "description": "gh.issue.story.desc",
+      "iconUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+      "name": "Story",
+      "subtask": false,
+      "avatarId": 15615
+    },
+    "customfield_16250": "",
+    "customfield_17460": null,
+    "customfield_17062": null,
+    "customfield_10390": null,
+    "customfield_12292": null,
+    "customfield_17860": null,
+    "customfield_17463": null,
+    "timespent": null,
+    "customfield_12294": null,
+    "customfield_14350": "0|i029z0:ku",
+    "customfield_16252": null,
+    "customfield_17462": null,
+    "project": {
+      "self": "https://jira.xxx.com/rest/api/2/project/11300",
+      "id": "11300",
+      "key": "ULIVZ",
+      "name": "ULIVZ",
+      "avatarUrls": {
+        "48x48": "https://jira.xxx.com/secure/projectavatar?pid=11300&avatarId=10011",
+        "24x24": "https://jira.xxx.com/secure/projectavatar?size=small&pid=11300&avatarId=10011",
+        "16x16": "https://jira.xxx.com/secure/projectavatar?size=xsmall&pid=11300&avatarId=10011",
+        "32x32": "https://jira.xxx.com/secure/projectavatar?size=medium&pid=11300&avatarId=10011"
+      }
+    },
+    "customfield_17862": null,
+    "aggregatetimespent": null,
+    "customfield_12850": null,
+    "customfield_10312": "A marketer can have access to the list of un-subscribers in an Excel or CSV format. \r\n",
+    "customfield_17859": null,
+    "resolutiondate": null,
+    "workratio": 0,
+    "customfield_17450": null,
+    "customfield_17053": null,
+    "watches": {
+      "self": "https://jira.xxx.com/rest/api/2/issue/ULIVZ-38677/watchers",
+      "watchCount": 0,
+      "isWatching": false
+    },
+    "customfield_17052": null,
+    "customfield_17051": null,
+    "customfield_12282": null,
+    "created": "2018-06-26T00:42:43.000+0200",
+    "customfield_17854": null,
+    "customfield_12285": null,
+    "customfield_17853": null,
+    "customfield_12288": null,
+    "customfield_17852": null,
+    "customfield_17059": null,
+    "customfield_17851": null,
+    "customfield_17858": null,
+    "customfield_15955": null,
+    "customfield_17855": null,
+    "customfield_10413": null,
+    "customfield_15308": null,
+    "customfield_17050": null,
+    "updated": "2018-07-16T01:00:43.000+0200",
+    "customfield_12271": null,
+    "customfield_12272": null,
+    "timeoriginalestimate": 180,
+    "customfield_12550": "9223372036854775807",
+    "customfield_15301": null,
+    "description": "For users who have unsubscribed from automated recommendation, we need a table to store all email addresses.\r\n\r\nStep 1: Automatically generate the csv list everyday (great if it's daily, but at least weekly), and allow the marketer to have access to the list.\r\n\r\nStep 2: Sync the data with Doppler (email service provider). I know MX has been doing it through FTP, let me connect to market to see if we can get some information. \r\n\r\n \r\n\r\n+We will need:+\r\n * Campaign name: Automated Recommendation \r\n * Email address\r\n * Date of un-subscribe\r\n\r\n \r\n\r\n \r\n\r\n ",
+    "customfield_10372": null,
+    "customfield_12274": null,
+    "customfield_16357": null,
+    "customfield_15302": null,
+    "customfield_16356": null,
+    "customfield_12276": null,
+    "customfield_16355": null,
+    "customfield_15300": null,
+    "customfield_12279": null,
+    "customfield_15305": null,
+    "timetracking": {
+      "originalEstimate": "0.05h",
+      "remainingEstimate": "0.05h",
+      "originalEstimateSeconds": 180,
+      "remainingEstimateSeconds": 180
+    },
+    "customfield_15304": null,
+    "customfield_12669": [
+      {
+        "self": "https://jira.xxx.com/rest/api/2/customFieldOption/13423",
+        "value": "MX",
+        "id": "13423"
+      }
+    ],
+    "attachment": [],
+    "summary": "Build the C++ driver benchmarks in evergreen",
+    "customfield_17150": null,
+    "customfield_11050": [
+      "leiychen(leiychen)",
+      "john(john)",
+      "mtardivo(mtardivo)",
+      "rsemov(rsemov)",
+      "spliu(spliu)"
+    ],
+    "customfield_10360": {
+      "self": "https://jira.xxx.com/rest/api/2/customFieldOption/11054",
+      "value": "Unknown at this stage",
+      "id": "11054"
+    },
+    "customfield_12660": null,
+    "customfield_13353": null,
+    "customfield_15653": null,
+    "customfield_14961": [
+      "leiychen(leiychen)",
+      "john(john)",
+      "mtardivo(mtardivo)",
+      "rsemov(rsemov)",
+      "spliu(spliu)"
+    ],
+    "customfield_15654": null,
+    "customfield_17952": null,
+    "customfield_17951": null,
+    "customfield_12664": null,
+    "customfield_13753": null,
+    "customfield_12663": null,
+    "customfield_14962": null,
+    "customfield_10400": null,
+    "customfield_12665": null,
+    "customfield_13754": {
+      "self": "https://jira.xxx.com/rest/api/2/customFieldOption/14665",
+      "value": "PRODUCT_BACKLOG",
+      "id": "14665"
+    },
+    "customfield_14963": "9223372036854775807",
+    "customfield_10357": null,
+    "customfield_12657": null,
+    "customfield_10358": null,
+    "customfield_12656": null,
+    "environment": null,
+    "customfield_12659": null,
+    "customfield_12658": null,
+    "duedate": null,
+    "comment": {
+      "comments": [
+        {
+          "self": "https://jira.xxx.com/rest/api/2/issue/613587/comment/1196071",
+          "id": "1196071",
+          "author": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=leiychen",
+            "name": "leiychen",
+            "key": "leiychen",
+            "emailAddress": "leiychen@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://avatars1.githubusercontent.com/u/3382565?s=40&v=4",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=leiychen&avatarId=17100",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=leiychen&avatarId=17100",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=leiychen&avatarId=17100"
+            },
+            "displayName": "Mervyn Ollie",
+            "active": true,
+            "timeZone": "Asia/Hong_Kong"
+          },
+          "body": "Can we create a separate ticket for investigation on how to push the results to Email Service Provider tools?\r\nAnd also a separate ticket for integrate the report to any kinds of tools that are accessible to Analysts.\r\nI put 3 points for generating the csv report.",
+          "updateAuthor": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=leiychen",
+            "name": "leiychen",
+            "key": "leiychen",
+            "emailAddress": "leiychen@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://avatars1.githubusercontent.com/u/3382565?s=40&v=4",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=leiychen&avatarId=17100",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=leiychen&avatarId=17100",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=leiychen&avatarId=17100"
+            },
+            "displayName": "Mervyn Ollie",
+            "active": true,
+            "timeZone": "Asia/Hong_Kong"
+          },
+          "created": "2018-06-28T14:05:16.000+0200",
+          "updated": "2018-06-28T14:06:24.000+0200"
+        },
+        {
+          "self": "https://jira.xxx.com/rest/api/2/issue/613587/comment/1200503",
+          "id": "1200503",
+          "author": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=john",
+            "name": "john",
+            "key": "john",
+            "emailAddress": "john@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://avatars1.githubusercontent.com/u/6374832?s=40&v=4",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&avatarId=16516",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&avatarId=16516",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&avatarId=16516"
+            },
+            "displayName": "John Ken",
+            "active": true,
+            "timeZone": "Europe/Berlin"
+          },
+          "body": "[~leiychen] I updated the requirement a little bit and break down the process into two steps. Let's do step one first, and I will get back to you on the Doppler connection. CC [~spliu]",
+          "updateAuthor": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=john",
+            "name": "john",
+            "key": "john",
+            "emailAddress": "john@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://avatars1.githubusercontent.com/u/6374832?s=40&v=4",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&avatarId=16516",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&avatarId=16516",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&avatarId=16516"
+            },
+            "displayName": "John Ken",
+            "active": true,
+            "timeZone": "Europe/Berlin"
+          },
+          "created": "2018-07-09T20:25:47.000+0200",
+          "updated": "2018-07-09T20:25:47.000+0200"
+        },
+        {
+          "self": "https://jira.xxx.com/rest/api/2/issue/613587/comment/1202613",
+          "id": "1202613",
+          "author": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=spliu",
+            "name": "spliu",
+            "key": "spliu",
+            "emailAddress": "spliu@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://avatars0.githubusercontent.com/u/11811888?s=80&v=4",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=spliu&avatarId=17316",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=spliu&avatarId=17316",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=spliu&avatarId=17316"
+            },
+            "displayName": "YuChengKai",
+            "active": true,
+            "timeZone": "Asia/Shanghai"
+          },
+          "body": "Dev team will ensure the CSV is generated on the disk of micro-service instance. And site ops will follow up on transferring it to marketing team in MX.\r\n\r\n[~rsemov], [~john] and [~mtardivo], we need to decide on the following things:\r\n 1. What's our target place? Is it possible to send it via Email, or upload it via FTP, from SiteOps perspective?\r\n 2. How to get a file on local disk of micro-service instance?",
+          "updateAuthor": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=john",
+            "name": "john",
+            "key": "john",
+            "emailAddress": "john@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://avatars1.githubusercontent.com/u/6374832?s=40&v=4",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&avatarId=16516",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&avatarId=16516",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&avatarId=16516"
+            },
+            "displayName": "John Ken",
+            "active": true,
+            "timeZone": "Europe/Berlin"
+          },
+          "created": "2018-07-13T03:51:40.000+0200",
+          "updated": "2018-07-13T03:59:08.000+0200"
+        },
+        {
+          "self": "https://jira.xxx.com/rest/api/2/issue/613587/comment/1203031",
+          "id": "1203031",
+          "author": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=rsemov",
+            "name": "rsemov",
+            "key": "rsemov",
+            "emailAddress": "rsemov@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://avatars2.githubusercontent.com/u/3001525?s=40&v=4",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&avatarId=10122",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&avatarId=10122",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&avatarId=10122"
+            },
+            "displayName": "Raymond Semov",
+            "active": true,
+            "timeZone": "America/Los_Angeles"
+          },
+          "body": "email is probably a bad idea because there're limits to email size sent and we have no idea how big that list can grow and how many other things they'd like added to that list (dates & stuff).\r\n\r\nMaybe we can do a batch job on the batch servers that generates the list periodically and have the marketer access thru a web/api portal with a password protection.\r\n\r\nFTP/sFTP is not going to work; InfoSec won't allow that either.",
+          "updateAuthor": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=rsemov",
+            "name": "rsemov",
+            "key": "rsemov",
+            "emailAddress": "rsemov@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://avatars2.githubusercontent.com/u/3001525?s=40&v=4",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&avatarId=10122",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&avatarId=10122",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&avatarId=10122"
+            },
+            "displayName": "Raymond Semov",
+            "active": true,
+            "timeZone": "America/Los_Angeles"
+          },
+          "created": "2018-07-13T20:02:28.000+0200",
+          "updated": "2018-07-13T20:03:13.000+0200"
+        },
+        {
+          "self": "https://jira.xxx.com/rest/api/2/issue/613587/comment/1203088",
+          "id": "1203088",
+          "author": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=mtardivo",
+            "name": "mtardivo",
+            "key": "mtardivo",
+            "emailAddress": "mtardivo@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=mtardivo&avatarId=17212",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=mtardivo&avatarId=17212",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=mtardivo&avatarId=17212",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=mtardivo&avatarId=17212"
+            },
+            "displayName": "Matt Tardivo",
+            "active": true,
+            "timeZone": "America/Los_Angeles"
+          },
+          "body": "Please, do not write any files to a running container - Kubernetes can recreate containers at any time, without any reason (and, of course, your data will be gone)",
+          "updateAuthor": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=mtardivo",
+            "name": "mtardivo",
+            "key": "mtardivo",
+            "emailAddress": "mtardivo@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=mtardivo&avatarId=17212",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=mtardivo&avatarId=17212",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=mtardivo&avatarId=17212",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=mtardivo&avatarId=17212"
+            },
+            "displayName": "Matt Tardivo",
+            "active": true,
+            "timeZone": "America/Los_Angeles"
+          },
+          "created": "2018-07-13T23:36:11.000+0200",
+          "updated": "2018-07-13T23:36:11.000+0200"
+        },
+        {
+          "self": "https://jira.xxx.com/rest/api/2/issue/613587/comment/1203129",
+          "id": "1203129",
+          "author": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=john",
+            "name": "john",
+            "key": "john",
+            "emailAddress": "john@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://avatars1.githubusercontent.com/u/6374832?s=40&v=4",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&avatarId=16516",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&avatarId=16516",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&avatarId=16516"
+            },
+            "displayName": "John Ken",
+            "active": true,
+            "timeZone": "Europe/Berlin"
+          },
+          "body": "We will consider MangoDB, batch job + portal solution instead. And check with DWH on how they used FTP to provide email lists to Vivanuncios marketing team in the past. ",
+          "updateAuthor": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=john",
+            "name": "john",
+            "key": "john",
+            "emailAddress": "john@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://avatars1.githubusercontent.com/u/6374832?s=40&v=4",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&avatarId=16516",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&avatarId=16516",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&avatarId=16516"
+            },
+            "displayName": "John Ken",
+            "active": true,
+            "timeZone": "Europe/Berlin"
+          },
+          "created": "2018-07-16T01:00:43.000+0200",
+          "updated": "2018-07-16T01:00:43.000+0200"
+        }
+      ],
+      "maxResults": 6,
+      "total": 6,
+      "startAt": 0
+    }
+  },
+  "changelog": {
+    "startAt": 0,
+    "maxResults": 18,
+    "total": 18,
+    "histories": [
+      {
+        "id": "5828153",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=john",
+          "name": "john",
+          "key": "john",
+          "emailAddress": "john@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars1.githubusercontent.com/u/6374832?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&avatarId=16516",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&avatarId=16516",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&avatarId=16516"
+          },
+          "displayName": "John Ken",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-06-26T00:42:46.000+0200",
+        "items": [
+          {
+            "field": "Epic Link",
+            "fieldtype": "custom",
+            "from": null,
+            "fromString": null,
+            "to": "553379",
+            "toString": "ULIVZ-33797"
+          }
+        ]
+      },
+      {
+        "id": "5828156",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=john",
+          "name": "john",
+          "key": "john",
+          "emailAddress": "john@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars1.githubusercontent.com/u/6374832?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&avatarId=16516",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&avatarId=16516",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&avatarId=16516"
+          },
+          "displayName": "John Ken",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-06-26T00:43:07.000+0200",
+        "items": [
+          {
+            "field": "summary",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": "A table record unsubscribing emails ",
+            "to": null,
+            "toString": "Unsubscribing email address list"
+          }
+        ]
+      },
+      {
+        "id": "5828620",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=john",
+          "name": "john",
+          "key": "john",
+          "emailAddress": "john@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars1.githubusercontent.com/u/6374832?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&avatarId=16516",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&avatarId=16516",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&avatarId=16516"
+          },
+          "displayName": "John Ken",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-06-26T06:39:28.000+0200",
+        "items": [
+          {
+            "field": "Sprint",
+            "fieldtype": "custom",
+            "from": null,
+            "fromString": null,
+            "to": "7641",
+            "toString": "Facebook S14 20180713"
+          }
+        ]
+      },
+      {
+        "id": "5828621",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=john",
+          "name": "john",
+          "key": "john",
+          "emailAddress": "john@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars1.githubusercontent.com/u/6374832?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&avatarId=16516",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&avatarId=16516",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&avatarId=16516"
+          },
+          "displayName": "John Ken",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-06-26T06:39:28.000+0200",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked higher"
+          }
+        ]
+      },
+      {
+        "id": "5828626",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=john",
+          "name": "john",
+          "key": "john",
+          "emailAddress": "john@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars1.githubusercontent.com/u/6374832?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&avatarId=16516",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&avatarId=16516",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&avatarId=16516"
+          },
+          "displayName": "John Ken",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-06-26T06:41:06.000+0200",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked higher"
+          }
+        ]
+      },
+      {
+        "id": "5828766",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=spliu",
+          "name": "spliu",
+          "key": "spliu",
+          "emailAddress": "spliu@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars0.githubusercontent.com/u/11811888?s=80&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=spliu&avatarId=17316",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=spliu&avatarId=17316",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=spliu&avatarId=17316"
+          },
+          "displayName": "YuChengKai",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-06-26T07:45:24.000+0200",
+        "items": [
+          {
+            "field": "summary",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": "Unsubscribing email address list",
+            "to": null,
+            "toString": "BE: Unsubscribing email address list"
+          }
+        ]
+      },
+      {
+        "id": "5836299",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=john",
+          "name": "john",
+          "key": "john",
+          "emailAddress": "john@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars1.githubusercontent.com/u/6374832?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&avatarId=16516",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&avatarId=16516",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&avatarId=16516"
+          },
+          "displayName": "John Ken",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-06-28T08:57:09.000+0200",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked higher"
+          }
+        ]
+      },
+      {
+        "id": "5837533",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=leiychen",
+          "name": "leiychen",
+          "key": "leiychen",
+          "emailAddress": "leiychen@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars1.githubusercontent.com/u/3382565?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=leiychen&avatarId=17100",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=leiychen&avatarId=17100",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=leiychen&avatarId=17100"
+          },
+          "displayName": "Mervyn Ollie",
+          "active": true,
+          "timeZone": "Asia/Hong_Kong"
+        },
+        "created": "2018-06-28T14:02:11.000+0200",
+        "items": [
+          {
+            "field": "timeoriginalestimate",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": null,
+            "to": "180",
+            "toString": "180"
+          },
+          {
+            "field": "timeestimate",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": null,
+            "to": "180",
+            "toString": "180"
+          }
+        ]
+      },
+      {
+        "id": "5837545",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=leiychen",
+          "name": "leiychen",
+          "key": "leiychen",
+          "emailAddress": "leiychen@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars1.githubusercontent.com/u/3382565?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=leiychen&avatarId=17100",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=leiychen&avatarId=17100",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=leiychen&avatarId=17100"
+          },
+          "displayName": "Mervyn Ollie",
+          "active": true,
+          "timeZone": "Asia/Hong_Kong"
+        },
+        "created": "2018-06-28T14:05:46.000+0200",
+        "items": [
+          {
+            "field": "Story Points",
+            "fieldtype": "custom",
+            "from": null,
+            "fromString": null,
+            "to": null,
+            "toString": "3"
+          }
+        ]
+      },
+      {
+        "id": "5840413",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=spliu",
+          "name": "spliu",
+          "key": "spliu",
+          "emailAddress": "spliu@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars0.githubusercontent.com/u/11811888?s=80&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=spliu&avatarId=17316",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=spliu&avatarId=17316",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=spliu&avatarId=17316"
+          },
+          "displayName": "YuChengKai",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-06-29T10:30:30.000+0200",
+        "items": [
+          {
+            "field": "Sprint",
+            "fieldtype": "custom",
+            "from": "7641",
+            "fromString": "Facebook S14 20180713",
+            "to": "7644",
+            "toString": "Facebook S15 20180727"
+          }
+        ]
+      },
+      {
+        "id": "5840419",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=spliu",
+          "name": "spliu",
+          "key": "spliu",
+          "emailAddress": "spliu@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars0.githubusercontent.com/u/11811888?s=80&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=spliu&avatarId=17316",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=spliu&avatarId=17316",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=spliu&avatarId=17316"
+          },
+          "displayName": "YuChengKai",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-06-29T10:30:31.000+0200",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked lower"
+          }
+        ]
+      },
+      {
+        "id": "5866917",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=john",
+          "name": "john",
+          "key": "john",
+          "emailAddress": "john@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars1.githubusercontent.com/u/6374832?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&avatarId=16516",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&avatarId=16516",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&avatarId=16516"
+          },
+          "displayName": "John Ken",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-07-09T19:40:55.000+0200",
+        "items": [
+          {
+            "field": "description",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": "For users who have unsubscribed from automated recommendation, we need a table to store all email addresses. The data need to be sync with DWH. \r\n\r\n \r\n\r\n+We will need:+\r\n * Campaign name: Automated Recommendation \r\n * Email address\r\n * Date of un-subscribe\r\n\r\n \r\n\r\n+Why we need the table:+\r\n # Share the email address list with Email Service Provider tools (eg. Doppler), so that marketing campaign emails won'e be delivered to un-subscribers. \r\n #  Analyst can pull unsubscribing data for marketing reports\r\n\r\n \r\n\r\n ",
+            "to": null,
+            "toString": "For users who have unsubscribed from automated recommendation, we need a table to store all email addresses. Marketer will be able to access this data once a week at least. \r\n\r\n \r\n\r\n+We will need:+\r\n * Campaign name: Automated Recommendation \r\n * Email address\r\n * Date of un-subscribe\r\n\r\n \r\n\r\n \r\n\r\n "
+          }
+        ]
+      },
+      {
+        "id": "5866941",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=john",
+          "name": "john",
+          "key": "john",
+          "emailAddress": "john@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars1.githubusercontent.com/u/6374832?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&avatarId=16516",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&avatarId=16516",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&avatarId=16516"
+          },
+          "displayName": "John Ken",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-07-09T20:05:16.000+0200",
+        "items": [
+          {
+            "field": "description",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": "For users who have unsubscribed from automated recommendation, we need a table to store all email addresses. Marketer will be able to access this data once a week at least. \r\n\r\n \r\n\r\n+We will need:+\r\n * Campaign name: Automated Recommendation \r\n * Email address\r\n * Date of un-subscribe\r\n\r\n \r\n\r\n \r\n\r\n ",
+            "to": null,
+            "toString": "For users who have unsubscribed from automated recommendation, we need a table to store all email addresses.\r\n\r\nMarketer will be able to access this data once a week at least.\r\n\r\nFinal goal is to automate this process. （eg. Upload this auto generated list to Doppler–email service provider-- through FTP）\r\n\r\n \r\n\r\n+We will need:+\r\n * Campaign name: Automated Recommendation \r\n * Email address\r\n * Date of un-subscribe\r\n\r\n \r\n\r\n \r\n\r\n "
+          }
+        ]
+      },
+      {
+        "id": "5866967",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=john",
+          "name": "john",
+          "key": "john",
+          "emailAddress": "john@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars1.githubusercontent.com/u/6374832?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&avatarId=16516",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&avatarId=16516",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&avatarId=16516"
+          },
+          "displayName": "John Ken",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-07-09T20:24:20.000+0200",
+        "items": [
+          {
+            "field": "description",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": "For users who have unsubscribed from automated recommendation, we need a table to store all email addresses.\r\n\r\nMarketer will be able to access this data once a week at least.\r\n\r\nFinal goal is to automate this process. （eg. Upload this auto generated list to Doppler–email service provider-- through FTP）\r\n\r\n \r\n\r\n+We will need:+\r\n * Campaign name: Automated Recommendation \r\n * Email address\r\n * Date of un-subscribe\r\n\r\n \r\n\r\n \r\n\r\n ",
+            "to": null,
+            "toString": "For users who have unsubscribed from automated recommendation, we need a table to store all email addresses.\r\n\r\nStep 1. Marketer will be able to access this data once a week at least.\r\n\r\nStep 2. Final goal is to automate this process. （eg. Upload this auto generated list to Doppler–email service provider-- through FTP）\r\n\r\n \r\n\r\n+We will need:+\r\n * Campaign name: Automated Recommendation \r\n * Email address\r\n * Date of un-subscribe\r\n\r\n \r\n\r\n \r\n\r\n "
+          }
+        ]
+      },
+      {
+        "id": "5866968",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=john",
+          "name": "john",
+          "key": "john",
+          "emailAddress": "john@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars1.githubusercontent.com/u/6374832?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&avatarId=16516",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&avatarId=16516",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&avatarId=16516"
+          },
+          "displayName": "John Ken",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-07-09T20:25:12.000+0200",
+        "items": [
+          {
+            "field": "description",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": "For users who have unsubscribed from automated recommendation, we need a table to store all email addresses.\r\n\r\nStep 1. Marketer will be able to access this data once a week at least.\r\n\r\nStep 2. Final goal is to automate this process. （eg. Upload this auto generated list to Doppler–email service provider-- through FTP）\r\n\r\n \r\n\r\n+We will need:+\r\n * Campaign name: Automated Recommendation \r\n * Email address\r\n * Date of un-subscribe\r\n\r\n \r\n\r\n \r\n\r\n ",
+            "to": null,
+            "toString": "For users who have unsubscribed from automated recommendation, we need a table to store all email addresses.\r\n\r\nStep 1: Automatically generate the csv list everyday (great if it's daily, but at least weekly), and allow the marketer to have access to the list.\r\n\r\nStep 2: Sync the data with Doppler (email service provider). I know MX has been doing it through FTP, let me connect to market to see if we can get some information. \r\n\r\n \r\n\r\n+We will need:+\r\n * Campaign name: Automated Recommendation \r\n * Email address\r\n * Date of un-subscribe\r\n\r\n \r\n\r\n \r\n\r\n "
+          }
+        ]
+      },
+      {
+        "id": "5867166",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=john",
+          "name": "john",
+          "key": "john",
+          "emailAddress": "john@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars1.githubusercontent.com/u/6374832?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&avatarId=16516",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&avatarId=16516",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&avatarId=16516"
+          },
+          "displayName": "John Ken",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-07-09T22:22:00.000+0200",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked higher"
+          }
+        ]
+      },
+      {
+        "id": "5867167",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=john",
+          "name": "john",
+          "key": "john",
+          "emailAddress": "john@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars1.githubusercontent.com/u/6374832?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&avatarId=16516",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&avatarId=16516",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&avatarId=16516"
+          },
+          "displayName": "John Ken",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-07-09T22:22:03.000+0200",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked higher"
+          }
+        ]
+      },
+      {
+        "id": "5873020",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=leiychen",
+          "name": "leiychen",
+          "key": "leiychen",
+          "emailAddress": "leiychen@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars1.githubusercontent.com/u/3382565?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=leiychen&avatarId=17100",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=leiychen&avatarId=17100",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=leiychen&avatarId=17100"
+          },
+          "displayName": "Mervyn Ollie",
+          "active": true,
+          "timeZone": "Asia/Hong_Kong"
+        },
+        "created": "2018-07-11T09:41:16.000+0200",
+        "items": [
+          {
+            "field": "Link",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": null,
+            "to": "ULIVZ-38961",
+            "toString": "This issue is cloned by ULIVZ-38961"
+          }
+        ]
+      }
+    ]
+  }
+}

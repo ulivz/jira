@@ -1,0 +1,579 @@
+{
+  "changes": {
+    "1513051934000": [
+      {
+        "key": "ULIVZ-34857",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1514302537000": [
+      {
+        "key": "ULIVZ-34857",
+        "statC": {
+          "newValue": 5
+        }
+      }
+    ],
+    "1527181929000": [
+      {
+        "key": "ULIVZ-38191",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527267151000": [
+      {
+        "key": "ULIVZ-38221",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527518119000": [
+      {
+        "key": "ULIVZ-38232",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527593349000": [
+      {
+        "key": "ULIVZ-38247",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527612370000": [
+      {
+        "key": "ULIVZ-38254",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527658649000": [
+      {
+        "key": "ULIVZ-38267",
+        "statC": {
+          "newValue": 3
+        },
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527658730000": [
+      {
+        "key": "ULIVZ-38268",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527658759000": [
+      {
+        "key": "ULIVZ-38268",
+        "statC": {
+          "newValue": 5
+        }
+      }
+    ],
+    "1527661139000": [
+      {
+        "key": "ULIVZ-38271",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527662101000": [
+      {
+        "key": "ULIVZ-38271",
+        "statC": {
+          "newValue": 2
+        }
+      }
+    ],
+    "1527663489000": [
+      {
+        "key": "ULIVZ-38273",
+        "statC": {
+          "newValue": 5
+        },
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527733327000": [
+      {
+        "key": "ULIVZ-38289",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527786560000": [
+      {
+        "key": "ULIVZ-38254",
+        "statC": {
+          "newValue": 2
+        }
+      }
+    ],
+    "1527787102000": [
+      {
+        "key": "ULIVZ-38232",
+        "statC": {
+          "newValue": 4
+        }
+      }
+    ],
+    "1527787262000": [
+      {
+        "key": "ULIVZ-38191",
+        "statC": {
+          "newValue": 5
+        }
+      }
+    ],
+    "1527787697000": [
+      {
+        "key": "ULIVZ-38247",
+        "statC": {
+          "newValue": 2
+        }
+      }
+    ],
+    "1527791919000": [
+      {
+        "key": "ULIVZ-38331",
+        "statC": {
+          "newValue": 1
+        },
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527851535000": [
+      {
+        "key": "ULIVZ-38221",
+        "statC": {
+          "newValue": 5
+        }
+      }
+    ],
+    "1528109739000": [
+      {
+        "key": "ULIVZ-38232",
+        "added": true
+      }
+    ],
+    "1528187078000": [
+      {
+        "key": "ULIVZ-35709",
+        "added": true
+      }
+    ],
+    "1528469228000": [
+      {
+        "key": "ULIVZ-38221",
+        "added": true
+      }
+    ],
+    "1528469402000": [
+      {
+        "key": "ULIVZ-38254",
+        "added": true
+      }
+    ],
+    "1528719421000": [
+      {
+        "key": "ULIVZ-38191",
+        "added": true
+      }
+    ],
+    "1528796251000": [
+      {
+        "key": "ULIVZ-38486",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1528805758000": [
+      {
+        "key": "ULIVZ-35709",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1528974027000": [
+      {
+        "key": "ULIVZ-38331",
+        "added": true
+      }
+    ],
+    "1528974112000": [
+      {
+        "key": "ULIVZ-38519",
+        "added": true,
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1528974149000": [
+      {
+        "key": "ULIVZ-38519",
+        "statC": {
+          "newValue": 2
+        }
+      }
+    ],
+    "1528984693000": [
+      {
+        "key": "ULIVZ-38247",
+        "added": true
+      }
+    ],
+    "1528984702000": [
+      {
+        "key": "ULIVZ-38486",
+        "added": true
+      }
+    ],
+    "1529073987000": [
+      {
+        "key": "ULIVZ-38541",
+        "added": true
+      }
+    ],
+    "1529075631000": [
+      {
+        "key": "ULIVZ-38486",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1529083126000": [
+      {
+        "key": "ULIVZ-38289",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1529083345000": [
+      {
+        "key": "ULIVZ-38541",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1529352268000": [
+      {
+        "key": "ULIVZ-38267",
+        "added": true
+      }
+    ],
+    "1529352277000": [
+      {
+        "key": "ULIVZ-38268",
+        "added": true
+      }
+    ],
+    "1529352284000": [
+      {
+        "key": "ULIVZ-38273",
+        "added": true
+      }
+    ],
+    "1529352314000": [
+      {
+        "key": "ULIVZ-34857",
+        "added": true
+      }
+    ],
+    "1529352363000": [
+      {
+        "key": "ULIVZ-38271",
+        "added": true
+      }
+    ],
+    "1529352715000": [
+      {
+        "key": "ULIVZ-38289",
+        "added": true
+      }
+    ],
+    "1529424205000": [
+      {
+        "key": "ULIVZ-38541",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "10141"
+        }
+      }
+    ],
+    "1529425202000": [
+      {
+        "key": "ULIVZ-35709",
+        "statC": {
+          "newValue": 1
+        }
+      }
+    ],
+    "1529487963000": [
+      {
+        "key": "ULIVZ-38268",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1529660042000": [
+      {
+        "key": "ULIVZ-38267",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1529665003000": [
+      {
+        "key": "ULIVZ-34857",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "6"
+        }
+      }
+    ],
+    "1529678186000": [
+      {
+        "key": "ULIVZ-38268",
+        "column": {
+          "notDone": true,
+          "done": false,
+          "newStatus": "10129"
+        }
+      }
+    ],
+    "1529690634000": [
+      {
+        "key": "ULIVZ-38289",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1529918987000": [
+      {
+        "key": "ULIVZ-38191",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1529919248000": [
+      {
+        "key": "ULIVZ-38519",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1529919404000": [
+      {
+        "key": "ULIVZ-38486",
+        "added": false
+      }
+    ],
+    "1529921152000": [
+      {
+        "key": "ULIVZ-38247",
+        "added": false
+      }
+    ],
+    "1529932728000": [
+      {
+        "key": "ULIVZ-38268",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1530023421000": [
+      {
+        "key": "ULIVZ-38232",
+        "added": false
+      }
+    ],
+    "1530024010000": [
+      {
+        "key": "ULIVZ-38331",
+        "added": false
+      }
+    ],
+    "1530112604000": [
+      {
+        "key": "ULIVZ-38232",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1530270582000": [
+      {
+        "key": "ULIVZ-38273",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1530273094000": [
+      {
+        "key": "ULIVZ-38254",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1530273104000": [
+      {
+        "key": "ULIVZ-38221",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1530281593000": [
+      {
+        "key": "ULIVZ-38271",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ]
+  },
+  "startTime": 1529430480000,
+  "endTime": 1530528480000,
+  "completeTime": 1530295320025,
+  "now": 1532049754179,
+  "statisticField": {
+    "typeId": "field",
+    "fieldId": "customfield_10453",
+    "id": "field_customfield_10453",
+    "name": "Story Points",
+    "isValid": true,
+    "isEnabled": true,
+    "renderer": "number"
+  },
+  "issueToParentKeys": {},
+  "issueToSummary": {
+    "ULIVZ-34857": "FE: Automated Recommendations Email Design [HTML development]",
+    "ULIVZ-38519": "Tech-Debt:  Request header / Body validation with spring controller test framework",
+    "ULIVZ-35709": "FE: No Follow Google Maps/Social Sharing Buttons",
+    "ULIVZ-38191": "ND - Data migration to support ad based project ",
+    "ULIVZ-38271": "FE: Unsubscribe Automated Recommendations Emails via Email",
+    "ULIVZ-38541": "user can search out group ad from SRP",
+    "ULIVZ-38486": "Check mongo driver that caused skewed connections to one node while the routing should be unbiased",
+    "ULIVZ-38232": "Set up ND infrastructure to support ad based project - Ad",
+    "ULIVZ-38221": "RE VIP - related ad relevancy enhancements [FE]",
+    "ULIVZ-38254": "RE VIP - related ad relevancy enhancements AB testing [Mobile&Desktop]",
+    "ULIVZ-38331": "Tech-Debt:  Unit Testing Infrastructure - Upgrade Mockito version and add support for AssertJ ",
+    "ULIVZ-38268": "BE: Integrate micro-service with bolt-platform ",
+    "ULIVZ-38267": "BE: Deploy subscription service on VM",
+    "ULIVZ-38289": "Update Robots TXT",
+    "ULIVZ-38273": "BE: Create automated recommendation based on reply ",
+    "ULIVZ-38247": "[Techdebt]  Cleanup method visibility in batch job AdExpirationJobRunner.java"
+  },
+  "workRateData": {
+    "timezone": "Asia/Shanghai",
+    "rates": [
+      {
+        "start": 1529430480000,
+        "end": 1529712000000,
+        "rate": 1
+      },
+      {
+        "start": 1529712000000,
+        "end": 1529884800000,
+        "rate": 0
+      },
+      {
+        "start": 1529884800000,
+        "end": 1530316800000,
+        "rate": 1
+      },
+      {
+        "start": 1530316800000,
+        "end": 1530489600000,
+        "rate": 0
+      },
+      {
+        "start": 1530489600000,
+        "end": 1530528480000,
+        "rate": 1
+      }
+    ]
+  },
+  "openCloseChanges": {
+    "1530295320085": [
+      {
+        "userDisplayNameHtml": "<a class=\"user-hover\" rel=\"dexter\" id=\"_dexter\" href=\"/secure/ViewProfile.jspa?name=dexter\">Dexter Wang</a>",
+        "operation": "CLOSE"
+      }
+    ]
+  },
+  "lastUserWhoClosedHtml": "<a class=\"user-hover\" rel=\"dexter\" id=\"_dexter\" href=\"/secure/ViewProfile.jspa?name=dexter\">Dexter Wang</a>"
+}

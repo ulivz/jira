@@ -1,0 +1,380 @@
+{
+  "sprints": [
+    {
+      "id": 146,
+      "sequence": 146,
+      "name": "Sprint 2014.3.12",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 150,
+      "sequence": 150,
+      "name": "Sprint 2014.4.2",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 221,
+      "sequence": 221,
+      "name": "Sprint 2014.5.14",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 437,
+      "sequence": 437,
+      "name": "GPS Sprint 2014.12.17",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 673,
+      "sequence": 673,
+      "name": "GPS Sprint 2015.4.1",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 740,
+      "sequence": 740,
+      "name": "GPS Sprint 2015.4.15",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 741,
+      "sequence": 741,
+      "name": "GPS Sprint 2015.4.29",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 742,
+      "sequence": 742,
+      "name": "GPS Sprint 2015.5.13",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 743,
+      "sequence": 743,
+      "name": "GPS Sprint 2015.5.27",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 744,
+      "sequence": 744,
+      "name": "GPS Sprint 2015.6.10",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 745,
+      "sequence": 745,
+      "name": "GPS Sprint 2015.6.24",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 1284,
+      "sequence": 1284,
+      "name": "Mosaic 11.10.2015",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 1291,
+      "sequence": 1291,
+      "name": "Corner Stone Sprint 1",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 1304,
+      "sequence": 1304,
+      "name": "Mosaic 11.23.2015",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 1322,
+      "sequence": 1322,
+      "name": "Corner Stone Sprint 2",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 1350,
+      "sequence": 1350,
+      "name": "Mosaic 12.15.2015",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 1376,
+      "sequence": 1376,
+      "name": "Corner Stone Sprint 3",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 1381,
+      "sequence": 1381,
+      "name": "Mosaic 12.29.2015",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 1382,
+      "sequence": 1382,
+      "name": "Mosaic 1.12.2016",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 1398,
+      "sequence": 1398,
+      "name": "Corner Stone Sprint 4",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 1434,
+      "sequence": 1434,
+      "name": "CornerstoneSprint5",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 1501,
+      "sequence": 1501,
+      "name": "Corner Stone Sprint 10",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 1612,
+      "sequence": 1612,
+      "name": "Corner Stone Sprint 11",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 4195,
+      "sequence": 4195,
+      "name": "Azteca Sprint 28",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 4444,
+      "sequence": 4444,
+      "name": "Google Sprint 29",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 4657,
+      "sequence": 4657,
+      "name": "Google S30 2017-08-04",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 4660,
+      "sequence": 4660,
+      "name": "Google S31",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 5062,
+      "sequence": 5062,
+      "name": "Google S32 2017-09-01",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 5392,
+      "sequence": 5392,
+      "name": "Facebook S1 20170915",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 5395,
+      "sequence": 5395,
+      "name": "Facebook S2 20170930",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 5398,
+      "sequence": 5398,
+      "name": "Facebook S3 20171015",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 5401,
+      "sequence": 5401,
+      "name": "Facebook S4 20171029",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 5578,
+      "sequence": 5578,
+      "name": "Facebook S5 20171112",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 5581,
+      "sequence": 5581,
+      "name": "Facebook S6 20171126",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 5662,
+      "sequence": 5662,
+      "name": "Facebook S7 20171210",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 5665,
+      "sequence": 5665,
+      "name": "Facebook S8 TD 20171230",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 5866,
+      "sequence": 5866,
+      "name": "SteamPunks S36 20171027",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 5956,
+      "sequence": 5956,
+      "name": "Facebook S1 20180112",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 5959,
+      "sequence": 5959,
+      "name": "Facebook S2 20180126",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 6244,
+      "sequence": 6244,
+      "name": "Facebook S3 20180209",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 6247,
+      "sequence": 6247,
+      "name": "Facebook S4 20180223 (Tech Debt)",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 6352,
+      "sequence": 6352,
+      "name": "Facebook S5 20180309",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 6355,
+      "sequence": 6355,
+      "name": "Facebook S6 20180323",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 7126,
+      "sequence": 6358,
+      "name": "Facebook S10 2018-05-18",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 6580,
+      "sequence": 6580,
+      "name": "Google S5 20180311",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 6889,
+      "sequence": 6889,
+      "name": "Facebook S7 2018-04-06",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 6891,
+      "sequence": 6891,
+      "name": "Facebook S8 2018-04-20",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 7042,
+      "sequence": 7042,
+      "name": "Facebook S9 2018-05-04",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 7142,
+      "sequence": 7126,
+      "name": "Facebook S11 2018-06-01",
+      "state": "CLOSED",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 7144,
+      "sequence": 7142,
+      "name": "Facebook S12 2018-06-15",
+      "state": "CLOSED",
+      "goal": "",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 7146,
+      "sequence": 7144,
+      "name": "Facebook S13 2018-06-29",
+      "state": "CLOSED",
+      "goal": "",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 7641,
+      "sequence": 7146,
+      "name": "Facebook S14 2018-07-13",
+      "state": "CLOSED",
+      "goal": "",
+      "linkedPagesCount": 0
+    },
+    {
+      "id": 7644,
+      "sequence": 7368,
+      "name": "Facebook S15 2018-07-27",
+      "state": "ACTIVE",
+      "goal": "",
+      "linkedPagesCount": 0
+    }
+  ],
+  "rapidViewId": 2128
+}

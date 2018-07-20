@@ -1,0 +1,743 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "619227",
+  "self": "https://jira.xxx.com/rest/api/2/issue/619227",
+  "key": "ULIVZ-39008",
+  "fields": {
+    "customfield_16053": null,
+    "customfield_16052": null,
+    "customfield_16050": null,
+    "customfield_14550": null,
+    "customfield_12250": null,
+    "customfield_16450": null,
+    "customfield_14553": null,
+    "customfield_16853": null,
+    "customfield_10350": null,
+    "customfield_16852": null,
+    "customfield_14551": null,
+    "fixVersions": [],
+    "customfield_14552": null,
+    "resolution": null,
+    "customfield_10355": null,
+    "customfield_12655": null,
+    "customfield_10356": null,
+    "customfield_13976": "0",
+    "customfield_17251": null,
+    "lastViewed": null,
+    "customfield_14660": null,
+    "customfield_15357": null,
+    "customfield_14661": null,
+    "customfield_14662": null,
+    "priority": {
+      "self": "https://jira.xxx.com/rest/api/2/priority/3",
+      "iconUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+      "name": "P3",
+      "id": "3"
+    },
+    "customfield_13975": "6d 12h 6m 46s",
+    "labels": [],
+    "customfield_11950": null,
+    "customfield_12757": null,
+    "aggregatetimeoriginalestimate": null,
+    "timeestimate": null,
+    "versions": [],
+    "issuelinks": [
+      {
+        "id": "316990",
+        "self": "https://jira.xxx.com/rest/api/2/issueLink/316990",
+        "type": {
+          "id": "10840",
+          "name": "Cloners",
+          "inward": "is cloned by",
+          "outward": "clones",
+          "self": "https://jira.xxx.com/rest/api/2/issueLinkType/10840"
+        },
+        "outwardIssue": {
+          "id": "613991",
+          "key": "ULIVZ-38703",
+          "self": "https://jira.xxx.com/rest/api/2/issue/613991",
+          "fields": {
+            "summary": "Call to member function 'append' is ambiguous using libc++",
+            "status": {
+              "self": "https://jira.xxx.com/rest/api/2/status/3",
+              "description": "This issue is being actively worked on at the moment by the assignee.",
+              "iconUrl": "https://jira.xxx.com/images/icons/statuses/inprogress.png",
+              "name": "In Progress",
+              "id": "3",
+              "statusCategory": {
+                "self": "https://jira.xxx.com/rest/api/2/statuscategory/4",
+                "id": 4,
+                "key": "indeterminate",
+                "colorName": "yellow",
+                "name": "In Progress"
+              }
+            },
+            "priority": {
+              "self": "https://jira.xxx.com/rest/api/2/priority/3",
+              "iconUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+              "name": "P3",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://jira.xxx.com/rest/api/2/issuetype/84",
+              "id": "84",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 15615
+            }
+          }
+        }
+      },
+      {
+        "id": "317356",
+        "self": "https://jira.xxx.com/rest/api/2/issueLink/317356",
+        "type": {
+          "id": "10840",
+          "name": "Cloners",
+          "inward": "is cloned by",
+          "outward": "clones",
+          "self": "https://jira.xxx.com/rest/api/2/issueLinkType/10840"
+        },
+        "inwardIssue": {
+          "id": "619615",
+          "key": "ULIVZ-39043",
+          "self": "https://jira.xxx.com/rest/api/2/issue/619615",
+          "fields": {
+            "summary": "Call to member function 'append' is ambiguous using libc++",
+            "status": {
+              "self": "https://jira.xxx.com/rest/api/2/status/1",
+              "description": "The issue is open and awaits assignment.",
+              "iconUrl": "https://jira.xxx.com/images/icons/statuses/open.png",
+              "name": "Open",
+              "id": "1",
+              "statusCategory": {
+                "self": "https://jira.xxx.com/rest/api/2/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://jira.xxx.com/rest/api/2/priority/3",
+              "iconUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+              "name": "P3",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://jira.xxx.com/rest/api/2/issuetype/84",
+              "id": "84",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 15615
+            }
+          }
+        }
+      }
+    ],
+    "assignee": null,
+    "status": {
+      "self": "https://jira.xxx.com/rest/api/2/status/1",
+      "description": "The issue is open and awaits assignment.",
+      "iconUrl": "https://jira.xxx.com/images/icons/statuses/open.png",
+      "name": "Open",
+      "id": "1",
+      "statusCategory": {
+        "self": "https://jira.xxx.com/rest/api/2/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "blue-gray",
+        "name": "To Do"
+      }
+    },
+    "customfield_16151": null,
+    "components": [],
+    "customfield_16150": null,
+    "customfield_10050": {
+      "self": "https://jira.xxx.com/rest/api/2/customFieldOption/18550",
+      "value": "Facebook",
+      "id": "18550"
+    },
+    "customfield_12350": null,
+    "customfield_10051": null,
+    "customfield_10052": null,
+    "customfield_12352": null,
+    "customfield_14652": null,
+    "customfield_10053": null,
+    "customfield_12351": null,
+    "customfield_10450": null,
+    "customfield_12750": null,
+    "customfield_10451": null,
+    "customfield_14255": null,
+    "customfield_12752": [
+      "com.atlassian.greenhopper.service.sprint.Sprint@4f26998[id=7644,rapidViewId=2128,state=ACTIVE,name=Facebook S15 2018-07-27,startDate=2018-07-16T04:45:51.186+02:00,endDate=2018-07-29T13:45:00.000+02:00,completeDate=<null>,sequence=7368,goal=]"
+    ],
+    "customfield_14656": null,
+    "customfield_10453": 3,
+    "customfield_12751": "Not started",
+    "customfield_16955": null,
+    "customfield_10454": null,
+    "customfield_16954": null,
+    "customfield_10455": null,
+    "customfield_12753": "ULIVZ-37764",
+    "customfield_14655": null,
+    "aggregatetimeestimate": null,
+    "customfield_17351": null,
+    "creator": {
+      "self": "https://jira.xxx.com/rest/api/2/user?username=spliu",
+      "name": "spliu",
+      "key": "spliu",
+      "emailAddress": "spliu@ebay.com",
+      "avatarUrls": {
+        "48x48": "https://avatars0.githubusercontent.com/u/11811888?s=80&v=4",
+        "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=spliu&avatarId=17316",
+        "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=spliu&avatarId=17316",
+        "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=spliu&avatarId=17316"
+      },
+      "displayName": "YuChengKai",
+      "active": true,
+      "timeZone": "Asia/Shanghai"
+    },
+    "customfield_15297": null,
+    "customfield_17751": null,
+    "customfield_15298": null,
+    "subtasks": [],
+    "customfield_15295": null,
+    "customfield_15296": null,
+    "reporter": {
+      "self": "https://jira.xxx.com/rest/api/2/user?username=john",
+      "name": "john",
+      "key": "john",
+      "emailAddress": "john@ebay.com",
+      "avatarUrls": {
+        "48x48": "https://avatars1.githubusercontent.com/u/6374832?s=40&v=4",
+        "24x24": "https://jira.xxx.com/secure/useravatar?size=small&avatarId=16516",
+        "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&avatarId=16516",
+        "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&avatarId=16516"
+      },
+      "displayName": "John Ken",
+      "active": true,
+      "timeZone": "Europe/Berlin"
+    },
+    "customfield_15299": null,
+    "customfield_17752": null,
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_13950": null,
+    "customfield_10316": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "votes": {
+      "self": "https://jira.xxx.com/rest/api/2/issue/ULIVZ-39008/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    },
+    "customfield_16251": null,
+    "customfield_17065": null,
+    "issuetype": {
+      "self": "https://jira.xxx.com/rest/api/2/issuetype/84",
+      "id": "84",
+      "description": "gh.issue.story.desc",
+      "iconUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+      "name": "Story",
+      "subtask": false,
+      "avatarId": 15615
+    },
+    "customfield_16250": "",
+    "customfield_17460": null,
+    "customfield_17062": null,
+    "customfield_10390": null,
+    "customfield_12292": null,
+    "customfield_17860": null,
+    "customfield_17463": null,
+    "timespent": null,
+    "customfield_12294": null,
+    "customfield_14350": "0|i029z0:m2o",
+    "customfield_16252": null,
+    "customfield_17462": null,
+    "project": {
+      "self": "https://jira.xxx.com/rest/api/2/project/11300",
+      "id": "11300",
+      "key": "ULIVZ",
+      "name": "ULIVZ",
+      "avatarUrls": {
+        "48x48": "https://jira.xxx.com/secure/projectavatar?pid=11300&avatarId=10011",
+        "24x24": "https://jira.xxx.com/secure/projectavatar?size=small&pid=11300&avatarId=10011",
+        "16x16": "https://jira.xxx.com/secure/projectavatar?size=xsmall&pid=11300&avatarId=10011",
+        "32x32": "https://jira.xxx.com/secure/projectavatar?size=medium&pid=11300&avatarId=10011"
+      }
+    },
+    "customfield_17862": null,
+    "aggregatetimespent": null,
+    "customfield_12850": null,
+    "customfield_10312": null,
+    "customfield_17859": null,
+    "resolutiondate": null,
+    "workratio": -1,
+    "customfield_17450": null,
+    "customfield_17053": null,
+    "watches": {
+      "self": "https://jira.xxx.com/rest/api/2/issue/ULIVZ-39008/watchers",
+      "watchCount": 0,
+      "isWatching": false
+    },
+    "customfield_17052": null,
+    "customfield_17051": null,
+    "customfield_12282": null,
+    "created": "2018-07-13T07:09:39.000+0200",
+    "customfield_17854": null,
+    "customfield_12285": null,
+    "customfield_17853": null,
+    "customfield_12288": null,
+    "customfield_17852": null,
+    "customfield_17059": null,
+    "customfield_17851": null,
+    "customfield_17858": null,
+    "customfield_15955": null,
+    "customfield_17855": null,
+    "customfield_10413": null,
+    "customfield_15308": null,
+    "customfield_17050": null,
+    "updated": "2018-07-16T10:27:36.000+0200",
+    "customfield_12271": null,
+    "customfield_12272": null,
+    "timeoriginalestimate": null,
+    "customfield_12550": "9223372036854775807",
+    "customfield_15301": null,
+    "description": "In order to reuse the component ad tile built in SRP. The data structure returned by HP gallery for each ad should be consistent with SRP ads.\r\n\r\nThe plan is:\r\n 1. Add mapper in browser code to ensure original component can work with new API, too.\r\n\r\n2. Change to use the SRP ads structure.",
+    "customfield_10372": null,
+    "customfield_12274": null,
+    "customfield_16357": null,
+    "customfield_15302": null,
+    "customfield_16356": null,
+    "customfield_12276": null,
+    "customfield_16355": null,
+    "customfield_15300": null,
+    "customfield_12279": null,
+    "customfield_15305": null,
+    "timetracking": {},
+    "customfield_15304": null,
+    "customfield_12669": [
+      {
+        "self": "https://jira.xxx.com/rest/api/2/customFieldOption/13423",
+        "value": "MX",
+        "id": "13423"
+      }
+    ],
+    "attachment": [],
+    "summary": "Call to member function 'append' is ambiguous using libc++",
+    "customfield_17150": null,
+    "customfield_11050": [
+      "john(john)"
+    ],
+    "customfield_10360": {
+      "self": "https://jira.xxx.com/rest/api/2/customFieldOption/11054",
+      "value": "Unknown at this stage",
+      "id": "11054"
+    },
+    "customfield_12660": null,
+    "customfield_13353": null,
+    "customfield_15653": null,
+    "customfield_14961": [
+      "john(john)"
+    ],
+    "customfield_15654": null,
+    "customfield_17952": null,
+    "customfield_17951": null,
+    "customfield_12664": null,
+    "customfield_13753": null,
+    "customfield_12663": null,
+    "customfield_14962": null,
+    "customfield_10400": null,
+    "customfield_12665": null,
+    "customfield_13754": {
+      "self": "https://jira.xxx.com/rest/api/2/customFieldOption/14665",
+      "value": "PRODUCT_BACKLOG",
+      "id": "14665"
+    },
+    "customfield_14963": "9223372036854775807",
+    "customfield_10357": null,
+    "customfield_12657": null,
+    "customfield_10358": null,
+    "customfield_12656": null,
+    "environment": null,
+    "customfield_12659": null,
+    "customfield_12658": null,
+    "duedate": null,
+    "comment": {
+      "comments": [],
+      "maxResults": 0,
+      "total": 0,
+      "startAt": 0
+    }
+  },
+  "changelog": {
+    "startAt": 0,
+    "maxResults": 12,
+    "total": 12,
+    "histories": [
+      {
+        "id": "5887163",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=spliu",
+          "name": "spliu",
+          "key": "spliu",
+          "emailAddress": "spliu@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars0.githubusercontent.com/u/11811888?s=80&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=spliu&avatarId=17316",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=spliu&avatarId=17316",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=spliu&avatarId=17316"
+          },
+          "displayName": "YuChengKai",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-13T07:09:39.000+0200",
+        "items": [
+          {
+            "field": "Epic Link",
+            "fieldtype": "custom",
+            "from": null,
+            "fromString": null,
+            "to": "594679",
+            "toString": "ULIVZ-37764"
+          }
+        ]
+      },
+      {
+        "id": "5887165",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=spliu",
+          "name": "spliu",
+          "key": "spliu",
+          "emailAddress": "spliu@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars0.githubusercontent.com/u/11811888?s=80&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=spliu&avatarId=17316",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=spliu&avatarId=17316",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=spliu&avatarId=17316"
+          },
+          "displayName": "YuChengKai",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-13T07:09:40.000+0200",
+        "items": [
+          {
+            "field": "Link",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": null,
+            "to": "ULIVZ-38703",
+            "toString": "This issue clones ULIVZ-38703"
+          }
+        ]
+      },
+      {
+        "id": "5887167",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=spliu",
+          "name": "spliu",
+          "key": "spliu",
+          "emailAddress": "spliu@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars0.githubusercontent.com/u/11811888?s=80&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=spliu&avatarId=17316",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=spliu&avatarId=17316",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=spliu&avatarId=17316"
+          },
+          "displayName": "YuChengKai",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-13T07:09:51.000+0200",
+        "items": [
+          {
+            "field": "Story Points",
+            "fieldtype": "custom",
+            "from": null,
+            "fromString": "2",
+            "to": null,
+            "toString": "3"
+          }
+        ]
+      },
+      {
+        "id": "5887169",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=spliu",
+          "name": "spliu",
+          "key": "spliu",
+          "emailAddress": "spliu@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars0.githubusercontent.com/u/11811888?s=80&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=spliu&avatarId=17316",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=spliu&avatarId=17316",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=spliu&avatarId=17316"
+          },
+          "displayName": "YuChengKai",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-13T07:09:57.000+0200",
+        "items": [
+          {
+            "field": "Acceptance Criteria",
+            "fieldtype": "custom",
+            "from": null,
+            "fromString": "The HP Gallery will have the same SRP tile.  ",
+            "to": null,
+            "toString": ""
+          }
+        ]
+      },
+      {
+        "id": "5887182",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=spliu",
+          "name": "spliu",
+          "key": "spliu",
+          "emailAddress": "spliu@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars0.githubusercontent.com/u/11811888?s=80&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=spliu&avatarId=17316",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=spliu&avatarId=17316",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=spliu&avatarId=17316"
+          },
+          "displayName": "YuChengKai",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-13T07:19:51.000+0200",
+        "items": [
+          {
+            "field": "description",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": "Update Vivanuncios Homepage Gallery to have same SRP tile and carousel.\r\n\r\n*Desktop*\r\n [https://zpl.io/adAzmPE] 1279 browser width, 920 content width\r\n [https://zpl.io/25Ekjw8] 1280 browser width, 1240 content width\r\n\r\n*Mobile*\r\n [https://zpl.io/VKGnOG7]\r\n\r\n \r\n\r\nWe will use lazy load for all of the ads in the gallery. Once the user clicks the arrow in the carousel, then we load the next sets of the ad.  ",
+            "to": null,
+            "toString": "In order to reuse the component ad tile built in SRP. The data structure returned by SRP should be consistent with SRP ads.\r\n\r\nThe plan is:\r\n1. Add a temp v2\r\n2. Switching FE to use V2\r\n\r\n3. Return v2 in v1 API.\r\n\r\n4. Switching FE to use V1.\r\n\r\n5. Remove temp v2."
+          }
+        ]
+      },
+      {
+        "id": "5887184",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=spliu",
+          "name": "spliu",
+          "key": "spliu",
+          "emailAddress": "spliu@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars0.githubusercontent.com/u/11811888?s=80&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=spliu&avatarId=17316",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=spliu&avatarId=17316",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=spliu&avatarId=17316"
+          },
+          "displayName": "YuChengKai",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-13T07:20:06.000+0200",
+        "items": [
+          {
+            "field": "Sprint",
+            "fieldtype": "custom",
+            "from": null,
+            "fromString": null,
+            "to": "7644",
+            "toString": "Facebook S15 2018-07-27"
+          }
+        ]
+      },
+      {
+        "id": "5887209",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=spliu",
+          "name": "spliu",
+          "key": "spliu",
+          "emailAddress": "spliu@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars0.githubusercontent.com/u/11811888?s=80&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=spliu&avatarId=17316",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=spliu&avatarId=17316",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=spliu&avatarId=17316"
+          },
+          "displayName": "YuChengKai",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-13T07:57:11.000+0200",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked higher"
+          }
+        ]
+      },
+      {
+        "id": "5890007",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=spliu",
+          "name": "spliu",
+          "key": "spliu",
+          "emailAddress": "spliu@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars0.githubusercontent.com/u/11811888?s=80&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=spliu&avatarId=17316",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=spliu&avatarId=17316",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=spliu&avatarId=17316"
+          },
+          "displayName": "YuChengKai",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-16T04:44:04.000+0200",
+        "items": [
+          {
+            "field": "description",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": "In order to reuse the component ad tile built in SRP. The data structure returned by SRP should be consistent with SRP ads.\r\n\r\nThe plan is:\r\n1. Add a temp v2\r\n2. Switching FE to use V2\r\n\r\n3. Return v2 in v1 API.\r\n\r\n4. Switching FE to use V1.\r\n\r\n5. Remove temp v2.",
+            "to": null,
+            "toString": "In order to reuse the component ad tile built in SRP. The data structure returned by SRP should be consistent with SRP ads.\r\n\r\nThe plan is:\r\n 1. Add missing fields to the API.\r\n2. Switch to new fields\r\n3. After release of step 2, remove unused fields."
+          }
+        ]
+      },
+      {
+        "id": "5890626",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=spliu",
+          "name": "spliu",
+          "key": "spliu",
+          "emailAddress": "spliu@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars0.githubusercontent.com/u/11811888?s=80&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=spliu&avatarId=17316",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=spliu&avatarId=17316",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=spliu&avatarId=17316"
+          },
+          "displayName": "YuChengKai",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-16T10:26:27.000+0200",
+        "items": [
+          {
+            "field": "description",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": "In order to reuse the component ad tile built in SRP. The data structure returned by SRP should be consistent with SRP ads.\r\n\r\nThe plan is:\r\n 1. Add missing fields to the API.\r\n2. Switch to new fields\r\n3. After release of step 2, remove unused fields.",
+            "to": null,
+            "toString": "In order to reuse the component ad tile built in SRP. The data structure returned by SRP should be consistent with SRP ads.\r\n\r\nThe plan is:\r\n 1. Add mapper in browser code to ensure original component can work with new API, too.\r\n\r\n2. Chang to use the SRP ads structure."
+          }
+        ]
+      },
+      {
+        "id": "5890627",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=spliu",
+          "name": "spliu",
+          "key": "spliu",
+          "emailAddress": "spliu@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars0.githubusercontent.com/u/11811888?s=80&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=spliu&avatarId=17316",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=spliu&avatarId=17316",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=spliu&avatarId=17316"
+          },
+          "displayName": "YuChengKai",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-16T10:26:40.000+0200",
+        "items": [
+          {
+            "field": "description",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": "In order to reuse the component ad tile built in SRP. The data structure returned by SRP should be consistent with SRP ads.\r\n\r\nThe plan is:\r\n 1. Add mapper in browser code to ensure original component can work with new API, too.\r\n\r\n2. Chang to use the SRP ads structure.",
+            "to": null,
+            "toString": "In order to reuse the component ad tile built in SRP. The data structure returned by SRP should be consistent with SRP ads.\r\n\r\nThe plan is:\r\n 1. Add mapper in browser code to ensure original component can work with new API, too.\r\n\r\n2. Change to use the SRP ads structure."
+          }
+        ]
+      },
+      {
+        "id": "5890631",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=spliu",
+          "name": "spliu",
+          "key": "spliu",
+          "emailAddress": "spliu@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars0.githubusercontent.com/u/11811888?s=80&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=spliu&avatarId=17316",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=spliu&avatarId=17316",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=spliu&avatarId=17316"
+          },
+          "displayName": "YuChengKai",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-16T10:27:01.000+0200",
+        "items": [
+          {
+            "field": "Link",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": null,
+            "to": "ULIVZ-39043",
+            "toString": "This issue is cloned by ULIVZ-39043"
+          }
+        ]
+      },
+      {
+        "id": "5890633",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=spliu",
+          "name": "spliu",
+          "key": "spliu",
+          "emailAddress": "spliu@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars0.githubusercontent.com/u/11811888?s=80&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=spliu&avatarId=17316",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=spliu&avatarId=17316",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=spliu&avatarId=17316"
+          },
+          "displayName": "YuChengKai",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-16T10:27:36.000+0200",
+        "items": [
+          {
+            "field": "description",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": "In order to reuse the component ad tile built in SRP. The data structure returned by SRP should be consistent with SRP ads.\r\n\r\nThe plan is:\r\n 1. Add mapper in browser code to ensure original component can work with new API, too.\r\n\r\n2. Change to use the SRP ads structure.",
+            "to": null,
+            "toString": "In order to reuse the component ad tile built in SRP. The data structure returned by HP gallery for each ad should be consistent with SRP ads.\r\n\r\nThe plan is:\r\n 1. Add mapper in browser code to ensure original component can work with new API, too.\r\n\r\n2. Change to use the SRP ads structure."
+          }
+        ]
+      }
+    ]
+  }
+}

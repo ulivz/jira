@@ -1,0 +1,1938 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "566450",
+  "self": "https://jira.xxx.com/rest/api/2/issue/566450",
+  "key": "ULIVZ-35448",
+  "fields": {
+    "customfield_16053": null,
+    "customfield_16052": null,
+    "customfield_16050": null,
+    "customfield_14550": null,
+    "customfield_12250": null,
+    "customfield_16450": null,
+    "customfield_14553": null,
+    "customfield_16853": null,
+    "customfield_10350": null,
+    "customfield_16852": null,
+    "customfield_14551": null,
+    "fixVersions": [],
+    "customfield_14552": null,
+    "resolution": {
+      "self": "https://jira.xxx.com/rest/api/2/resolution/14",
+      "id": "14",
+      "description": "GreenHopper Managed Resolution",
+      "name": "Done"
+    },
+    "customfield_10355": null,
+    "customfield_12655": null,
+    "customfield_10356": null,
+    "customfield_13976": "0",
+    "customfield_17251": null,
+    "lastViewed": "2018-07-10T09:26:28.237+0200",
+    "customfield_14660": null,
+    "customfield_15357": null,
+    "customfield_14661": null,
+    "customfield_14662": null,
+    "priority": {
+      "self": "https://jira.xxx.com/rest/api/2/priority/3",
+      "iconUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+      "name": "P3",
+      "id": "3"
+    },
+    "customfield_13975": "26w 1h 34m 54s",
+    "labels": [],
+    "customfield_11950": null,
+    "customfield_12757": null,
+    "aggregatetimeoriginalestimate": null,
+    "timeestimate": null,
+    "versions": [],
+    "issuelinks": [
+      {
+        "id": "314939",
+        "self": "https://jira.xxx.com/rest/api/2/issueLink/314939",
+        "type": {
+          "id": "10840",
+          "name": "Cloners",
+          "inward": "is cloned by",
+          "outward": "clones",
+          "self": "https://jira.xxx.com/rest/api/2/issueLinkType/10840"
+        },
+        "inwardIssue": {
+          "id": "616766",
+          "key": "ULIVZ-38863",
+          "self": "https://jira.xxx.com/rest/api/2/issue/616766",
+          "fields": {
+            "summary": "'mongocxx::cursor' could not be resolved",
+            "status": {
+              "self": "https://jira.xxx.com/rest/api/2/status/5",
+              "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+              "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+              "name": "Resolved",
+              "id": "5",
+              "statusCategory": {
+                "self": "https://jira.xxx.com/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://jira.xxx.com/rest/api/2/priority/3",
+              "iconUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+              "name": "P3",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://jira.xxx.com/rest/api/2/issuetype/84",
+              "id": "84",
+              "description": "gh.issue.story.desc",
+              "iconUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 15615
+            }
+          }
+        }
+      }
+    ],
+    "assignee": {
+      "self": "https://jira.xxx.com/rest/api/2/user?username=ulivz",
+      "name": "ulivz",
+      "key": "ulivz",
+      "emailAddress": "ulivz@ebay.com",
+      "avatarUrls": {
+        "48x48": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+        "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=ulivz&avatarId=18818",
+        "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=ulivz&avatarId=18818",
+        "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=ulivz&avatarId=18818"
+      },
+      "displayName": "ULIVZ",
+      "active": true,
+      "timeZone": "Asia/Shanghai"
+    },
+    "status": {
+      "self": "https://jira.xxx.com/rest/api/2/status/5",
+      "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+      "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+      "name": "Resolved",
+      "id": "5",
+      "statusCategory": {
+        "self": "https://jira.xxx.com/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+      }
+    },
+    "customfield_16151": null,
+    "components": [],
+    "customfield_16150": null,
+    "customfield_10050": {
+      "self": "https://jira.xxx.com/rest/api/2/customFieldOption/16517",
+      "value": "Google",
+      "id": "16517"
+    },
+    "customfield_12350": null,
+    "customfield_10051": null,
+    "customfield_10052": null,
+    "customfield_12352": null,
+    "customfield_14652": null,
+    "customfield_10053": null,
+    "customfield_12351": null,
+    "customfield_10450": null,
+    "customfield_12750": null,
+    "customfield_10451": null,
+    "customfield_14255": null,
+    "customfield_12752": [
+      "com.atlassian.greenhopper.service.sprint.Sprint@6ac378d4[id=7808,rapidViewId=1066,state=CLOSED,name=Google S14 20180715,startDate=2018-07-02T03:14:35.029+02:00,endDate=2018-07-14T20:14:00.000+02:00,completeDate=2018-07-13T14:52:35.307+02:00,sequence=7808,goal=]"
+    ],
+    "customfield_14656": null,
+    "customfield_10453": 5,
+    "customfield_12751": "Not started",
+    "customfield_16955": null,
+    "customfield_10454": null,
+    "customfield_16954": null,
+    "customfield_10455": null,
+    "customfield_12753": "ULIVZ-35449",
+    "customfield_14655": null,
+    "aggregatetimeestimate": null,
+    "customfield_17351": null,
+    "creator": {
+      "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+      "name": "jerome",
+      "key": "jerome",
+      "emailAddress": "jerome@ebay.com",
+      "avatarUrls": {
+        "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+        "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+        "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+        "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+      },
+      "displayName": "Jerome Lucas",
+      "active": true,
+      "timeZone": "Europe/Berlin"
+    },
+    "customfield_15297": null,
+    "customfield_17751": null,
+    "customfield_15298": null,
+    "subtasks": [],
+    "customfield_15295": null,
+    "customfield_15296": null,
+    "reporter": {
+      "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+      "name": "jerome",
+      "key": "jerome",
+      "emailAddress": "jerome@ebay.com",
+      "avatarUrls": {
+        "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+        "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+        "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+        "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+      },
+      "displayName": "Jerome Lucas",
+      "active": true,
+      "timeZone": "Europe/Berlin"
+    },
+    "customfield_15299": null,
+    "customfield_17752": null,
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_13950": null,
+    "customfield_10316": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "votes": {
+      "self": "https://jira.xxx.com/rest/api/2/issue/ULIVZ-35448/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    },
+    "customfield_16251": null,
+    "customfield_17065": null,
+    "issuetype": {
+      "self": "https://jira.xxx.com/rest/api/2/issuetype/84",
+      "id": "84",
+      "description": "gh.issue.story.desc",
+      "iconUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+      "name": "Story",
+      "subtask": false,
+      "avatarId": 15615
+    },
+    "customfield_16250": "",
+    "customfield_17460": null,
+    "customfield_17062": null,
+    "customfield_10390": null,
+    "customfield_12292": null,
+    "customfield_17860": null,
+    "customfield_17463": null,
+    "timespent": null,
+    "customfield_12294": null,
+    "customfield_14350": "0|i02b3b:i",
+    "customfield_16252": null,
+    "customfield_17462": null,
+    "project": {
+      "self": "https://jira.xxx.com/rest/api/2/project/11300",
+      "id": "11300",
+      "key": "ULIVZ",
+      "name": "ULIVZ",
+      "avatarUrls": {
+        "48x48": "https://jira.xxx.com/secure/projectavatar?pid=11300&avatarId=10011",
+        "24x24": "https://jira.xxx.com/secure/projectavatar?size=small&pid=11300&avatarId=10011",
+        "16x16": "https://jira.xxx.com/secure/projectavatar?size=xsmall&pid=11300&avatarId=10011",
+        "32x32": "https://jira.xxx.com/secure/projectavatar?size=medium&pid=11300&avatarId=10011"
+      }
+    },
+    "customfield_17862": null,
+    "aggregatetimespent": null,
+    "customfield_12850": null,
+    "customfield_10312": "Design updated per mock-up.",
+    "customfield_17859": null,
+    "resolutiondate": "2018-07-09T07:21:06.000+0200",
+    "workratio": -1,
+    "customfield_17450": null,
+    "customfield_17053": null,
+    "watches": {
+      "self": "https://jira.xxx.com/rest/api/2/issue/ULIVZ-35448/watchers",
+      "watchCount": 1,
+      "isWatching": false
+    },
+    "customfield_17052": null,
+    "customfield_17051": null,
+    "customfield_12282": null,
+    "created": "2018-01-08T05:46:12.000+0100",
+    "customfield_17854": null,
+    "customfield_12285": null,
+    "customfield_17853": null,
+    "customfield_12288": null,
+    "customfield_17852": null,
+    "customfield_17059": null,
+    "customfield_17851": null,
+    "customfield_17858": null,
+    "customfield_15955": null,
+    "customfield_17855": null,
+    "customfield_10413": null,
+    "customfield_15308": null,
+    "customfield_17050": null,
+    "updated": "2018-07-09T07:21:06.000+0200",
+    "customfield_12271": null,
+    "customfield_12272": null,
+    "timeoriginalestimate": null,
+    "customfield_12550": "9223372036854775807",
+    "customfield_15301": null,
+    "description": "The result from my ad 2.0 AB testing shows that the main payment page conversion gap comes from the less engagement on edit ad journey, which also one of the key journeys leading to the payment page. Therefore, we want to enhance the design to assure on par or better edit ad engagement. We will update our design to enhance edit ad path. \r\n\r\n*+Mock-up+*\r\n* Mobile design 1 - https://zpl.io/aM5O8wr\r\n* Mobile design 2 - https://zpl.io/2jkLEep\r\n* Desktop design 1 - https://zpl.io/2GpKMDW\r\n* Desktop design 2 - https://zpl.io/b6QkReq\r\n\r\n*+AB testing set-up+*\r\n* Control - RUI\r\n* Variation 1 - 2.0 design with desktop/ mobile variation 1 which edit ad CTA is on the left hand side\r\n* Variation 2 - 2.0 design with desktop/ mobile variation 2 which edit ad CTA is on the right hand side\r\n\r\n*+Problems suspected+*\r\n* MyAd 1.0 call to actions are located in the same area on the page while MyAd 2.0 has feature list on the right-hand side, edit and delete on the left-hand side and payment button on the bottom of the page.\r\n* MyAd 2.0 \"Edit Ad\" looks more like texts than button so less call to action tone.\r\n\r\n*+MyAds 2.0 ZA AB Testing Analysis+*\r\nhttps://docs.google.com/presentation/d/1WUWiPIOqYMTTydl2Fmb4rXZd1FvJnQYxoLNwba5C1SU/edit",
+    "customfield_10372": null,
+    "customfield_12274": null,
+    "customfield_16357": null,
+    "customfield_15302": null,
+    "customfield_16356": null,
+    "customfield_12276": null,
+    "customfield_16355": null,
+    "customfield_15300": null,
+    "customfield_12279": null,
+    "customfield_15305": null,
+    "timetracking": {},
+    "customfield_15304": null,
+    "customfield_12669": [
+      {
+        "self": "https://jira.xxx.com/rest/api/2/customFieldOption/13425",
+        "value": "ZA",
+        "id": "13425"
+      }
+    ],
+    "attachment": [
+      {
+        "self": "https://jira.xxx.com/rest/api/2/attachment/288938",
+        "id": "288938",
+        "filename": "Paths from MyAd to Checkout.png",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-01-08T05:44:05.000+0100",
+        "size": 127123,
+        "mimeType": "image/png",
+        "content": "https://jira.xxx.com/secure/attachment/288938/Paths+from+MyAd+to+Checkout.png",
+        "thumbnail": "https://jira.xxx.com/secure/thumbnail/288938/_thumb_288938.png"
+      }
+    ],
+    "summary": "'mongocxx::cursor' could not be resolved",
+    "customfield_17150": null,
+    "customfield_11050": [
+      "justin(justin)",
+      "dexter(dexter)",
+      "ulivz(ulivz)",
+      "qblanchais(qblanchais)",
+      "jerome(jerome)",
+      "lionel(lionel)"
+    ],
+    "customfield_10360": {
+      "self": "https://jira.xxx.com/rest/api/2/customFieldOption/11054",
+      "value": "Unknown at this stage",
+      "id": "11054"
+    },
+    "customfield_12660": null,
+    "customfield_13353": "QA-THUMBUP-luke_20180709-ULIVZ-35448-my-ads-edit-new-design-247",
+    "customfield_15653": null,
+    "customfield_14961": [
+      "justin(justin)",
+      "dexter(dexter)",
+      "ulivz(ulivz)",
+      "qblanchais(qblanchais)",
+      "jerome(jerome)",
+      "lionel(lionel)"
+    ],
+    "customfield_15654": null,
+    "customfield_17952": null,
+    "customfield_17951": null,
+    "customfield_12664": null,
+    "customfield_13753": null,
+    "customfield_12663": null,
+    "customfield_14962": "1_*:*_1_*:*_15371555000_*|*_3_*:*_1_*:*_98620000_*|*_10050_*:*_1_*:*_256719000_*|*_5_*:*_1_*:*_0",
+    "customfield_10400": null,
+    "customfield_12665": null,
+    "customfield_13754": {
+      "self": "https://jira.xxx.com/rest/api/2/customFieldOption/14665",
+      "value": "PRODUCT_BACKLOG",
+      "id": "14665"
+    },
+    "customfield_14963": "9223372036854775807",
+    "customfield_10357": null,
+    "customfield_12657": null,
+    "customfield_10358": null,
+    "customfield_12656": null,
+    "environment": null,
+    "customfield_12659": null,
+    "customfield_12658": null,
+    "duedate": null,
+    "comment": {
+      "comments": [
+        {
+          "self": "https://jira.xxx.com/rest/api/2/issue/566450/comment/1130836",
+          "id": "1130836",
+          "author": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+            "name": "jerome",
+            "key": "jerome",
+            "emailAddress": "jerome@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+            },
+            "displayName": "Jerome Lucas",
+            "active": true,
+            "timeZone": "Europe/Berlin"
+          },
+          "body": "[~yuanhuang] designs of both variations are now ready. ",
+          "updateAuthor": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+            "name": "jerome",
+            "key": "jerome",
+            "emailAddress": "jerome@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+            },
+            "displayName": "Jerome Lucas",
+            "active": true,
+            "timeZone": "Europe/Berlin"
+          },
+          "created": "2018-01-31T04:20:05.000+0100",
+          "updated": "2018-01-31T04:20:05.000+0100"
+        },
+        {
+          "self": "https://jira.xxx.com/rest/api/2/issue/566450/comment/1134401",
+          "id": "1134401",
+          "author": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=justin",
+            "name": "justin",
+            "key": "justin",
+            "emailAddress": "justin@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://avatars3.githubusercontent.com/u/6562944?s=40&v=4",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=justin&avatarId=16935",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=justin&avatarId=16935",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=justin&avatarId=16935"
+            },
+            "displayName": "Justin Kevin",
+            "active": true,
+            "timeZone": "America/Los_Angeles"
+          },
+          "body": "[~jerome][~qblanchais]I found the mobile design does not exist, and for desktop, only found it on ZA desktop, what's should we do for MX ?\r\nI have two question regarding the development: \r\nFirstly, we have both handlerbar / marko implementation of my ads, in the long run, we are going to migrate with marko, so are you guys agree we only update the marko version ?\r\nSecondly, for my ads page, no matter it's handlerbar or marko, ZA and MX shared the same template, so it's will save development effort if we have similar design for both site, so I wonder if we can design that for both site ?",
+          "updateAuthor": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=justin",
+            "name": "justin",
+            "key": "justin",
+            "emailAddress": "justin@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://avatars3.githubusercontent.com/u/6562944?s=40&v=4",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=justin&avatarId=16935",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=justin&avatarId=16935",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=justin&avatarId=16935"
+            },
+            "displayName": "Justin Kevin",
+            "active": true,
+            "timeZone": "America/Los_Angeles"
+          },
+          "created": "2018-02-07T08:52:33.000+0100",
+          "updated": "2018-02-07T08:52:33.000+0100"
+        },
+        {
+          "self": "https://jira.xxx.com/rest/api/2/issue/566450/comment/1134448",
+          "id": "1134448",
+          "author": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=qblanchais",
+            "name": "qblanchais",
+            "key": "qblanchais",
+            "emailAddress": "qblanchais@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=qblanchais&avatarId=18800",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=qblanchais&avatarId=18800",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=qblanchais&avatarId=18800",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=qblanchais&avatarId=18800"
+            },
+            "displayName": "Quentin Blanchais",
+            "active": true,
+            "timeZone": "Asia/Shanghai"
+          },
+          "body": "[~justin] My bad, I didnt share the link for the screen called Variation 2 for mobile ZA. Please find it here: zpl.io/2jkLEep\r\nRegarding MX, I believe only the colors are different but I you need a mockup I will make one. ",
+          "updateAuthor": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=qblanchais",
+            "name": "qblanchais",
+            "key": "qblanchais",
+            "emailAddress": "qblanchais@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=qblanchais&avatarId=18800",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=qblanchais&avatarId=18800",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=qblanchais&avatarId=18800",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=qblanchais&avatarId=18800"
+            },
+            "displayName": "Quentin Blanchais",
+            "active": true,
+            "timeZone": "Asia/Shanghai"
+          },
+          "created": "2018-02-07T09:57:46.000+0100",
+          "updated": "2018-02-07T09:57:46.000+0100"
+        },
+        {
+          "self": "https://jira.xxx.com/rest/api/2/issue/566450/comment/1134469",
+          "id": "1134469",
+          "author": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+            "name": "jerome",
+            "key": "jerome",
+            "emailAddress": "jerome@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+            },
+            "displayName": "Jerome Lucas",
+            "active": true,
+            "timeZone": "Europe/Berlin"
+          },
+          "body": "[~justin] updated.",
+          "updateAuthor": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+            "name": "jerome",
+            "key": "jerome",
+            "emailAddress": "jerome@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+            },
+            "displayName": "Jerome Lucas",
+            "active": true,
+            "timeZone": "Europe/Berlin"
+          },
+          "created": "2018-02-07T10:16:34.000+0100",
+          "updated": "2018-02-07T10:16:34.000+0100"
+        },
+        {
+          "self": "https://jira.xxx.com/rest/api/2/issue/566450/comment/1154863",
+          "id": "1154863",
+          "author": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=dexter",
+            "name": "dexter",
+            "key": "dexter",
+            "emailAddress": "dexter@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://avatars3.githubusercontent.com/u/63648?s=40&v=4",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=dexter&avatarId=16972",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=dexter&avatarId=16972",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=dexter&avatarId=16972"
+            },
+            "displayName": "Dexter Wang",
+            "active": true,
+            "timeZone": "America/Adak"
+          },
+          "body": "Move to next sprint due to shortage of bandwidth.",
+          "updateAuthor": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=dexter",
+            "name": "dexter",
+            "key": "dexter",
+            "emailAddress": "dexter@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://avatars3.githubusercontent.com/u/63648?s=40&v=4",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=dexter&avatarId=16972",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=dexter&avatarId=16972",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=dexter&avatarId=16972"
+            },
+            "displayName": "Dexter Wang",
+            "active": true,
+            "timeZone": "America/Adak"
+          },
+          "created": "2018-03-27T04:12:44.000+0200",
+          "updated": "2018-03-27T04:12:44.000+0200"
+        },
+        {
+          "self": "https://jira.xxx.com/rest/api/2/issue/566450/comment/1196325",
+          "id": "1196325",
+          "author": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=lionel",
+            "name": "lionel",
+            "key": "lionel",
+            "emailAddress": "lionel@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=lionel&avatarId=12418",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=lionel&avatarId=12418",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=lionel&avatarId=12418",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=lionel&avatarId=12418"
+            },
+            "displayName": "Lionel Martin",
+            "active": true,
+            "timeZone": "Asia/Shanghai"
+          },
+          "body": "dev 2 points\r\n\r\nqa: manual 2 points + 1 automation point",
+          "updateAuthor": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=lionel",
+            "name": "lionel",
+            "key": "lionel",
+            "emailAddress": "lionel@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=lionel&avatarId=12418",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=lionel&avatarId=12418",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=lionel&avatarId=12418",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=lionel&avatarId=12418"
+            },
+            "displayName": "Lionel Martin",
+            "active": true,
+            "timeZone": "Asia/Shanghai"
+          },
+          "created": "2018-06-29T05:26:40.000+0200",
+          "updated": "2018-06-29T05:26:40.000+0200"
+        }
+      ],
+      "maxResults": 6,
+      "total": 6,
+      "startAt": 0
+    }
+  },
+  "changelog": {
+    "startAt": 0,
+    "maxResults": 45,
+    "total": 45,
+    "histories": [
+      {
+        "id": "5367874",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-01-08T05:48:47.000+0100",
+        "items": [
+          {
+            "field": "Epic Link",
+            "fieldtype": "custom",
+            "from": null,
+            "fromString": null,
+            "to": "566451",
+            "toString": "ULIVZ-35449"
+          }
+        ]
+      },
+      {
+        "id": "5367879",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-01-08T05:48:58.000+0100",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked higher"
+          }
+        ]
+      },
+      {
+        "id": "5375775",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-01-10T02:36:17.000+0100",
+        "items": [
+          {
+            "field": "Sprint",
+            "fieldtype": "custom",
+            "from": "6115",
+            "fromString": "Google S2 20180127",
+            "to": "6400",
+            "toString": "Google S3 20180210"
+          }
+        ]
+      },
+      {
+        "id": "5375776",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-01-10T02:36:17.000+0100",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked higher"
+          }
+        ]
+      },
+      {
+        "id": "5375777",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-01-10T02:36:22.000+0100",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked higher"
+          }
+        ]
+      },
+      {
+        "id": "5403994",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-01-18T05:06:58.000+0100",
+        "items": [
+          {
+            "field": "summary",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": "My ad 2.0 - edit ad design enhancement",
+            "to": null,
+            "toString": "My ad 2.0 - edit ad CTA design enhancement"
+          }
+        ]
+      },
+      {
+        "id": "5403995",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-01-18T05:07:24.000+0100",
+        "items": [
+          {
+            "field": "description",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": "The result from my ad 2.0 AB testing shows that the main payment page conversion gap comes from the less engagement on edit ad journey, which also one of the key journeys leading to the payment page. Therefore, we want to enhance the design to assure on par or better edit ad engagement. We will update our design to enhance edit ad path. \r\n\r\n*+Mock-up+*\r\n* Desktop - \r\n* Mobile - \r\n\r\n*+Problems suspected+*\r\n* MyAd 1.0 call to actions are located in the same area on the page while MyAd 2.0 has feature list on the right-hand side, edit and delete on the left-hand side and payment button on the bottom of the page.\r\n* MyAd 2.0 \"Edit Ad\" looks more like texts than button so less call to action tone.\r\n\r\n*+MyAds 2.0 ZA AB Testing Analysis+*\r\nhttps://docs.google.com/presentation/d/1WUWiPIOqYMTTydl2Fmb4rXZd1FvJnQYxoLNwba5C1SU/edit",
+            "to": null,
+            "toString": "The result from my ad 2.0 AB testing shows that the main payment page conversion gap comes from the less engagement on edit ad journey, which also one of the key journeys leading to the payment page. Therefore, we want to enhance the design to assure on par or better edit ad engagement. We will update our design to enhance edit ad path. \r\n\r\n*+Mock-up+*\r\n* Mobile: zpl.io/2EyM7zg\r\n* Desktop: zpl.io/VkYqQmW\r\n\r\n*+Problems suspected+*\r\n* MyAd 1.0 call to actions are located in the same area on the page while MyAd 2.0 has feature list on the right-hand side, edit and delete on the left-hand side and payment button on the bottom of the page.\r\n* MyAd 2.0 \"Edit Ad\" looks more like texts than button so less call to action tone.\r\n\r\n*+MyAds 2.0 ZA AB Testing Analysis+*\r\nhttps://docs.google.com/presentation/d/1WUWiPIOqYMTTydl2Fmb4rXZd1FvJnQYxoLNwba5C1SU/edit"
+          }
+        ]
+      },
+      {
+        "id": "5416423",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-01-23T07:24:28.000+0100",
+        "items": [
+          {
+            "field": "assignee",
+            "fieldtype": "jira",
+            "from": "justin",
+            "fromString": "Justin Kevin",
+            "to": "yuanhuang",
+            "toString": "Nigel"
+          }
+        ]
+      },
+      {
+        "id": "5420943",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-01-24T07:11:28.000+0100",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked lower"
+          }
+        ]
+      },
+      {
+        "id": "5424361",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-01-25T04:14:59.000+0100",
+        "items": [
+          {
+            "field": "description",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": "The result from my ad 2.0 AB testing shows that the main payment page conversion gap comes from the less engagement on edit ad journey, which also one of the key journeys leading to the payment page. Therefore, we want to enhance the design to assure on par or better edit ad engagement. We will update our design to enhance edit ad path. \r\n\r\n*+Mock-up+*\r\n* Mobile: zpl.io/2EyM7zg\r\n* Desktop: zpl.io/VkYqQmW\r\n\r\n*+Problems suspected+*\r\n* MyAd 1.0 call to actions are located in the same area on the page while MyAd 2.0 has feature list on the right-hand side, edit and delete on the left-hand side and payment button on the bottom of the page.\r\n* MyAd 2.0 \"Edit Ad\" looks more like texts than button so less call to action tone.\r\n\r\n*+MyAds 2.0 ZA AB Testing Analysis+*\r\nhttps://docs.google.com/presentation/d/1WUWiPIOqYMTTydl2Fmb4rXZd1FvJnQYxoLNwba5C1SU/edit",
+            "to": null,
+            "toString": "The result from my ad 2.0 AB testing shows that the main payment page conversion gap comes from the less engagement on edit ad journey, which also one of the key journeys leading to the payment page. Therefore, we want to enhance the design to assure on par or better edit ad engagement. We will update our design to enhance edit ad path. \r\n\r\n*+Mock-up+*\r\n* Mobile: https://zpl.io/bo1vpBZ\r\n* Desktop variation 1 - https://zpl.io/2GpKMDW\r\n* Desktop variation 2 - https://zpl.io/2GpKMDW\r\n\r\n*+Problems suspected+*\r\n* MyAd 1.0 call to actions are located in the same area on the page while MyAd 2.0 has feature list on the right-hand side, edit and delete on the left-hand side and payment button on the bottom of the page.\r\n* MyAd 2.0 \"Edit Ad\" looks more like texts than button so less call to action tone.\r\n\r\n*+MyAds 2.0 ZA AB Testing Analysis+*\r\nhttps://docs.google.com/presentation/d/1WUWiPIOqYMTTydl2Fmb4rXZd1FvJnQYxoLNwba5C1SU/edit"
+          }
+        ]
+      },
+      {
+        "id": "5424362",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-01-25T04:15:05.000+0100",
+        "items": [
+          {
+            "field": "summary",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": "My ad 2.0 - edit ad CTA design enhancement",
+            "to": null,
+            "toString": "My ad 2.0 - edit ad CTA design enhancement & AB testing set-up"
+          }
+        ]
+      },
+      {
+        "id": "5424366",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-01-25T04:16:40.000+0100",
+        "items": [
+          {
+            "field": "description",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": "The result from my ad 2.0 AB testing shows that the main payment page conversion gap comes from the less engagement on edit ad journey, which also one of the key journeys leading to the payment page. Therefore, we want to enhance the design to assure on par or better edit ad engagement. We will update our design to enhance edit ad path. \r\n\r\n*+Mock-up+*\r\n* Mobile: https://zpl.io/bo1vpBZ\r\n* Desktop variation 1 - https://zpl.io/2GpKMDW\r\n* Desktop variation 2 - https://zpl.io/2GpKMDW\r\n\r\n*+Problems suspected+*\r\n* MyAd 1.0 call to actions are located in the same area on the page while MyAd 2.0 has feature list on the right-hand side, edit and delete on the left-hand side and payment button on the bottom of the page.\r\n* MyAd 2.0 \"Edit Ad\" looks more like texts than button so less call to action tone.\r\n\r\n*+MyAds 2.0 ZA AB Testing Analysis+*\r\nhttps://docs.google.com/presentation/d/1WUWiPIOqYMTTydl2Fmb4rXZd1FvJnQYxoLNwba5C1SU/edit",
+            "to": null,
+            "toString": "The result from my ad 2.0 AB testing shows that the main payment page conversion gap comes from the less engagement on edit ad journey, which also one of the key journeys leading to the payment page. Therefore, we want to enhance the design to assure on par or better edit ad engagement. We will update our design to enhance edit ad path. \r\n\r\n*+Mock-up+*\r\n* Mobile: https://zpl.io/bo1vpBZ\r\n* Desktop variation 1 - https://zpl.io/2GpKMDW\r\n* Desktop variation 2 - TBC by [~qblanchais]\r\n\r\n*+AB testing set-up+*\r\n* Control - RUI\r\n* Variation 1 - 2.0 design with desktop variation 1 which edit ad CTA is on the left hand side\r\n* Variation 2 - 2.0 design with desktop variation 2 which edit ad CTA is on the right hand side\r\n\r\n*+Problems suspected+*\r\n* MyAd 1.0 call to actions are located in the same area on the page while MyAd 2.0 has feature list on the right-hand side, edit and delete on the left-hand side and payment button on the bottom of the page.\r\n* MyAd 2.0 \"Edit Ad\" looks more like texts than button so less call to action tone.\r\n\r\n*+MyAds 2.0 ZA AB Testing Analysis+*\r\nhttps://docs.google.com/presentation/d/1WUWiPIOqYMTTydl2Fmb4rXZd1FvJnQYxoLNwba5C1SU/edit"
+          }
+        ]
+      },
+      {
+        "id": "5424405",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-01-25T04:33:15.000+0100",
+        "items": [
+          {
+            "field": "description",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": "The result from my ad 2.0 AB testing shows that the main payment page conversion gap comes from the less engagement on edit ad journey, which also one of the key journeys leading to the payment page. Therefore, we want to enhance the design to assure on par or better edit ad engagement. We will update our design to enhance edit ad path. \r\n\r\n*+Mock-up+*\r\n* Mobile: https://zpl.io/bo1vpBZ\r\n* Desktop variation 1 - https://zpl.io/2GpKMDW\r\n* Desktop variation 2 - TBC by [~qblanchais]\r\n\r\n*+AB testing set-up+*\r\n* Control - RUI\r\n* Variation 1 - 2.0 design with desktop variation 1 which edit ad CTA is on the left hand side\r\n* Variation 2 - 2.0 design with desktop variation 2 which edit ad CTA is on the right hand side\r\n\r\n*+Problems suspected+*\r\n* MyAd 1.0 call to actions are located in the same area on the page while MyAd 2.0 has feature list on the right-hand side, edit and delete on the left-hand side and payment button on the bottom of the page.\r\n* MyAd 2.0 \"Edit Ad\" looks more like texts than button so less call to action tone.\r\n\r\n*+MyAds 2.0 ZA AB Testing Analysis+*\r\nhttps://docs.google.com/presentation/d/1WUWiPIOqYMTTydl2Fmb4rXZd1FvJnQYxoLNwba5C1SU/edit",
+            "to": null,
+            "toString": "The result from my ad 2.0 AB testing shows that the main payment page conversion gap comes from the less engagement on edit ad journey, which also one of the key journeys leading to the payment page. Therefore, we want to enhance the design to assure on par or better edit ad engagement. We will update our design to enhance edit ad path. \r\n\r\n*+Mock-up+*\r\n* Mobile: https://zpl.io/bo1vpBZ\r\n* Desktop design 1 - https://zpl.io/2GpKMDW\r\n* Desktop design 2 - TBC by [~qblanchais]\r\n\r\n*+AB testing set-up+*\r\n* Control - RUI\r\n* Variation 1 - 2.0 design with desktop variation 1 which edit ad CTA is on the left hand side\r\n* Variation 2 - 2.0 design with desktop variation 2 which edit ad CTA is on the right hand side\r\n\r\n*+Problems suspected+*\r\n* MyAd 1.0 call to actions are located in the same area on the page while MyAd 2.0 has feature list on the right-hand side, edit and delete on the left-hand side and payment button on the bottom of the page.\r\n* MyAd 2.0 \"Edit Ad\" looks more like texts than button so less call to action tone.\r\n\r\n*+MyAds 2.0 ZA AB Testing Analysis+*\r\nhttps://docs.google.com/presentation/d/1WUWiPIOqYMTTydl2Fmb4rXZd1FvJnQYxoLNwba5C1SU/edit"
+          }
+        ]
+      },
+      {
+        "id": "5427609",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=yuanhuang",
+          "name": "yuanhuang",
+          "key": "yuanhuang",
+          "emailAddress": "yuanhuang@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars1.githubusercontent.com/u/9496701?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=yuanhuang&avatarId=19237",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=yuanhuang&avatarId=19237",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=yuanhuang&avatarId=19237"
+          },
+          "displayName": "Nigel",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-01-26T06:30:13.000+0100",
+        "items": [
+          {
+            "field": "Story Points",
+            "fieldtype": "custom",
+            "from": null,
+            "fromString": null,
+            "to": null,
+            "toString": "5"
+          }
+        ]
+      },
+      {
+        "id": "5427722",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-01-26T08:54:06.000+0100",
+        "items": [
+          {
+            "field": "Sprint",
+            "fieldtype": "custom",
+            "from": "6400",
+            "fromString": "Google S3 20180210",
+            "to": "6577",
+            "toString": "Google S4 20180225"
+          }
+        ]
+      },
+      {
+        "id": "5427723",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-01-26T08:54:07.000+0100",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked higher"
+          }
+        ]
+      },
+      {
+        "id": "5427733",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-01-26T08:56:06.000+0100",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked higher"
+          }
+        ]
+      },
+      {
+        "id": "5437493",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-01-31T04:19:46.000+0100",
+        "items": [
+          {
+            "field": "description",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": "The result from my ad 2.0 AB testing shows that the main payment page conversion gap comes from the less engagement on edit ad journey, which also one of the key journeys leading to the payment page. Therefore, we want to enhance the design to assure on par or better edit ad engagement. We will update our design to enhance edit ad path. \r\n\r\n*+Mock-up+*\r\n* Mobile: https://zpl.io/bo1vpBZ\r\n* Desktop design 1 - https://zpl.io/2GpKMDW\r\n* Desktop design 2 - TBC by [~qblanchais]\r\n\r\n*+AB testing set-up+*\r\n* Control - RUI\r\n* Variation 1 - 2.0 design with desktop variation 1 which edit ad CTA is on the left hand side\r\n* Variation 2 - 2.0 design with desktop variation 2 which edit ad CTA is on the right hand side\r\n\r\n*+Problems suspected+*\r\n* MyAd 1.0 call to actions are located in the same area on the page while MyAd 2.0 has feature list on the right-hand side, edit and delete on the left-hand side and payment button on the bottom of the page.\r\n* MyAd 2.0 \"Edit Ad\" looks more like texts than button so less call to action tone.\r\n\r\n*+MyAds 2.0 ZA AB Testing Analysis+*\r\nhttps://docs.google.com/presentation/d/1WUWiPIOqYMTTydl2Fmb4rXZd1FvJnQYxoLNwba5C1SU/edit",
+            "to": null,
+            "toString": "The result from my ad 2.0 AB testing shows that the main payment page conversion gap comes from the less engagement on edit ad journey, which also one of the key journeys leading to the payment page. Therefore, we want to enhance the design to assure on par or better edit ad engagement. We will update our design to enhance edit ad path. \r\n\r\n*+Mock-up+*\r\n* Mobile: https://zpl.io/bo1vpBZ\r\n* Desktop design 1 - https://zpl.io/2GpKMDW\r\n* Desktop design 2 - https://zpl.io/b6QkReq\r\n\r\n*+AB testing set-up+*\r\n* Control - RUI\r\n* Variation 1 - 2.0 design with desktop variation 1 which edit ad CTA is on the left hand side\r\n* Variation 2 - 2.0 design with desktop variation 2 which edit ad CTA is on the right hand side\r\n\r\n*+Problems suspected+*\r\n* MyAd 1.0 call to actions are located in the same area on the page while MyAd 2.0 has feature list on the right-hand side, edit and delete on the left-hand side and payment button on the bottom of the page.\r\n* MyAd 2.0 \"Edit Ad\" looks more like texts than button so less call to action tone.\r\n\r\n*+MyAds 2.0 ZA AB Testing Analysis+*\r\nhttps://docs.google.com/presentation/d/1WUWiPIOqYMTTydl2Fmb4rXZd1FvJnQYxoLNwba5C1SU/edit"
+          }
+        ]
+      },
+      {
+        "id": "5448499",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-02-05T07:27:16.000+0100",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked higher"
+          }
+        ]
+      },
+      {
+        "id": "5456233",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-02-07T04:13:17.000+0100",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked higher"
+          }
+        ]
+      },
+      {
+        "id": "5456468",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=justin",
+          "name": "justin",
+          "key": "justin",
+          "emailAddress": "justin@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars3.githubusercontent.com/u/6562944?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=justin&avatarId=16935",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=justin&avatarId=16935",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=justin&avatarId=16935"
+          },
+          "displayName": "Justin Kevin",
+          "active": true,
+          "timeZone": "America/Los_Angeles"
+        },
+        "created": "2018-02-07T08:52:37.000+0100",
+        "items": [
+          {
+            "field": "assignee",
+            "fieldtype": "jira",
+            "from": "yuanhuang",
+            "fromString": "Nigel",
+            "to": "justin",
+            "toString": "Justin Kevin"
+          }
+        ]
+      },
+      {
+        "id": "5456780",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-02-07T10:16:06.000+0100",
+        "items": [
+          {
+            "field": "description",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": "The result from my ad 2.0 AB testing shows that the main payment page conversion gap comes from the less engagement on edit ad journey, which also one of the key journeys leading to the payment page. Therefore, we want to enhance the design to assure on par or better edit ad engagement. We will update our design to enhance edit ad path. \r\n\r\n*+Mock-up+*\r\n* Mobile: https://zpl.io/bo1vpBZ\r\n* Desktop design 1 - https://zpl.io/2GpKMDW\r\n* Desktop design 2 - https://zpl.io/b6QkReq\r\n\r\n*+AB testing set-up+*\r\n* Control - RUI\r\n* Variation 1 - 2.0 design with desktop variation 1 which edit ad CTA is on the left hand side\r\n* Variation 2 - 2.0 design with desktop variation 2 which edit ad CTA is on the right hand side\r\n\r\n*+Problems suspected+*\r\n* MyAd 1.0 call to actions are located in the same area on the page while MyAd 2.0 has feature list on the right-hand side, edit and delete on the left-hand side and payment button on the bottom of the page.\r\n* MyAd 2.0 \"Edit Ad\" looks more like texts than button so less call to action tone.\r\n\r\n*+MyAds 2.0 ZA AB Testing Analysis+*\r\nhttps://docs.google.com/presentation/d/1WUWiPIOqYMTTydl2Fmb4rXZd1FvJnQYxoLNwba5C1SU/edit",
+            "to": null,
+            "toString": "The result from my ad 2.0 AB testing shows that the main payment page conversion gap comes from the less engagement on edit ad journey, which also one of the key journeys leading to the payment page. Therefore, we want to enhance the design to assure on par or better edit ad engagement. We will update our design to enhance edit ad path. \r\n\r\n*+Mock-up+*\r\n* Mobile design 1 - https://zpl.io/aM5O8wr\r\n* Mobile design 2 - https://zpl.io/2jkLEep\r\n* Desktop design 1 - https://zpl.io/2GpKMDW\r\n* Desktop design 2 - https://zpl.io/b6QkReq\r\n\r\n*+AB testing set-up+*\r\n* Control - RUI\r\n* Variation 1 - 2.0 design with desktop/ mobile variation 1 which edit ad CTA is on the left hand side\r\n* Variation 2 - 2.0 design with desktop/ mobile variation 2 which edit ad CTA is on the right hand side\r\n\r\n*+Problems suspected+*\r\n* MyAd 1.0 call to actions are located in the same area on the page while MyAd 2.0 has feature list on the right-hand side, edit and delete on the left-hand side and payment button on the bottom of the page.\r\n* MyAd 2.0 \"Edit Ad\" looks more like texts than button so less call to action tone.\r\n\r\n*+MyAds 2.0 ZA AB Testing Analysis+*\r\nhttps://docs.google.com/presentation/d/1WUWiPIOqYMTTydl2Fmb4rXZd1FvJnQYxoLNwba5C1SU/edit"
+          }
+        ]
+      },
+      {
+        "id": "5507915",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=dexter",
+          "name": "dexter",
+          "key": "dexter",
+          "emailAddress": "dexter@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars3.githubusercontent.com/u/63648?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=dexter&avatarId=16972",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=dexter&avatarId=16972",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=dexter&avatarId=16972"
+          },
+          "displayName": "Dexter Wang",
+          "active": true,
+          "timeZone": "America/Adak"
+        },
+        "created": "2018-02-24T04:16:16.000+0100",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked higher"
+          }
+        ]
+      },
+      {
+        "id": "5507917",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=dexter",
+          "name": "dexter",
+          "key": "dexter",
+          "emailAddress": "dexter@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars3.githubusercontent.com/u/63648?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=dexter&avatarId=16972",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=dexter&avatarId=16972",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=dexter&avatarId=16972"
+          },
+          "displayName": "Dexter Wang",
+          "active": true,
+          "timeZone": "America/Adak"
+        },
+        "created": "2018-02-24T04:16:26.000+0100",
+        "items": [
+          {
+            "field": "Sprint",
+            "fieldtype": "custom",
+            "from": "6577",
+            "fromString": "Google S4 20180225",
+            "to": "6580",
+            "toString": "Google S5 20180311"
+          }
+        ]
+      },
+      {
+        "id": "5507918",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=dexter",
+          "name": "dexter",
+          "key": "dexter",
+          "emailAddress": "dexter@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars3.githubusercontent.com/u/63648?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=dexter&avatarId=16972",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=dexter&avatarId=16972",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=dexter&avatarId=16972"
+          },
+          "displayName": "Dexter Wang",
+          "active": true,
+          "timeZone": "America/Adak"
+        },
+        "created": "2018-02-24T04:16:27.000+0100",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked lower"
+          }
+        ]
+      },
+      {
+        "id": "5513830",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-02-27T04:06:16.000+0100",
+        "items": [
+          {
+            "field": "Sprint",
+            "fieldtype": "custom",
+            "from": "6580",
+            "fromString": "Google S5 20180311",
+            "to": "6879",
+            "toString": "Google S7 20180407"
+          }
+        ]
+      },
+      {
+        "id": "5513831",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-02-27T04:06:16.000+0100",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked lower"
+          }
+        ]
+      },
+      {
+        "id": "5583095",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=dexter",
+          "name": "dexter",
+          "key": "dexter",
+          "emailAddress": "dexter@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars3.githubusercontent.com/u/63648?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=dexter&avatarId=16972",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=dexter&avatarId=16972",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=dexter&avatarId=16972"
+          },
+          "displayName": "Dexter Wang",
+          "active": true,
+          "timeZone": "America/Adak"
+        },
+        "created": "2018-03-27T04:09:14.000+0200",
+        "items": [
+          {
+            "field": "Sprint",
+            "fieldtype": "custom",
+            "from": "6879",
+            "fromString": "Google S7 20180407",
+            "to": "7009",
+            "toString": "Google S8 20180421"
+          }
+        ]
+      },
+      {
+        "id": "5583096",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=dexter",
+          "name": "dexter",
+          "key": "dexter",
+          "emailAddress": "dexter@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars3.githubusercontent.com/u/63648?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=dexter&avatarId=16972",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=dexter&avatarId=16972",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=dexter&avatarId=16972"
+          },
+          "displayName": "Dexter Wang",
+          "active": true,
+          "timeZone": "America/Adak"
+        },
+        "created": "2018-03-27T04:09:14.000+0200",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked lower"
+          }
+        ]
+      },
+      {
+        "id": "5583097",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=dexter",
+          "name": "dexter",
+          "key": "dexter",
+          "emailAddress": "dexter@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars3.githubusercontent.com/u/63648?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=dexter&avatarId=16972",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=dexter&avatarId=16972",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=dexter&avatarId=16972"
+          },
+          "displayName": "Dexter Wang",
+          "active": true,
+          "timeZone": "America/Adak"
+        },
+        "created": "2018-03-27T04:09:18.000+0200",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked higher"
+          }
+        ]
+      },
+      {
+        "id": "5592179",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-03-29T07:37:21.000+0200",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked lower"
+          }
+        ]
+      },
+      {
+        "id": "5592298",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-03-29T08:27:58.000+0200",
+        "items": [
+          {
+            "field": "Sprint",
+            "fieldtype": "custom",
+            "from": "7009",
+            "fromString": "Google S8 20180421",
+            "to": "7088",
+            "toString": "Google S90507"
+          }
+        ]
+      },
+      {
+        "id": "5592299",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-03-29T08:27:59.000+0200",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked lower"
+          }
+        ]
+      },
+      {
+        "id": "5631837",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-04-17T09:03:20.000+0200",
+        "items": [
+          {
+            "field": "Sprint",
+            "fieldtype": "custom",
+            "from": "7088",
+            "fromString": "Google S90507",
+            "to": "",
+            "toString": ""
+          }
+        ]
+      },
+      {
+        "id": "5631838",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-04-17T09:03:21.000+0200",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked higher"
+          }
+        ]
+      },
+      {
+        "id": "5794988",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-06-14T08:18:30.000+0200",
+        "items": [
+          {
+            "field": "Sprint",
+            "fieldtype": "custom",
+            "from": null,
+            "fromString": null,
+            "to": "7808",
+            "toString": "Google S14 20180715"
+          }
+        ]
+      },
+      {
+        "id": "5815341",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-06-21T03:24:23.000+0200",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked higher"
+          }
+        ]
+      },
+      {
+        "id": "5815342",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-06-21T03:24:45.000+0200",
+        "items": [
+          {
+            "field": "Rank",
+            "fieldtype": "custom",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "Ranked higher"
+          }
+        ]
+      },
+      {
+        "id": "5836514",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=justin",
+          "name": "justin",
+          "key": "justin",
+          "emailAddress": "justin@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars3.githubusercontent.com/u/6562944?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=justin&avatarId=16935",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=justin&avatarId=16935",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=justin&avatarId=16935"
+          },
+          "displayName": "Justin Kevin",
+          "active": true,
+          "timeZone": "America/Los_Angeles"
+        },
+        "created": "2018-06-28T10:03:20.000+0200",
+        "items": [
+          {
+            "field": "assignee",
+            "fieldtype": "jira",
+            "from": "justin",
+            "fromString": "Justin Kevin",
+            "to": "ulivz",
+            "toString": "ULIVZ"
+          }
+        ]
+      },
+      {
+        "id": "5854827",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=ulivz",
+          "name": "ulivz",
+          "key": "ulivz",
+          "emailAddress": "ulivz@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=ulivz&avatarId=18818",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=ulivz&avatarId=18818",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=ulivz&avatarId=18818"
+          },
+          "displayName": "ULIVZ",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-05T04:38:47.000+0200",
+        "items": [
+          {
+            "field": "status",
+            "fieldtype": "jira",
+            "from": "1",
+            "fromString": "Open",
+            "to": "3",
+            "toString": "In Progress"
+          }
+        ]
+      },
+      {
+        "id": "5858558",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-07-06T05:08:09.000+0200",
+        "items": [
+          {
+            "field": "Link",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": null,
+            "to": "ULIVZ-38863",
+            "toString": "This issue is cloned by ULIVZ-38863"
+          }
+        ]
+      },
+      {
+        "id": "5858559",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=jerome",
+          "name": "jerome",
+          "key": "jerome",
+          "emailAddress": "jerome@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://jira.xxx.com/secure/useravatar?ownerId=jerome&avatarId=17350",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=jerome&avatarId=17350",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=jerome&avatarId=17350",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=jerome&avatarId=17350"
+          },
+          "displayName": "Jerome Lucas",
+          "active": true,
+          "timeZone": "Europe/Berlin"
+        },
+        "created": "2018-07-06T05:08:20.000+0200",
+        "items": [
+          {
+            "field": "summary",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": "My ad 2.0 - edit ad CTA design enhancement & AB testing set-up",
+            "to": null,
+            "toString": "My ad 2.0 - edit ad CTA design enhancement"
+          }
+        ]
+      },
+      {
+        "id": "5858687",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=ulivz",
+          "name": "ulivz",
+          "key": "ulivz",
+          "emailAddress": "ulivz@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=ulivz&avatarId=18818",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=ulivz&avatarId=18818",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=ulivz&avatarId=18818"
+          },
+          "displayName": "ULIVZ",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-06T08:02:27.000+0200",
+        "items": [
+          {
+            "field": "status",
+            "fieldtype": "jira",
+            "from": "3",
+            "fromString": "In Progress",
+            "to": "10050",
+            "toString": "Ready for QA"
+          }
+        ]
+      },
+      {
+        "id": "5863171",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=ulivz",
+          "name": "ulivz",
+          "key": "ulivz",
+          "emailAddress": "ulivz@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=ulivz&avatarId=18818",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=ulivz&avatarId=18818",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=ulivz&avatarId=18818"
+          },
+          "displayName": "ULIVZ",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-09T07:21:01.000+0200",
+        "items": [
+          {
+            "field": "THUMB-UP Tag",
+            "fieldtype": "custom",
+            "from": null,
+            "fromString": null,
+            "to": null,
+            "toString": "QA-THUMBUP-luke_20180709-ULIVZ-35448-my-ads-edit-new-design-247"
+          }
+        ]
+      },
+      {
+        "id": "5863172",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=ulivz",
+          "name": "ulivz",
+          "key": "ulivz",
+          "emailAddress": "ulivz@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=ulivz&avatarId=18818",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=ulivz&avatarId=18818",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=ulivz&avatarId=18818"
+          },
+          "displayName": "ULIVZ",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-09T07:21:06.000+0200",
+        "items": [
+          {
+            "field": "resolution",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": null,
+            "to": "14",
+            "toString": "Done"
+          },
+          {
+            "field": "status",
+            "fieldtype": "jira",
+            "from": "10050",
+            "fromString": "Ready for QA",
+            "to": "5",
+            "toString": "Resolved"
+          }
+        ]
+      }
+    ]
+  }
+}

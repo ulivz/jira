@@ -1,0 +1,521 @@
+{
+  "changes": {
+    "1510689226000": [
+      {
+        "key": "ULIVZ-34068",
+        "statC": {},
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1529509576000": [
+      {
+        "key": "ULIVZ-38594",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1529996291000": [
+      {
+        "key": "ULIVZ-38679",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1530201696000": [
+      {
+        "key": "ULIVZ-38594",
+        "statC": {
+          "newValue": 5
+        }
+      }
+    ],
+    "1530271173000": [
+      {
+        "key": "ULIVZ-38594",
+        "added": true
+      }
+    ],
+    "1530588810000": [
+      {
+        "key": "ULIVZ-38799",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1530712875000": [
+      {
+        "key": "ULIVZ-38829",
+        "statC": {
+          "newValue": 5
+        }
+      }
+    ],
+    "1530713194000": [
+      {
+        "key": "ULIVZ-38830",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1530881522000": [
+      {
+        "key": "ULIVZ-38870",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1531113149000": [
+      {
+        "key": "ULIVZ-38904",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1531133188000": [
+      {
+        "key": "ULIVZ-38907",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1531142839000": [
+      {
+        "key": "ULIVZ-38907",
+        "added": true
+      }
+    ],
+    "1531142904000": [
+      {
+        "key": "ULIVZ-38908",
+        "statC": {
+          "newValue": 3
+        },
+        "added": true
+      }
+    ],
+    "1531148078000": [
+      {
+        "key": "ULIVZ-38912",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1531148701000": [
+      {
+        "key": "ULIVZ-38912",
+        "added": true
+      }
+    ],
+    "1531223802000": [
+      {
+        "key": "ULIVZ-38870",
+        "added": true
+      }
+    ],
+    "1531223851000": [
+      {
+        "key": "ULIVZ-38830",
+        "added": true
+      }
+    ],
+    "1531224698000": [
+      {
+        "key": "ULIVZ-38829",
+        "added": true
+      }
+    ],
+    "1531225901000": [
+      {
+        "key": "ULIVZ-38932",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1531230359000": [
+      {
+        "key": "ULIVZ-38829",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1531231435000": [
+      {
+        "key": "ULIVZ-38904",
+        "added": true
+      }
+    ],
+    "1531231866000": [
+      {
+        "key": "ULIVZ-38935",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1531231963000": [
+      {
+        "key": "ULIVZ-38932",
+        "added": true
+      }
+    ],
+    "1531268587000": [
+      {
+        "key": "ULIVZ-38679",
+        "added": true
+      }
+    ],
+    "1531322467000": [
+      {
+        "key": "ULIVZ-38799",
+        "added": true
+      }
+    ],
+    "1531328891000": [
+      {
+        "key": "ULIVZ-38912",
+        "statC": {
+          "newValue": 5
+        }
+      }
+    ],
+    "1531345154000": [
+      {
+        "key": "ULIVZ-38830",
+        "statC": {
+          "newValue": 2
+        }
+      }
+    ],
+    "1531392049000": [
+      {
+        "key": "ULIVZ-38979",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1531392179000": [
+      {
+        "key": "ULIVZ-38980",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1531392209000": [
+      {
+        "key": "ULIVZ-38979",
+        "added": true
+      }
+    ],
+    "1531392211000": [
+      {
+        "key": "ULIVZ-38980",
+        "added": true
+      }
+    ],
+    "1531393061000": [
+      {
+        "key": "ULIVZ-38935",
+        "added": true
+      }
+    ],
+    "1531394223000": [
+      {
+        "key": "ULIVZ-38908",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "10141"
+        }
+      }
+    ],
+    "1531474707000": [
+      {
+        "key": "ULIVZ-39007",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1531487707000": [
+      {
+        "key": "ULIVZ-39007",
+        "added": true
+      }
+    ],
+    "1531732720000": [
+      {
+        "key": "ULIVZ-38904",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1531732762000": [
+      {
+        "key": "ULIVZ-38935",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1531737850000": [
+      {
+        "key": "ULIVZ-38870",
+        "statC": {
+          "newValue": 5
+        }
+      }
+    ],
+    "1531738345000": [
+      {
+        "key": "ULIVZ-38979",
+        "statC": {
+          "newValue": 2
+        }
+      }
+    ],
+    "1531738848000": [
+      {
+        "key": "ULIVZ-38932",
+        "statC": {
+          "newValue": 5
+        }
+      }
+    ],
+    "1531738857000": [
+      {
+        "key": "ULIVZ-38799",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1531738882000": [
+      {
+        "key": "ULIVZ-38980",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1531739113000": [
+      {
+        "key": "ULIVZ-39007",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1531739155000": [
+      {
+        "key": "ULIVZ-38907",
+        "statC": {
+          "newValue": 1
+        }
+      }
+    ],
+    "1531739575000": [
+      {
+        "key": "ULIVZ-38679",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1531740084000": [
+      {
+        "key": "ULIVZ-39040",
+        "statC": {
+          "newValue": 2
+        },
+        "added": true,
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1531836846000": [
+      {
+        "key": "ULIVZ-38907",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1531907432000": [
+      {
+        "key": "ULIVZ-38979",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1531939774000": [
+      {
+        "key": "ULIVZ-39040",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1532014131000": [
+      {
+        "key": "ULIVZ-39096",
+        "statC": {},
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1532014265000": [
+      {
+        "key": "ULIVZ-39096",
+        "added": true
+      }
+    ],
+    "1532014307000": [
+      {
+        "key": "ULIVZ-39096",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1532014377000": [
+      {
+        "key": "ULIVZ-34068",
+        "added": true
+      }
+    ],
+    "1532014403000": [
+      {
+        "key": "ULIVZ-34068",
+        "statC": {
+          "newValue": 8
+        }
+      }
+    ],
+    "1532027356000": [
+      {
+        "key": "ULIVZ-38980",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1532028752000": [
+      {
+        "key": "ULIVZ-38799",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ]
+  },
+  "startTime": 1531829940000,
+  "endTime": 1532927940000,
+  "now": 1532049754129,
+  "statisticField": {
+    "typeId": "field",
+    "fieldId": "customfield_10453",
+    "id": "field_customfield_10453",
+    "name": "Story Points",
+    "isValid": true,
+    "isEnabled": true,
+    "renderer": "number"
+  },
+  "issueToParentKeys": {},
+  "issueToSummary": {
+    "ULIVZ-38908": "BAPI - Phone number blocking during edit ad flow",
+    "ULIVZ-38904": "FE: ZA PAF 3.0 - Multiple location posting- Browse Page/SRP ",
+    "ULIVZ-38907": "address name on VIP map is always using the pre-location name",
+    "ULIVZ-38829": "TNS  ad duplication detector",
+    "ULIVZ-39096": "FE: ZA PAF 3.0 - Multiple location posting- Move Urgent Feature to the bottom upsell feature group",
+    "ULIVZ-39040": "RAML For GET  ad  BAPI to return  boolean isPartner ",
+    "ULIVZ-38870": "BE: ZA PAF 3.0 - Multiple location posting- Feature Configuration ",
+    "ULIVZ-38980": "Remove SMS reply option from all B2C accounts [FE]",
+    "ULIVZ-38594": "MX PAF - remove contact me from RE PAF pricing option ",
+    "ULIVZ-38912": "TNS - only phone change during edit can still trigger tns rule",
+    "ULIVZ-34068": "ZA PAF 3.0 - Multiple location posting [FE]",
+    "ULIVZ-38935": "FE: ZA PAF 3.0 - Multiple location posting- Lowest Cost ",
+    "ULIVZ-38979": "Remove SMS reply option from all B2C accounts [BAPI]",
+    "ULIVZ-39007": "Related ad enhancement",
+    "ULIVZ-38830": "RAML For GET  feature config [BAPI]",
+    "ULIVZ-38932": "BE: ZA PAF 3.0 - Multiple location posting- Lowest Cost ",
+    "ULIVZ-38679": "Received a reply email: Email Background too dark. ",
+    "ULIVZ-38799": "Remove SMS reply option from all B2C accounts [Datalayer]"
+  },
+  "workRateData": {
+    "timezone": "Asia/Shanghai",
+    "rates": [
+      {
+        "start": 1531829940000,
+        "end": 1532131200000,
+        "rate": 1
+      },
+      {
+        "start": 1532131200000,
+        "end": 1532304000000,
+        "rate": 0
+      },
+      {
+        "start": 1532304000000,
+        "end": 1532736000000,
+        "rate": 1
+      },
+      {
+        "start": 1532736000000,
+        "end": 1532908800000,
+        "rate": 0
+      },
+      {
+        "start": 1532908800000,
+        "end": 1532927940000,
+        "rate": 1
+      }
+    ]
+  },
+  "openCloseChanges": {}
+}

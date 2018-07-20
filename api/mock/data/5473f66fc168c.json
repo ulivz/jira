@@ -1,0 +1,1261 @@
+{
+  "contents": {
+    "completedIssues": [
+      {
+        "id": 592075,
+        "key": "ULIVZ-37637",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Expose server version value type",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "justin",
+        "assigneeName": "Justin Kevin",
+        "avatarUrl": "https://avatars3.githubusercontent.com/u/6562944?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "color": "#ffff00",
+        "epic": "ULIVZ-37360",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-37360",
+          "epicColor": "ghx-label-2",
+          "text": "ND Landing Page_Q2",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 3
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 3
+          }
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 596325,
+        "key": "ULIVZ-37864",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Expose server version value type",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "justin",
+        "assigneeName": "Justin Kevin",
+        "avatarUrl": "https://avatars3.githubusercontent.com/u/6562944?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "color": "#ffff00",
+        "epic": "ULIVZ-37360",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-37360",
+          "epicColor": "ghx-label-2",
+          "text": "ND Landing Page_Q2",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 8
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 8
+          }
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 603174,
+        "key": "ULIVZ-38150",
+        "hidden": false,
+        "typeName": "Enhancement",
+        "typeId": "23",
+        "summary": "Expose server version value type",
+        "typeUrl": "https://jira.xxx.com/secure/viewavatar?size=xsmall&avatarId=15610&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "qinyu1",
+        "assigneeName": "Qin Yu",
+        "hasCustomUserAvatar": false,
+        "autoUserAvatar": {
+          "letter": "Q",
+          "color": "#f15c75"
+        },
+        "color": "#ffff00",
+        "epic": "ULIVZ-37429",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-37429",
+          "epicColor": "ghx-label-5",
+          "text": "Real Estate BVIP Iteration in Q2",
+          "canRemoveEpic": true
+        },
+        "estimateStatisticRequired": false,
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [
+          21175
+        ],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 603615,
+        "key": "ULIVZ-38175",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Expose server version value type",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "evan2",
+        "assigneeName": "Evan You",
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/15684156?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "color": "#ffff00",
+        "epic": "ULIVZ-37429",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-37429",
+          "epicColor": "ghx-label-5",
+          "text": "Real Estate BVIP Iteration in Q2",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 8
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 8
+          }
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 604076,
+        "key": "ULIVZ-38186",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Expose server version value type",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "leiychen",
+        "assigneeName": "Mervyn Ollie",
+        "avatarUrl": "https://avatars1.githubusercontent.com/u/3382565?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "color": "#ffff00",
+        "epic": "ULIVZ-38233",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-38233",
+          "epicColor": "ghx-label-8",
+          "text": "ND - Infrastucture set up",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 7
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 7
+          }
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 604152,
+        "key": "ULIVZ-38192",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Expose server version value type",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "spielberg",
+        "assigneeName": "Steven Spielberg",
+        "avatarUrl": "https://avatars3.githubusercontent.com/u/1621969?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "color": "#ffff00",
+        "epic": "ULIVZ-38233",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-38233",
+          "epicColor": "ghx-label-8",
+          "text": "ND - Infrastucture set up",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 5
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 5
+          }
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 604507,
+        "key": "ULIVZ-38220",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Expose server version value type",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "jeremy",
+        "assigneeName": "Jeremy Lee",
+        "avatarUrl": "https://avatars3.githubusercontent.com/u/463737?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "color": "#ffff00",
+        "epic": "ULIVZ-37360",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-37360",
+          "epicColor": "ghx-label-2",
+          "text": "ND Landing Page_Q2",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 5
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 5
+          }
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 604547,
+        "key": "ULIVZ-38222",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Expose server version value type",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "lincoln",
+        "assigneeName": "Lincoln Luman",
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/5458997?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "color": "#ffff00",
+        "epic": "ULIVZ-37360",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-37360",
+          "epicColor": "ghx-label-2",
+          "text": "ND Landing Page_Q2",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 3
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 3
+          }
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 605183,
+        "key": "ULIVZ-38248",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Expose server version value type",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "jeremy",
+        "assigneeName": "Jeremy Lee",
+        "avatarUrl": "https://avatars3.githubusercontent.com/u/463737?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "color": "#ffff00",
+        "epic": "ULIVZ-37429",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-37429",
+          "epicColor": "ghx-label-5",
+          "text": "Real Estate BVIP Iteration in Q2",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 2
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 2
+          }
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 605184,
+        "key": "ULIVZ-38249",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Expose server version value type",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "ulivz",
+        "assigneeName": "ULIVZ",
+        "avatarUrl": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "color": "#ffff00",
+        "epic": "ULIVZ-37825",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-37825",
+          "epicColor": "ghx-label-4",
+          "text": "Project Leopard_Q2",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 8
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 8
+          }
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 605517,
+        "key": "ULIVZ-38255",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Expose server version value type",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "yuanhuang",
+        "assigneeName": "Nigel",
+        "avatarUrl": "https://avatars1.githubusercontent.com/u/9496701?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "color": "#ffff00",
+        "epic": "ULIVZ-37825",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-37825",
+          "epicColor": "ghx-label-4",
+          "text": "Project Leopard_Q2",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 3
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 5
+          }
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 605561,
+        "key": "ULIVZ-38257",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Expose server version value type",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "yuanhuang",
+        "assigneeName": "Nigel",
+        "avatarUrl": "https://avatars1.githubusercontent.com/u/9496701?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "color": "#ffff00",
+        "epic": "ULIVZ-37825",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-37825",
+          "epicColor": "ghx-label-4",
+          "text": "Project Leopard_Q2",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 5
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 5
+          }
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 605898,
+        "key": "ULIVZ-38280",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Expose server version value type",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "evan2",
+        "assigneeName": "Evan You",
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/15684156?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "color": "#ffff00",
+        "epic": "ULIVZ-38233",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-38233",
+          "epicColor": "ghx-label-8",
+          "text": "ND - Infrastucture set up",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 2
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 2
+          }
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 606412,
+        "key": "ULIVZ-38326",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Expose server version value type",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "lincoln",
+        "assigneeName": "Lincoln Luman",
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/5458997?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "color": "#ffff00",
+        "epic": "ULIVZ-37825",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-37825",
+          "epicColor": "ghx-label-4",
+          "text": "Project Leopard_Q2",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 5
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {}
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 606417,
+        "key": "ULIVZ-38329",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Expose server version value type",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "evan2",
+        "assigneeName": "Evan You",
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/15684156?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "color": "#ffff00",
+        "epic": "ULIVZ-37429",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-37429",
+          "epicColor": "ghx-label-5",
+          "text": "Real Estate BVIP Iteration in Q2",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 1
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 1
+          }
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 609065,
+        "key": "ULIVZ-38439",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Expose server version value type",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "yuanhuang",
+        "assigneeName": "Nigel",
+        "avatarUrl": "https://avatars1.githubusercontent.com/u/9496701?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "color": "#ffff00",
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 2
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {}
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      }
+    ],
+    "issuesNotCompletedInCurrentSprint": [],
+    "puntedIssues": [
+      {
+        "id": 604146,
+        "key": "ULIVZ-38191",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Expose server version value type",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "evan2",
+        "assigneeName": "Evan You",
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/15684156?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "color": "#ffff00",
+        "epic": "ULIVZ-38233",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-38233",
+          "epicColor": "ghx-label-8",
+          "text": "ND - Infrastucture set up",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 5
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 5
+          }
+        },
+        "statusId": "10129",
+        "statusName": "Code Review",
+        "statusUrl": "https://jira.xxx.com/",
+        "status": {
+          "id": "10129",
+          "name": "Code Review",
+          "description": "This status is managed internally by JIRA Agile",
+          "iconUrl": "https://jira.xxx.com/",
+          "statusCategory": {
+            "id": "4",
+            "key": "indeterminate",
+            "colorName": "yellow"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 604530,
+        "key": "ULIVZ-38221",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Expose server version value type",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "yuanhuang",
+        "assigneeName": "Nigel",
+        "avatarUrl": "https://avatars1.githubusercontent.com/u/9496701?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "color": "#ffff00",
+        "epic": "ULIVZ-37429",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-37429",
+          "epicColor": "ghx-label-5",
+          "text": "Real Estate BVIP Iteration in Q2",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 5
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 5
+          }
+        },
+        "statusId": "1",
+        "statusName": "Open",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/open.png",
+        "status": {
+          "id": "1",
+          "name": "Open",
+          "description": "The issue is open and awaits assignment.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/open.png",
+          "statusCategory": {
+            "id": "2",
+            "key": "new",
+            "colorName": "blue-gray"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 605506,
+        "key": "ULIVZ-38254",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Expose server version value type",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "yuanhuang",
+        "assigneeName": "Nigel",
+        "avatarUrl": "https://avatars1.githubusercontent.com/u/9496701?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "color": "#ffff00",
+        "epic": "ULIVZ-37429",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-37429",
+          "epicColor": "ghx-label-5",
+          "text": "Real Estate BVIP Iteration in Q2",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 2
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 2
+          }
+        },
+        "statusId": "1",
+        "statusName": "Open",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/open.png",
+        "status": {
+          "id": "1",
+          "name": "Open",
+          "description": "The issue is open and awaits assignment.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/open.png",
+          "statusCategory": {
+            "id": "2",
+            "key": "new",
+            "colorName": "blue-gray"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      }
+    ],
+    "issuesCompletedInAnotherSprint": [
+      {
+        "id": 591790,
+        "key": "ULIVZ-37621",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Expose server version value type",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "ulivz",
+        "assigneeName": "ULIVZ",
+        "avatarUrl": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "color": "#ffff00",
+        "epic": "ULIVZ-37825",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-37825",
+          "epicColor": "ghx-label-4",
+          "text": "Project Leopard_Q2",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 8
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 8
+          }
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 606415,
+        "key": "ULIVZ-38327",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Expose server version value type",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "ulivz",
+        "assigneeName": "ULIVZ",
+        "avatarUrl": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "color": "#ffff00",
+        "epic": "ULIVZ-37825",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-37825",
+          "epicColor": "ghx-label-4",
+          "text": "Project Leopard_Q2",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 1
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 1
+          }
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      }
+    ],
+    "completedIssuesInitialEstimateSum": {
+      "value": 62,
+      "text": "62.0"
+    },
+    "completedIssuesEstimateSum": {
+      "value": 67,
+      "text": "67.0"
+    },
+    "issuesNotCompletedInitialEstimateSum": {
+      "text": "null"
+    },
+    "issuesNotCompletedEstimateSum": {
+      "text": "null"
+    },
+    "allIssuesEstimateSum": {
+      "value": 93,
+      "text": "93.0"
+    },
+    "puntedIssuesInitialEstimateSum": {
+      "value": 12,
+      "text": "12.0"
+    },
+    "puntedIssuesEstimateSum": {
+      "value": 12,
+      "text": "12.0"
+    },
+    "issuesCompletedInAnotherSprintInitialEstimateSum": {
+      "value": 9,
+      "text": "9.0"
+    },
+    "issuesCompletedInAnotherSprintEstimateSum": {
+      "value": 9,
+      "text": "9.0"
+    },
+    "issueKeysAddedDuringSprint": {
+      "ULIVZ-38222": true,
+      "ULIVZ-38439": true
+    }
+  },
+  "sprint": {
+    "id": 7293,
+    "sequence": 7290,
+    "name": "Google S12 20180618",
+    "state": "CLOSED",
+    "goal": "",
+    "linkedPagesCount": 0,
+    "startDate": "04/Jun/18 12:12",
+    "endDate": "18/Jun/18 12:12",
+    "completeDate": "18/Jun/18 20:17",
+    "canUpdateSprint": false,
+    "remoteLinks": [],
+    "daysRemaining": 0
+  },
+  "lastUserToClose": "<a class=\"user-hover\" rel=\"dexter\" id=\"_dexter\" href=\"/secure/ViewProfile.jspa?name=dexter\">Dexter Wang</a>",
+  "supportsPages": true
+}

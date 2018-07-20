@@ -1,0 +1,34 @@
+{
+  "urls": {
+    "baseUrl": "https://jira.xxx.com",
+    "browseIssueUrl": "https://jira.xxx.com/browse/",
+    "apiBaseUrl": "https://jira.xxx.com/rest/"
+  },
+  "endpoints": {
+    "login": "auth/1/session",
+    "issue": "api/2/issue/{id}",
+    "issueWithChangelog": "api/2/issue/{id}?expand=changelog",
+    "user": "api/2/user?username={name}",
+    "backlogUrl": "greenhopper/1.0/xboard/plan/backlog/data.json",
+    "sprintList": "greenhopper/1.0/sprintquery/{teamId}",
+    "sprintIssues": "greenhopper/1.0/rapid/charts/scopechangeburndownchart.json",
+    "sprintReport": "greenhopper/1.0/rapid/charts/sprintreport?rapidViewId={teamId}&sprintId={sprintId}"
+  },
+  "teams": {
+    "2128": {
+      "name": "Facebook",
+      "shortcut": "Facebook"
+    },
+    "1066": {
+      "name": "Google",
+      "shortcut": "Google"
+    }
+  },
+  "cache": [
+    {
+      "name": "JIRARequest",
+      "maxElements": 1000,
+      "maxAge": 3600000
+    }
+  ]
+}

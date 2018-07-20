@@ -1,0 +1,838 @@
+{
+  "changes": {
+    "1506375848000": [
+      {
+        "key": "ULIVZ-32510",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1510122034000": [
+      {
+        "key": "ULIVZ-33799",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1513053553000": [
+      {
+        "key": "ULIVZ-34859",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1514298250000": [
+      {
+        "key": "ULIVZ-33799",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1514943247000": [
+      {
+        "key": "ULIVZ-35344",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1516343357000": [
+      {
+        "key": "ULIVZ-30769",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1522267888000": [
+      {
+        "key": "ULIVZ-37330",
+        "statC": {},
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527655450000": [
+      {
+        "key": "ULIVZ-38264",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527656095000": [
+      {
+        "key": "ULIVZ-38265",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527662123000": [
+      {
+        "key": "ULIVZ-34859",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1527757478000": [
+      {
+        "key": "ULIVZ-38307",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527782308000": [
+      {
+        "key": "ULIVZ-35344",
+        "statC": {
+          "newValue": 5
+        }
+      }
+    ],
+    "1527924912000": [
+      {
+        "key": "ULIVZ-38358",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1528418915000": [
+      {
+        "key": "ULIVZ-38409",
+        "statC": {}
+      }
+    ],
+    "1529075620000": [
+      {
+        "key": "ULIVZ-38265",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1529076266000": [
+      {
+        "key": "ULIVZ-38264",
+        "statC": {
+          "newValue": 5
+        }
+      }
+    ],
+    "1529076333000": [
+      {
+        "key": "ULIVZ-32510",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1529503651000": [
+      {
+        "key": "ULIVZ-38591",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1529555174000": [
+      {
+        "key": "ULIVZ-30769",
+        "column": {
+          "notDone": true,
+          "done": false,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1529559213000": [
+      {
+        "key": "ULIVZ-30769",
+        "added": true
+      }
+    ],
+    "1529578213000": [
+      {
+        "key": "ULIVZ-38610",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1529595655000": [
+      {
+        "key": "ULIVZ-38610",
+        "added": true
+      }
+    ],
+    "1529991241000": [
+      {
+        "key": "ULIVZ-38672",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1530015788000": [
+      {
+        "key": "ULIVZ-38409",
+        "added": true
+      }
+    ],
+    "1530015806000": [
+      {
+        "key": "ULIVZ-38591",
+        "added": true
+      }
+    ],
+    "1530015895000": [
+      {
+        "key": "ULIVZ-38672",
+        "added": true
+      }
+    ],
+    "1530016129000": [
+      {
+        "key": "ULIVZ-38358",
+        "added": true
+      }
+    ],
+    "1530023718000": [
+      {
+        "key": "ULIVZ-38690",
+        "statC": {},
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1530023837000": [
+      {
+        "key": "ULIVZ-38691",
+        "statC": {},
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1530192700000": [
+      {
+        "key": "ULIVZ-38735",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1530192720000": [
+      {
+        "key": "ULIVZ-38736",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1530192774000": [
+      {
+        "key": "ULIVZ-38737",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1530197596000": [
+      {
+        "key": "ULIVZ-38735",
+        "added": true
+      }
+    ],
+    "1530197600000": [
+      {
+        "key": "ULIVZ-38736",
+        "added": true
+      }
+    ],
+    "1530197605000": [
+      {
+        "key": "ULIVZ-38737",
+        "added": true
+      }
+    ],
+    "1530197747000": [
+      {
+        "key": "ULIVZ-38409",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "10141"
+        }
+      }
+    ],
+    "1530215552000": [
+      {
+        "key": "ULIVZ-38591",
+        "statC": {
+          "newValue": 1
+        }
+      }
+    ],
+    "1530215786000": [
+      {
+        "key": "ULIVZ-38358",
+        "statC": {
+          "newValue": 5
+        }
+      }
+    ],
+    "1530215923000": [
+      {
+        "key": "ULIVZ-38746",
+        "statC": {
+          "newValue": 2
+        },
+        "added": true,
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1530268988000": [
+      {
+        "key": "ULIVZ-38672",
+        "statC": {
+          "newValue": 1
+        }
+      }
+    ],
+    "1530269276000": [
+      {
+        "key": "ULIVZ-38735",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1530269880000": [
+      {
+        "key": "ULIVZ-38610",
+        "statC": {
+          "newValue": 2
+        }
+      }
+    ],
+    "1530270505000": [
+      {
+        "key": "ULIVZ-34859",
+        "added": true
+      }
+    ],
+    "1530270705000": [
+      {
+        "key": "ULIVZ-35344",
+        "added": true
+      }
+    ],
+    "1530273527000": [
+      {
+        "key": "ULIVZ-38307",
+        "statC": {
+          "newValue": 2
+        }
+      }
+    ],
+    "1530289733000": [
+      {
+        "key": "ULIVZ-38774",
+        "added": true,
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1530289743000": [
+      {
+        "key": "ULIVZ-38774",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1530291056000": [
+      {
+        "key": "ULIVZ-38737",
+        "statC": {
+          "newValue": 2
+        }
+      }
+    ],
+    "1530291067000": [
+      {
+        "key": "ULIVZ-38736",
+        "statC": {
+          "newValue": 2
+        }
+      }
+    ],
+    "1530295642000": [
+      {
+        "key": "ULIVZ-38307",
+        "added": true
+      }
+    ],
+    "1530513344000": [
+      {
+        "key": "ULIVZ-38265",
+        "added": true
+      },
+      {
+        "key": "ULIVZ-38264",
+        "added": true
+      },
+      {
+        "key": "ULIVZ-32510",
+        "added": true
+      }
+    ],
+    "1530523328000": [
+      {
+        "key": "ULIVZ-38690",
+        "added": true
+      }
+    ],
+    "1530523341000": [
+      {
+        "key": "ULIVZ-38691",
+        "added": true
+      }
+    ],
+    "1530523471000": [
+      {
+        "key": "ULIVZ-37330",
+        "added": true
+      }
+    ],
+    "1530525169000": [
+      {
+        "key": "ULIVZ-35344",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1530525185000": [
+      {
+        "key": "ULIVZ-34859",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "10141"
+        }
+      }
+    ],
+    "1530528042000": [
+      {
+        "key": "ULIVZ-38789",
+        "statC": {},
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1530621622000": [
+      {
+        "key": "ULIVZ-38746",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1530622033000": [
+      {
+        "key": "ULIVZ-38789",
+        "statC": {
+          "newValue": 1
+        }
+      }
+    ],
+    "1530623218000": [
+      {
+        "key": "ULIVZ-38789",
+        "added": true
+      }
+    ],
+    "1530625589000": [
+      {
+        "key": "ULIVZ-38809",
+        "statC": {},
+        "added": true,
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1530626064000": [
+      {
+        "key": "ULIVZ-38810",
+        "statC": {
+          "newValue": 5
+        },
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1530626083000": [
+      {
+        "key": "ULIVZ-38810",
+        "statC": {
+          "oldValue": 5
+        }
+      }
+    ],
+    "1530626099000": [
+      {
+        "key": "ULIVZ-38810",
+        "added": true
+      }
+    ],
+    "1530634341000": [
+      {
+        "key": "ULIVZ-38591",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1530646443000": [
+      {
+        "key": "ULIVZ-38789",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1530657515000": [
+      {
+        "key": "ULIVZ-38264",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1530713594000": [
+      {
+        "key": "ULIVZ-38810",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "6"
+        }
+      }
+    ],
+    "1530719833000": [
+      {
+        "key": "ULIVZ-38835",
+        "statC": {},
+        "added": true,
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1530780775000": [
+      {
+        "key": "ULIVZ-37330",
+        "added": false
+      }
+    ],
+    "1530787743000": [
+      {
+        "key": "ULIVZ-38809",
+        "statC": {
+          "newValue": 2
+        }
+      }
+    ],
+    "1530804319000": [
+      {
+        "key": "ULIVZ-38841",
+        "statC": {
+          "newValue": 2
+        },
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1530806032000": [
+      {
+        "key": "ULIVZ-38841",
+        "statC": {
+          "oldValue": 2,
+          "newValue": 1
+        }
+      }
+    ],
+    "1530806101000": [
+      {
+        "key": "ULIVZ-38841",
+        "added": true
+      }
+    ],
+    "1530891529000": [
+      {
+        "key": "ULIVZ-30769",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1530895118000": [
+      {
+        "key": "ULIVZ-32510",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1530897872000": [
+      {
+        "key": "ULIVZ-38841",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1530897890000": [
+      {
+        "key": "ULIVZ-38809",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1530914539000": [
+      {
+        "key": "ULIVZ-38690",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1530916589000": [
+      {
+        "key": "ULIVZ-38691",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1531152263000": [
+      {
+        "key": "ULIVZ-38913",
+        "statC": {},
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1531152299000": [
+      {
+        "key": "ULIVZ-38914",
+        "statC": {},
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1531213087000": [
+      {
+        "key": "ULIVZ-38913",
+        "added": true
+      }
+    ],
+    "1531213187000": [
+      {
+        "key": "ULIVZ-33799",
+        "statC": {
+          "oldValue": 3
+        }
+      }
+    ],
+    "1531213193000": [
+      {
+        "key": "ULIVZ-33799",
+        "added": true
+      }
+    ],
+    "1531213218000": [
+      {
+        "key": "ULIVZ-38914",
+        "added": true
+      }
+    ],
+    "1531217663000": [
+      {
+        "key": "ULIVZ-38307",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1531244179000": [
+      {
+        "key": "ULIVZ-38774",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1531405070000": [
+      {
+        "key": "ULIVZ-38672",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ]
+  },
+  "startTime": 1530513839826,
+  "endTime": 1531669380000,
+  "completeTime": 1531637432226,
+  "now": 1532049375347,
+  "statisticField": {
+    "typeId": "field",
+    "fieldId": "customfield_10453",
+    "id": "field_customfield_10453",
+    "name": "Story Points",
+    "isValid": true,
+    "isEnabled": true,
+    "renderer": "number"
+  },
+  "issueToParentKeys": {},
+  "issueToSummary": {
+    "ULIVZ-34859": "BE: Unsubscribe Automated Recommendations Emails via Email",
+    "ULIVZ-37330": "FE TD: Unfriendly user experience on HP when network is slow",
+    "ULIVZ-38265": "[VIP] Consolidate zoomed in components / update tappable",
+    "ULIVZ-38264": "[EVIP] Open description when clicking on expired content",
+    "ULIVZ-38307": "Email links are not clickable  ",
+    "ULIVZ-38746": "BE: Automated Recommendation bug fix for pp testing",
+    "ULIVZ-38841": "BE: Change the subscription type to AUTO_RECOMMENDATION",
+    "ULIVZ-33799": "BE: Integration: Subscribe people to Automated Recommendations emails based on replies",
+    "ULIVZ-38789": "BE RAML TD: BAPI for unsubscribe automated recommendation",
+    "ULIVZ-38809": "BE TD: Fix the problem that disabling user not affect sending Email",
+    "ULIVZ-30769": "FE: as ops, I need maintenance pages for every sites",
+    "ULIVZ-38409": "BE: Recommendation criteria",
+    "ULIVZ-38672": "FE: Make Intention Menu buttons / selected tabs blue (remove orange A/B test)",
+    "ULIVZ-38774": "FE: Investigation - HP Gallery update ",
+    "ULIVZ-38691": "FE TD: NodeJS controller for unsubscribe automated recommendation",
+    "ULIVZ-38591": "BE: Automated Subscription Expiration Date Update. ",
+    "ULIVZ-38690": "BE TD: BAPI for unsubscribe automated recommendation",
+    "ULIVZ-38835": "FE TD: Temp workaround in performance problem in SRP",
+    "ULIVZ-38736": "FE: [Desktop] Sticky navigation - VIP",
+    "ULIVZ-38735": "FE: [Desktop] Sticky navigation - SRP",
+    "ULIVZ-35344": "BE: Variables for template",
+    "ULIVZ-38914": "Email issues for auto-recommendation",
+    "ULIVZ-38913": "Automated Recommendation PP test bug bundle",
+    "ULIVZ-38737": "FE: [Desktop] Sticky navigation - Homepage",
+    "ULIVZ-38358": "BE: New UTM builder and new seller email code conflict ",
+    "ULIVZ-38610": "FE: Expired Ad Landing Page Banner Key Value ",
+    "ULIVZ-38810": "BE: Recommendation - use \"hi there\" for MVP",
+    "ULIVZ-32510": "Mask phone and email in new EVIP desc"
+  },
+  "workRateData": {
+    "timezone": "Asia/Shanghai",
+    "rates": [
+      {
+        "start": 1530513839826,
+        "end": 1530921600000,
+        "rate": 1
+      },
+      {
+        "start": 1530921600000,
+        "end": 1531094400000,
+        "rate": 0
+      },
+      {
+        "start": 1531094400000,
+        "end": 1531526400000,
+        "rate": 1
+      },
+      {
+        "start": 1531526400000,
+        "end": 1531669380000,
+        "rate": 0
+      }
+    ]
+  },
+  "openCloseChanges": {
+    "1531637432315": [
+      {
+        "userDisplayNameHtml": "<a class=\"user-hover\" rel=\"spliu\" id=\"_spliu\" href=\"/secure/ViewProfile.jspa?name=spliu\">YuChengKai</a>",
+        "operation": "CLOSE"
+      }
+    ]
+  },
+  "lastUserWhoClosedHtml": "<a class=\"user-hover\" rel=\"spliu\" id=\"_spliu\" href=\"/secure/ViewProfile.jspa?name=spliu\">YuChengKai</a>"
+}

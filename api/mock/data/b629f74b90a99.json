@@ -1,0 +1,714 @@
+{
+  "changes": {
+    "1524050509000": [
+      {
+        "key": "ULIVZ-37637",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1524239281000": [
+      {
+        "key": "ULIVZ-37621",
+        "statC": {
+          "newValue": 8
+        }
+      }
+    ],
+    "1525357089000": [
+      {
+        "key": "ULIVZ-37864",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1526441667000": [
+      {
+        "key": "ULIVZ-37864",
+        "added": true
+      }
+    ],
+    "1526563680000": [
+      {
+        "key": "ULIVZ-37637",
+        "added": true
+      }
+    ],
+    "1526964412000": [
+      {
+        "key": "ULIVZ-38150",
+        "statC": {},
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527063201000": [
+      {
+        "key": "ULIVZ-38150",
+        "added": true
+      }
+    ],
+    "1527078816000": [
+      {
+        "key": "ULIVZ-38175",
+        "added": true,
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527165595000": [
+      {
+        "key": "ULIVZ-38186",
+        "added": true,
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527181929000": [
+      {
+        "key": "ULIVZ-38191",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527182418000": [
+      {
+        "key": "ULIVZ-38192",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527253618000": [
+      {
+        "key": "ULIVZ-38191",
+        "added": true
+      }
+    ],
+    "1527253698000": [
+      {
+        "key": "ULIVZ-38192",
+        "added": true
+      }
+    ],
+    "1527265015000": [
+      {
+        "key": "ULIVZ-37621",
+        "added": true
+      }
+    ],
+    "1527265090000": [
+      {
+        "key": "ULIVZ-38220",
+        "added": true,
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527267151000": [
+      {
+        "key": "ULIVZ-38221",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527267234000": [
+      {
+        "key": "ULIVZ-38221",
+        "added": true
+      }
+    ],
+    "1527268886000": [
+      {
+        "key": "ULIVZ-38222",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527601586000": [
+      {
+        "key": "ULIVZ-37621",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1527602010000": [
+      {
+        "key": "ULIVZ-38248",
+        "added": true,
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527602131000": [
+      {
+        "key": "ULIVZ-38249",
+        "statC": {
+          "newValue": 8
+        },
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527602722000": [
+      {
+        "key": "ULIVZ-38249",
+        "added": true
+      }
+    ],
+    "1527612370000": [
+      {
+        "key": "ULIVZ-38254",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527612491000": [
+      {
+        "key": "ULIVZ-38254",
+        "added": true
+      }
+    ],
+    "1527613094000": [
+      {
+        "key": "ULIVZ-38255",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527617382000": [
+      {
+        "key": "ULIVZ-38257",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527678536000": [
+      {
+        "key": "ULIVZ-38280",
+        "added": true,
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527760822000": [
+      {
+        "key": "ULIVZ-38257",
+        "statC": {
+          "newValue": 5
+        }
+      }
+    ],
+    "1527760842000": [
+      {
+        "key": "ULIVZ-38255",
+        "statC": {
+          "newValue": 5
+        }
+      }
+    ],
+    "1527760924000": [
+      {
+        "key": "ULIVZ-37637",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1527761064000": [
+      {
+        "key": "ULIVZ-37864",
+        "statC": {
+          "newValue": 8
+        }
+      }
+    ],
+    "1527761152000": [
+      {
+        "key": "ULIVZ-38222",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1527761177000": [
+      {
+        "key": "ULIVZ-38248",
+        "statC": {
+          "newValue": 2
+        }
+      }
+    ],
+    "1527761201000": [
+      {
+        "key": "ULIVZ-38220",
+        "statC": {
+          "newValue": 5
+        }
+      }
+    ],
+    "1527764262000": [
+      {
+        "key": "ULIVZ-38280",
+        "statC": {
+          "newValue": 2
+        }
+      }
+    ],
+    "1527786160000": [
+      {
+        "key": "ULIVZ-38326",
+        "statC": {},
+        "added": true,
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527786291000": [
+      {
+        "key": "ULIVZ-38175",
+        "statC": {
+          "newValue": 8
+        }
+      }
+    ],
+    "1527786431000": [
+      {
+        "key": "ULIVZ-38329",
+        "added": true,
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527786442000": [
+      {
+        "key": "ULIVZ-38329",
+        "statC": {
+          "newValue": 1
+        }
+      }
+    ],
+    "1527786560000": [
+      {
+        "key": "ULIVZ-38254",
+        "statC": {
+          "newValue": 2
+        }
+      }
+    ],
+    "1527787021000": [
+      {
+        "key": "ULIVZ-38186",
+        "statC": {
+          "newValue": 7
+        }
+      }
+    ],
+    "1527787262000": [
+      {
+        "key": "ULIVZ-38191",
+        "statC": {
+          "newValue": 5
+        }
+      }
+    ],
+    "1527787631000": [
+      {
+        "key": "ULIVZ-38192",
+        "statC": {
+          "newValue": 5
+        }
+      }
+    ],
+    "1527847660000": [
+      {
+        "key": "ULIVZ-38327",
+        "statC": {
+          "newValue": 1
+        }
+      }
+    ],
+    "1527850863000": [
+      {
+        "key": "ULIVZ-38257",
+        "added": true
+      }
+    ],
+    "1527851535000": [
+      {
+        "key": "ULIVZ-38221",
+        "statC": {
+          "newValue": 5
+        }
+      }
+    ],
+    "1527852256000": [
+      {
+        "key": "ULIVZ-38255",
+        "added": true
+      }
+    ],
+    "1527873466000": [
+      {
+        "key": "ULIVZ-38327",
+        "added": true
+      }
+    ],
+    "1528106049000": [
+      {
+        "key": "ULIVZ-38327",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1528119737000": [
+      {
+        "key": "ULIVZ-38255",
+        "statC": {
+          "oldValue": 5,
+          "newValue": 3
+        }
+      }
+    ],
+    "1528207852000": [
+      {
+        "key": "ULIVZ-38255",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1528301761000": [
+      {
+        "key": "ULIVZ-38326",
+        "statC": {
+          "newValue": 5
+        }
+      }
+    ],
+    "1528306777000": [
+      {
+        "key": "ULIVZ-38186",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1528365285000": [
+      {
+        "key": "ULIVZ-38150",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1528391061000": [
+      {
+        "key": "ULIVZ-38329",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1528391078000": [
+      {
+        "key": "ULIVZ-38280",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1528468117000": [
+      {
+        "key": "ULIVZ-38192",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1528469228000": [
+      {
+        "key": "ULIVZ-38221",
+        "added": false
+      }
+    ],
+    "1528469264000": [
+      {
+        "key": "ULIVZ-38257",
+        "added": false
+      }
+    ],
+    "1528469402000": [
+      {
+        "key": "ULIVZ-38254",
+        "added": false
+      }
+    ],
+    "1528469634000": [
+      {
+        "key": "ULIVZ-38257",
+        "added": true
+      }
+    ],
+    "1528469716000": [
+      {
+        "key": "ULIVZ-38439",
+        "statC": {},
+        "added": true,
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1528475483000": [
+      {
+        "key": "ULIVZ-37864",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1528719388000": [
+      {
+        "key": "ULIVZ-38257",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1528719421000": [
+      {
+        "key": "ULIVZ-38191",
+        "added": false
+      }
+    ],
+    "1528823823000": [
+      {
+        "key": "ULIVZ-38439",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1528823832000": [
+      {
+        "key": "ULIVZ-38439",
+        "statC": {
+          "newValue": 2
+        }
+      }
+    ],
+    "1528825826000": [
+      {
+        "key": "ULIVZ-38249",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1528829035000": [
+      {
+        "key": "ULIVZ-38326",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1528896777000": [
+      {
+        "key": "ULIVZ-38220",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1528978784000": [
+      {
+        "key": "ULIVZ-38175",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1528984210000": [
+      {
+        "key": "ULIVZ-38222",
+        "added": true
+      }
+    ],
+    "1528985666000": [
+      {
+        "key": "ULIVZ-37637",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1528985746000": [
+      {
+        "key": "ULIVZ-38248",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1528988803000": [
+      {
+        "key": "ULIVZ-38222",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ]
+  },
+  "startTime": 1528114369565,
+  "endTime": 1529323920000,
+  "completeTime": 1529353042643,
+  "now": 1532049754164,
+  "statisticField": {
+    "typeId": "field",
+    "fieldId": "customfield_10453",
+    "id": "field_customfield_10453",
+    "name": "Story Points",
+    "isValid": true,
+    "isEnabled": true,
+    "renderer": "number"
+  },
+  "issueToParentKeys": {},
+  "issueToSummary": {
+    "ULIVZ-38280": "[RAML] - Set up ND infrastructure to support ad based project",
+    "ULIVZ-38192": "Expose group id  in RE-VIP for SEO purpose",
+    "ULIVZ-38191": "ND - Data migration to support ad based project ",
+    "ULIVZ-38150": "Change \"Mensaje\" and \"Llamar\" labels on sticky VIP to sentence case (mobile)",
+    "ULIVZ-38255": "ZA VIP LB banner action based refresh [Desktop]",
+    "ULIVZ-38222": "ND - general details design when attribute has no value ",
+    "ULIVZ-38221": "RE VIP - related ad relevancy enhancements [FE]",
+    "ULIVZ-38254": "RE VIP - related ad relevancy enhancements AB testing [Mobile&Desktop]",
+    "ULIVZ-38257": "ZA HP banner optimization AB testing [Mobile]",
+    "ULIVZ-38220": "ND - appointment date and time formatting in reply form",
+    "ULIVZ-38186": "Set up ND infrastructure to support ad based project - ad group",
+    "ULIVZ-38175": "RE VIP - related ad relevancy enhancements [BE]",
+    "ULIVZ-38329": "[RAML]  RE VIP - related ad relevancy enhancements",
+    "ULIVZ-38439": "CS support and trouble shooting",
+    "ULIVZ-37637": "Datalayer update for ND Landing Page & RE VIP ",
+    "ULIVZ-38248": "RE VIP - wording change for exact location request",
+    "ULIVZ-37621": "AFSh - Goods category implementation [Mobile]",
+    "ULIVZ-38327": "ZA BVIP Left Sticky full release [Desktop]",
+    "ULIVZ-37864": "ND - connect user back to landing page from Unit VIP [FE]",
+    "ULIVZ-38326": "FSB key value implementation on ZA VIP",
+    "ULIVZ-38249": "AFSh - Goods category AB testing setup [Mobile&Desktop]"
+  },
+  "workRateData": {
+    "timezone": "Asia/Shanghai",
+    "rates": [
+      {
+        "start": 1528114369565,
+        "end": 1528502400000,
+        "rate": 1
+      },
+      {
+        "start": 1528502400000,
+        "end": 1528675200000,
+        "rate": 0
+      },
+      {
+        "start": 1528675200000,
+        "end": 1529107200000,
+        "rate": 1
+      },
+      {
+        "start": 1529107200000,
+        "end": 1529280000000,
+        "rate": 0
+      },
+      {
+        "start": 1529280000000,
+        "end": 1529353042643,
+        "rate": 1
+      }
+    ]
+  },
+  "openCloseChanges": {
+    "1529353043373": [
+      {
+        "userDisplayNameHtml": "<a class=\"user-hover\" rel=\"dexter\" id=\"_dexter\" href=\"/secure/ViewProfile.jspa?name=dexter\">Dexter Wang</a>",
+        "operation": "CLOSE"
+      }
+    ]
+  },
+  "lastUserWhoClosedHtml": "<a class=\"user-hover\" rel=\"dexter\" id=\"_dexter\" href=\"/secure/ViewProfile.jspa?name=dexter\">Dexter Wang</a>"
+}

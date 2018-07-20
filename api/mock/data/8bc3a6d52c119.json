@@ -1,0 +1,590 @@
+{
+  "changes": {
+    "1506375848000": [
+      {
+        "key": "ULIVZ-32510",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1513053553000": [
+      {
+        "key": "ULIVZ-34859",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1514943247000": [
+      {
+        "key": "ULIVZ-35344",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1517824898000": [
+      {
+        "key": "ULIVZ-36184",
+        "statC": {},
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1521046402000": [
+      {
+        "key": "ULIVZ-36915",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1522726399000": [
+      {
+        "key": "ULIVZ-37407",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1523288266000": [
+      {
+        "key": "ULIVZ-37407",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1523533339000": [
+      {
+        "key": "ULIVZ-37551",
+        "statC": {},
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1525274679000": [
+      {
+        "key": "ULIVZ-37851",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1525280818000": [
+      {
+        "key": "ULIVZ-37851",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1525359042000": [
+      {
+        "key": "ULIVZ-37867",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1526367458000": [
+      {
+        "key": "ULIVZ-38051",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1526659066000": [
+      {
+        "key": "ULIVZ-36915",
+        "statC": {
+          "newValue": 2
+        }
+      }
+    ],
+    "1526712136000": [
+      {
+        "key": "ULIVZ-38139",
+        "statC": {},
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527655450000": [
+      {
+        "key": "ULIVZ-38264",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527656095000": [
+      {
+        "key": "ULIVZ-38265",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527662123000": [
+      {
+        "key": "ULIVZ-34859",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1527697996000": [
+      {
+        "key": "ULIVZ-38281",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1527760439000": [
+      {
+        "key": "ULIVZ-38265",
+        "added": true
+      },
+      {
+        "key": "ULIVZ-38264",
+        "added": true
+      },
+      {
+        "key": "ULIVZ-32510",
+        "added": true
+      }
+    ],
+    "1527761108000": [
+      {
+        "key": "ULIVZ-37867",
+        "statC": {
+          "newValue": 8
+        }
+      }
+    ],
+    "1527761413000": [
+      {
+        "key": "ULIVZ-38281",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1527782262000": [
+      {
+        "key": "ULIVZ-34859",
+        "added": true
+      }
+    ],
+    "1527782308000": [
+      {
+        "key": "ULIVZ-35344",
+        "statC": {
+          "newValue": 5
+        }
+      }
+    ],
+    "1527782360000": [
+      {
+        "key": "ULIVZ-37851",
+        "added": true
+      }
+    ],
+    "1527782848000": [
+      {
+        "key": "ULIVZ-38051",
+        "statC": {
+          "newValue": 2
+        }
+      }
+    ],
+    "1528201370000": [
+      {
+        "key": "ULIVZ-38051",
+        "added": true
+      }
+    ],
+    "1528893023000": [
+      {
+        "key": "ULIVZ-38506",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1528897472000": [
+      {
+        "key": "ULIVZ-38508",
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1528969960000": [
+      {
+        "key": "ULIVZ-38139",
+        "added": true
+      }
+    ],
+    "1528993231000": [
+      {
+        "key": "ULIVZ-35344",
+        "added": true
+      }
+    ],
+    "1529075211000": [
+      {
+        "key": "ULIVZ-38508",
+        "added": true
+      }
+    ],
+    "1529075283000": [
+      {
+        "key": "ULIVZ-38281",
+        "added": true
+      }
+    ],
+    "1529075294000": [
+      {
+        "key": "ULIVZ-38506",
+        "added": true
+      }
+    ],
+    "1529075449000": [
+      {
+        "key": "ULIVZ-36915",
+        "added": true
+      }
+    ],
+    "1529075620000": [
+      {
+        "key": "ULIVZ-38265",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1529076266000": [
+      {
+        "key": "ULIVZ-38264",
+        "statC": {
+          "newValue": 5
+        }
+      }
+    ],
+    "1529076333000": [
+      {
+        "key": "ULIVZ-32510",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1529076785000": [
+      {
+        "key": "ULIVZ-38506",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1529076827000": [
+      {
+        "key": "ULIVZ-38508",
+        "statC": {
+          "newValue": 3
+        }
+      }
+    ],
+    "1529085716000": [
+      {
+        "key": "ULIVZ-37551",
+        "added": true
+      }
+    ],
+    "1529086833000": [
+      {
+        "key": "ULIVZ-36184",
+        "added": true
+      }
+    ],
+    "1529352295000": [
+      {
+        "key": "ULIVZ-35344",
+        "added": false
+      }
+    ],
+    "1529352333000": [
+      {
+        "key": "ULIVZ-34859",
+        "added": false
+      }
+    ],
+    "1529352918000": [
+      {
+        "key": "ULIVZ-37867",
+        "added": true
+      }
+    ],
+    "1529403015000": [
+      {
+        "key": "ULIVZ-37407",
+        "added": true
+      }
+    ],
+    "1529403048000": [
+      {
+        "key": "ULIVZ-37551",
+        "statC": {
+          "newValue": 2
+        }
+      }
+    ],
+    "1529403056000": [
+      {
+        "key": "ULIVZ-36184",
+        "statC": {
+          "newValue": 2
+        }
+      }
+    ],
+    "1529428511000": [
+      {
+        "key": "ULIVZ-38574",
+        "statC": {},
+        "added": true,
+        "column": {
+          "notDone": true,
+          "newStatus": "1"
+        }
+      }
+    ],
+    "1529488977000": [
+      {
+        "key": "ULIVZ-37867",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1529491859000": [
+      {
+        "key": "ULIVZ-38139",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "6"
+        }
+      }
+    ],
+    "1529657758000": [
+      {
+        "key": "ULIVZ-36915",
+        "added": false
+      }
+    ],
+    "1529662251000": [
+      {
+        "key": "ULIVZ-38574",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1529664852000": [
+      {
+        "key": "ULIVZ-38281",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1529679875000": [
+      {
+        "key": "ULIVZ-37407",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1529942505000": [
+      {
+        "key": "ULIVZ-37407",
+        "column": {
+          "notDone": true,
+          "done": false,
+          "newStatus": "4"
+        }
+      }
+    ],
+    "1530030350000": [
+      {
+        "key": "ULIVZ-38506",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1530030448000": [
+      {
+        "key": "ULIVZ-38508",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1530093412000": [
+      {
+        "key": "ULIVZ-38051",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1530108829000": [
+      {
+        "key": "ULIVZ-37407",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ],
+    "1530290527000": [
+      {
+        "key": "ULIVZ-36184",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "6"
+        }
+      }
+    ],
+    "1530290567000": [
+      {
+        "key": "ULIVZ-37851",
+        "added": false
+      }
+    ],
+    "1530443584000": [
+      {
+        "key": "ULIVZ-37551",
+        "column": {
+          "notDone": false,
+          "done": true,
+          "newStatus": "5"
+        }
+      }
+    ]
+  },
+  "startTime": 1529312441928,
+  "endTime": 1530468000000,
+  "completeTime": 1530513343518,
+  "now": 1532049375295,
+  "statisticField": {
+    "typeId": "field",
+    "fieldId": "customfield_10453",
+    "id": "field_customfield_10453",
+    "name": "Story Points",
+    "isValid": true,
+    "isEnabled": true,
+    "renderer": "number"
+  },
+  "issueToParentKeys": {},
+  "issueToSummary": {
+    "ULIVZ-34859": "BE: Unsubscribe Automated Recommendations Emails via Email",
+    "ULIVZ-38508": "Tech-Debt: Investigating our build mem usage and reduce it",
+    "ULIVZ-36915": "BE: Clean up temp solution for count and sort in category tree",
+    "ULIVZ-38051": "OpenGraph Tag Updates for VIP",
+    "ULIVZ-38281": "ND - back to project + unit filter AB testing",
+    "ULIVZ-38574": "Cannot click the 2nd column L2 location from the top search bar on Chrome in SRP",
+    "ULIVZ-37551": "delete all ads in marko myads, the post ad link should be there",
+    "ULIVZ-38265": "[VIP] Consolidate zoomed in components / update tappable",
+    "ULIVZ-36184": "missing locate me icon in MX prod",
+    "ULIVZ-38264": "[EVIP] Open description when clicking on expired content",
+    "ULIVZ-37867": "ND - landing page unit list redesign",
+    "ULIVZ-35344": "BE: Variables for template",
+    "ULIVZ-38506": "ZA BVIP LB at the bottom of the page with lazy load",
+    "ULIVZ-37407": "VIP - Leverage cookie for not-signed in users",
+    "ULIVZ-37851": "FE TD: Move views/services to views/components",
+    "ULIVZ-38139": "Cannot click the 2nd column L2 location from the top search bar on Chrome in HP",
+    "ULIVZ-32510": "Mask phone and email in new EVIP desc"
+  },
+  "workRateData": {
+    "timezone": "Asia/Shanghai",
+    "rates": [
+      {
+        "start": 1529312441928,
+        "end": 1529712000000,
+        "rate": 1
+      },
+      {
+        "start": 1529712000000,
+        "end": 1529884800000,
+        "rate": 0
+      },
+      {
+        "start": 1529884800000,
+        "end": 1530316800000,
+        "rate": 1
+      },
+      {
+        "start": 1530316800000,
+        "end": 1530489600000,
+        "rate": 0
+      },
+      {
+        "start": 1530489600000,
+        "end": 1530513343518,
+        "rate": 1
+      }
+    ]
+  },
+  "openCloseChanges": {
+    "1530513343579": [
+      {
+        "userDisplayNameHtml": "<a class=\"user-hover\" rel=\"spliu\" id=\"_spliu\" href=\"/secure/ViewProfile.jspa?name=spliu\">YuChengKai</a>",
+        "operation": "CLOSE"
+      }
+    ]
+  },
+  "lastUserWhoClosedHtml": "<a class=\"user-hover\" rel=\"spliu\" id=\"_spliu\" href=\"/secure/ViewProfile.jspa?name=spliu\">YuChengKai</a>"
+}

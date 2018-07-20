@@ -1,0 +1,954 @@
+{
+  "contents": {
+    "completedIssues": [
+      {
+        "id": 573894,
+        "key": "ULIVZ-36184",
+        "hidden": false,
+        "typeName": "Bug",
+        "typeId": "16",
+        "summary": "Deprecate snapshot option",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14703&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "spliu",
+        "assigneeName": "YuChengKai",
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/11811888?s=80&v=4",
+        "hasCustomUserAvatar": true,
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 2
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {}
+        },
+        "statusId": "6",
+        "statusName": "Closed",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/closed.png",
+        "status": {
+          "id": "6",
+          "name": "Closed",
+          "description": "The issue is considered finished, the resolution is correct. Issues which are closed can be reopened.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/closed.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 588019,
+        "key": "ULIVZ-37407",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Deprecate snapshot option",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "allen",
+        "assigneeName": "Allen Xiao",
+        "avatarUrl": "https://avatars3.githubusercontent.com/u/3709715?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "epic": "ULIVZ-30167",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-30167",
+          "epicColor": "ghx-label-8",
+          "text": "VIP Enhancements",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 3
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 3
+          }
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 590696,
+        "key": "ULIVZ-37551",
+        "hidden": false,
+        "typeName": "Bug",
+        "typeId": "16",
+        "summary": "Deprecate snapshot option",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14703&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "spliu",
+        "assigneeName": "YuChengKai",
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/11811888?s=80&v=4",
+        "hasCustomUserAvatar": true,
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 2
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {}
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 596334,
+        "key": "ULIVZ-37867",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Deprecate snapshot option",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "ulivz",
+        "assigneeName": "ULIVZ",
+        "avatarUrl": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "epic": "ULIVZ-37360",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-37360",
+          "epicColor": "ghx-label-2",
+          "text": "ND Landing Page_Q2",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 8
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 8
+          }
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 601785,
+        "key": "ULIVZ-38051",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Deprecate snapshot option",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "jeremy",
+        "assigneeName": "Jeremy Lee",
+        "avatarUrl": "https://avatars3.githubusercontent.com/u/463737?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "epic": "ULIVZ-30167",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-30167",
+          "epicColor": "ghx-label-8",
+          "text": "VIP Enhancements",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 2
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 2
+          }
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 603032,
+        "key": "ULIVZ-38139",
+        "hidden": false,
+        "typeName": "Bug",
+        "typeId": "16",
+        "summary": "Deprecate snapshot option",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14703&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/critical.svg",
+        "priorityName": "P2",
+        "done": true,
+        "assignee": "spliu",
+        "assigneeName": "YuChengKai",
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/11811888?s=80&v=4",
+        "hasCustomUserAvatar": true,
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {}
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {}
+        },
+        "statusId": "6",
+        "statusName": "Closed",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/closed.png",
+        "status": {
+          "id": "6",
+          "name": "Closed",
+          "description": "The issue is considered finished, the resolution is correct. Issues which are closed can be reopened.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/closed.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 605982,
+        "key": "ULIVZ-38281",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Deprecate snapshot option",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "justin",
+        "assigneeName": "Justin Kevin",
+        "avatarUrl": "https://avatars3.githubusercontent.com/u/6562944?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "epic": "ULIVZ-37360",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-37360",
+          "epicColor": "ghx-label-2",
+          "text": "ND Landing Page_Q2",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 3
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 3
+          }
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 610094,
+        "key": "ULIVZ-38506",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Deprecate snapshot option",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "ulivz",
+        "assigneeName": "ULIVZ",
+        "avatarUrl": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "epic": "ULIVZ-37825",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-37825",
+          "epicColor": "ghx-label-4",
+          "text": "Project Leopard_Q2",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 3
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 3
+          }
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 610097,
+        "key": "ULIVZ-38508",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Deprecate snapshot option",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "justin",
+        "assigneeName": "Justin Kevin",
+        "avatarUrl": "https://avatars3.githubusercontent.com/u/6562944?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 3
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 3
+          }
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 611547,
+        "key": "ULIVZ-38574",
+        "hidden": false,
+        "typeName": "Bug",
+        "typeId": "16",
+        "summary": "Deprecate snapshot option",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14703&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/critical.svg",
+        "priorityName": "P2",
+        "done": true,
+        "assignee": "spliu",
+        "assigneeName": "YuChengKai",
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/11811888?s=80&v=4",
+        "hasCustomUserAvatar": true,
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {}
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {}
+        },
+        "statusId": "5",
+        "statusName": "Resolved",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+        "status": {
+          "id": "5",
+          "name": "Resolved",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+          "statusCategory": {
+            "id": "3",
+            "key": "done",
+            "colorName": "green"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      }
+    ],
+    "issuesNotCompletedInCurrentSprint": [
+      {
+        "id": 540907,
+        "key": "ULIVZ-32510",
+        "hidden": false,
+        "typeName": "Bug",
+        "typeId": "16",
+        "summary": "Deprecate snapshot option",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14703&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "spliu",
+        "assigneeName": "YuChengKai",
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/11811888?s=80&v=4",
+        "hasCustomUserAvatar": true,
+        "epic": "ULIVZ-30167",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-30167",
+          "epicColor": "ghx-label-8",
+          "text": "VIP Enhancements",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 3
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 3
+          }
+        },
+        "statusId": "10129",
+        "statusName": "Code Review",
+        "statusUrl": "https://jira.xxx.com/",
+        "status": {
+          "id": "10129",
+          "name": "Code Review",
+          "description": "This status is managed internally by JIRA Agile",
+          "iconUrl": "https://jira.xxx.com/",
+          "statusCategory": {
+            "id": "4",
+            "key": "indeterminate",
+            "colorName": "yellow"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 605849,
+        "key": "ULIVZ-38264",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Deprecate snapshot option",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "lincoln",
+        "assigneeName": "Lincoln Luman",
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/5458997?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "epic": "ULIVZ-30167",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-30167",
+          "epicColor": "ghx-label-8",
+          "text": "VIP Enhancements",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 5
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 5
+          }
+        },
+        "statusId": "10031",
+        "statusName": "In QA Testing",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/visible.png",
+        "status": {
+          "id": "10031",
+          "name": "In QA Testing",
+          "description": "The issue is currently being tested by the QA team",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/visible.png",
+          "statusCategory": {
+            "id": "4",
+            "key": "indeterminate",
+            "colorName": "yellow"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 605851,
+        "key": "ULIVZ-38265",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Deprecate snapshot option",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "allen",
+        "assigneeName": "Allen Xiao",
+        "avatarUrl": "https://avatars3.githubusercontent.com/u/3709715?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "epic": "ULIVZ-30167",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-30167",
+          "epicColor": "ghx-label-8",
+          "text": "VIP Enhancements",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 3
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 3
+          }
+        },
+        "statusId": "3",
+        "statusName": "In Progress",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/inprogress.png",
+        "status": {
+          "id": "3",
+          "name": "In Progress",
+          "description": "This issue is being actively worked on at the moment by the assignee.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/inprogress.png",
+          "statusCategory": {
+            "id": "4",
+            "key": "indeterminate",
+            "colorName": "yellow"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      }
+    ],
+    "puntedIssues": [
+      {
+        "id": 561419,
+        "key": "ULIVZ-34859",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Deprecate snapshot option",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "spielberg",
+        "assigneeName": "Steven Spielberg",
+        "avatarUrl": "https://avatars3.githubusercontent.com/u/1621969?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "epic": "ULIVZ-33797",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-33797",
+          "epicColor": "ghx-label-7",
+          "text": "Auto Rec",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 3
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 3
+          }
+        },
+        "statusId": "1",
+        "statusName": "Open",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/open.png",
+        "status": {
+          "id": "1",
+          "name": "Open",
+          "description": "The issue is open and awaits assignment.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/open.png",
+          "statusCategory": {
+            "id": "2",
+            "key": "new",
+            "colorName": "blue-gray"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 564882,
+        "key": "ULIVZ-35344",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Deprecate snapshot option",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": true,
+        "assignee": "spielberg",
+        "assigneeName": "Steven Spielberg",
+        "avatarUrl": "https://avatars3.githubusercontent.com/u/1621969?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "epic": "ULIVZ-33797",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-33797",
+          "epicColor": "ghx-label-7",
+          "text": "Auto Rec",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 5
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 5
+          }
+        },
+        "statusId": "3",
+        "statusName": "In Progress",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/inprogress.png",
+        "status": {
+          "id": "3",
+          "name": "In Progress",
+          "description": "This issue is being actively worked on at the moment by the assignee.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/inprogress.png",
+          "statusCategory": {
+            "id": "4",
+            "key": "indeterminate",
+            "colorName": "yellow"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 583621,
+        "key": "ULIVZ-36915",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Deprecate snapshot option",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": false,
+        "assignee": "leiychen",
+        "assigneeName": "Mervyn Ollie",
+        "avatarUrl": "https://avatars1.githubusercontent.com/u/3382565?s=40&v=4",
+        "hasCustomUserAvatar": true,
+        "epic": "ULIVZ-37137",
+        "epicField": {
+          "id": "customfield_12755",
+          "label": "Epic",
+          "editable": false,
+          "renderer": "epiclink",
+          "epicKey": "ULIVZ-37137",
+          "epicColor": "ghx-label-4",
+          "text": "MXNavigation Part 2",
+          "canRemoveEpic": true
+        },
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 2
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 2
+          }
+        },
+        "statusId": "1",
+        "statusName": "Open",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/open.png",
+        "status": {
+          "id": "1",
+          "name": "Open",
+          "description": "The issue is open and awaits assignment.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/open.png",
+          "statusCategory": {
+            "id": "2",
+            "key": "new",
+            "colorName": "blue-gray"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      },
+      {
+        "id": 595915,
+        "key": "ULIVZ-37851",
+        "hidden": false,
+        "typeName": "Story",
+        "typeId": "84",
+        "summary": "Deprecate snapshot option",
+        "typeUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14711&avatarType=issuetype",
+        "priorityUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+        "priorityName": "P3",
+        "done": false,
+        "hasCustomUserAvatar": false,
+        "currentEstimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 3
+          }
+        },
+        "estimateStatisticRequired": false,
+        "estimateStatistic": {
+          "statFieldId": "customfield_10453",
+          "statFieldValue": {
+            "value": 3
+          }
+        },
+        "statusId": "1",
+        "statusName": "Open",
+        "statusUrl": "https://jira.xxx.com/images/icons/statuses/open.png",
+        "status": {
+          "id": "1",
+          "name": "Open",
+          "description": "The issue is open and awaits assignment.",
+          "iconUrl": "https://jira.xxx.com/images/icons/statuses/open.png",
+          "statusCategory": {
+            "id": "2",
+            "key": "new",
+            "colorName": "blue-gray"
+          }
+        },
+        "fixVersions": [],
+        "projectId": 11300,
+        "linkedPagesCount": 0
+      }
+    ],
+    "issuesCompletedInAnotherSprint": [],
+    "completedIssuesInitialEstimateSum": {
+      "value": 22,
+      "text": "22.0"
+    },
+    "completedIssuesEstimateSum": {
+      "value": 26,
+      "text": "26.0"
+    },
+    "issuesNotCompletedInitialEstimateSum": {
+      "value": 11,
+      "text": "11.0"
+    },
+    "issuesNotCompletedEstimateSum": {
+      "value": 11,
+      "text": "11.0"
+    },
+    "allIssuesEstimateSum": {
+      "value": 61,
+      "text": "61.0"
+    },
+    "puntedIssuesInitialEstimateSum": {
+      "value": 13,
+      "text": "13.0"
+    },
+    "puntedIssuesEstimateSum": {
+      "value": 13,
+      "text": "13.0"
+    },
+    "issuesCompletedInAnotherSprintInitialEstimateSum": {
+      "text": "null"
+    },
+    "issuesCompletedInAnotherSprintEstimateSum": {
+      "text": "null"
+    },
+    "issueKeysAddedDuringSprint": {
+      "ULIVZ-38574": true,
+      "ULIVZ-37867": true,
+      "ULIVZ-37407": true
+    }
+  },
+  "sprint": {
+    "id": 7146,
+    "sequence": 7144,
+    "name": "Facebook S13 2018-06-29",
+    "state": "CLOSED",
+    "goal": "",
+    "linkedPagesCount": 0,
+    "startDate": "18/Jun/18 09:00",
+    "endDate": "01/Jul/18 18:00",
+    "completeDate": "02/Jul/18 06:35",
+    "canUpdateSprint": false,
+    "remoteLinks": [],
+    "daysRemaining": 0
+  },
+  "lastUserToClose": "<a class=\"user-hover\" rel=\"spliu\" id=\"_spliu\" href=\"/secure/ViewProfile.jspa?name=spliu\">YuChengKai</a>",
+  "supportsPages": true
+}

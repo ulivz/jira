@@ -1,0 +1,665 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "615611",
+  "self": "https://jira.xxx.com/rest/api/2/issue/615611",
+  "key": "ULIVZ-38804",
+  "fields": {
+    "customfield_16053": null,
+    "customfield_16052": null,
+    "customfield_16050": null,
+    "customfield_14550": null,
+    "customfield_12250": null,
+    "customfield_16450": null,
+    "customfield_14553": null,
+    "customfield_16853": null,
+    "customfield_10350": null,
+    "customfield_12252": null,
+    "customfield_16852": null,
+    "customfield_10351": "Currently in nd-units component, we write some classes that contains ad. but this content will be lost when user enables adBlocker.",
+    "customfield_14551": null,
+    "fixVersions": [],
+    "customfield_10352": "This content shouldn't be hidden at any time, change ad to item instead.\r\n\r\nAutomation also needs to be updated",
+    "customfield_14552": null,
+    "customfield_10353": null,
+    "resolution": {
+      "self": "https://jira.xxx.com/rest/api/2/resolution/14",
+      "id": "14",
+      "description": "GreenHopper Managed Resolution",
+      "name": "Done"
+    },
+    "customfield_10354": null,
+    "customfield_10355": null,
+    "customfield_12655": null,
+    "customfield_10356": null,
+    "customfield_13976": "0",
+    "customfield_17251": null,
+    "lastViewed": "2018-07-04T12:17:33.286+0200",
+    "customfield_14660": null,
+    "customfield_15357": null,
+    "customfield_14661": null,
+    "customfield_14662": null,
+    "priority": {
+      "self": "https://jira.xxx.com/rest/api/2/priority/3",
+      "iconUrl": "https://jira.xxx.com/images/icons/priorities/major.svg",
+      "name": "P3",
+      "id": "3"
+    },
+    "customfield_13975": "9h 57m 15s",
+    "labels": [],
+    "customfield_11950": null,
+    "customfield_12757": null,
+    "aggregatetimeoriginalestimate": null,
+    "timeestimate": null,
+    "versions": [],
+    "issuelinks": [],
+    "assignee": {
+      "self": "https://jira.xxx.com/rest/api/2/user?username=ulivz",
+      "name": "ulivz",
+      "key": "ulivz",
+      "emailAddress": "ulivz@ebay.com",
+      "avatarUrls": {
+        "48x48": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+        "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=ulivz&avatarId=18818",
+        "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=ulivz&avatarId=18818",
+        "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=ulivz&avatarId=18818"
+      },
+      "displayName": "ULIVZ",
+      "active": true,
+      "timeZone": "Asia/Shanghai"
+    },
+    "status": {
+      "self": "https://jira.xxx.com/rest/api/2/status/5",
+      "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+      "iconUrl": "https://jira.xxx.com/images/icons/statuses/resolved.png",
+      "name": "Resolved",
+      "id": "5",
+      "statusCategory": {
+        "self": "https://jira.xxx.com/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+      }
+    },
+    "customfield_16151": null,
+    "components": [],
+    "customfield_16150": null,
+    "customfield_10050": {
+      "self": "https://jira.xxx.com/rest/api/2/customFieldOption/16517",
+      "value": "Google",
+      "id": "16517"
+    },
+    "customfield_12350": null,
+    "customfield_10051": null,
+    "customfield_10052": null,
+    "customfield_12352": null,
+    "customfield_14652": null,
+    "customfield_10053": null,
+    "customfield_12351": null,
+    "customfield_10450": null,
+    "customfield_12750": null,
+    "customfield_10451": null,
+    "customfield_14255": null,
+    "customfield_12752": [
+      "com.atlassian.greenhopper.service.sprint.Sprint@6ac378d4[id=7808,rapidViewId=1066,state=CLOSED,name=Google S14 20180715,startDate=2018-07-02T03:14:35.029+02:00,endDate=2018-07-14T20:14:00.000+02:00,completeDate=2018-07-13T14:52:35.307+02:00,sequence=7808,goal=]"
+    ],
+    "customfield_14656": null,
+    "customfield_10453": 2,
+    "customfield_12751": "Not started",
+    "customfield_16955": null,
+    "customfield_16954": null,
+    "customfield_10455": null,
+    "customfield_12753": null,
+    "customfield_14655": null,
+    "aggregatetimeestimate": null,
+    "customfield_17351": null,
+    "creator": {
+      "self": "https://jira.xxx.com/rest/api/2/user?username=ulivz",
+      "name": "ulivz",
+      "key": "ulivz",
+      "emailAddress": "ulivz@ebay.com",
+      "avatarUrls": {
+        "48x48": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+        "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=ulivz&avatarId=18818",
+        "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=ulivz&avatarId=18818",
+        "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=ulivz&avatarId=18818"
+      },
+      "displayName": "ULIVZ",
+      "active": true,
+      "timeZone": "Asia/Shanghai"
+    },
+    "customfield_15297": null,
+    "customfield_17751": null,
+    "customfield_15298": null,
+    "subtasks": [],
+    "customfield_15295": null,
+    "customfield_15296": null,
+    "reporter": {
+      "self": "https://jira.xxx.com/rest/api/2/user?username=ulivz",
+      "name": "ulivz",
+      "key": "ulivz",
+      "emailAddress": "ulivz@ebay.com",
+      "avatarUrls": {
+        "48x48": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+        "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=ulivz&avatarId=18818",
+        "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=ulivz&avatarId=18818",
+        "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=ulivz&avatarId=18818"
+      },
+      "displayName": "ULIVZ",
+      "active": true,
+      "timeZone": "Asia/Shanghai"
+    },
+    "customfield_15299": null,
+    "customfield_17752": null,
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_13950": null,
+    "customfield_10316": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "votes": {
+      "self": "https://jira.xxx.com/rest/api/2/issue/ULIVZ-38804/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    },
+    "customfield_16251": null,
+    "customfield_17065": null,
+    "issuetype": {
+      "self": "https://jira.xxx.com/rest/api/2/issuetype/16",
+      "id": "16",
+      "description": "Bug",
+      "iconUrl": "https://jira.mongodb.org/secure/viewavatar?size=xsmall&avatarId=14703&avatarType=issuetype",
+      "name": "Bug",
+      "subtask": false,
+      "avatarId": 15603
+    },
+    "customfield_16250": "",
+    "customfield_17460": null,
+    "customfield_17062": null,
+    "customfield_10390": null,
+    "customfield_12292": null,
+    "customfield_17860": null,
+    "customfield_17463": null,
+    "timespent": null,
+    "customfield_12294": null,
+    "customfield_14350": "0|i2pmin:",
+    "customfield_16252": null,
+    "customfield_17462": null,
+    "project": {
+      "self": "https://jira.xxx.com/rest/api/2/project/11300",
+      "id": "11300",
+      "key": "ULIVZ",
+      "name": "ULIVZ",
+      "avatarUrls": {
+        "48x48": "https://jira.xxx.com/secure/projectavatar?pid=11300&avatarId=10011",
+        "24x24": "https://jira.xxx.com/secure/projectavatar?size=small&pid=11300&avatarId=10011",
+        "16x16": "https://jira.xxx.com/secure/projectavatar?size=xsmall&pid=11300&avatarId=10011",
+        "32x32": "https://jira.xxx.com/secure/projectavatar?size=medium&pid=11300&avatarId=10011"
+      }
+    },
+    "customfield_17862": null,
+    "aggregatetimespent": null,
+    "customfield_12850": null,
+    "customfield_17859": null,
+    "resolutiondate": "2018-07-03T14:03:43.000+0200",
+    "workratio": -1,
+    "customfield_17450": null,
+    "customfield_17053": null,
+    "watches": {
+      "self": "https://jira.xxx.com/rest/api/2/issue/ULIVZ-38804/watchers",
+      "watchCount": 0,
+      "isWatching": false
+    },
+    "customfield_17052": null,
+    "customfield_17051": null,
+    "customfield_12282": null,
+    "customfield_15551": "MET",
+    "created": "2018-07-03T04:06:28.000+0200",
+    "customfield_15554": [
+      {
+        "timePerformed": 1530583588000,
+        "workingDuration": "9 hours, 57 minutes",
+        "pausedDuration": "",
+        "slaValueAsTimeString": "45d",
+        "status": "SUCCESS"
+      }
+    ],
+    "customfield_17854": null,
+    "customfield_12285": null,
+    "customfield_17853": null,
+    "customfield_12288": null,
+    "customfield_17852": null,
+    "customfield_17059": null,
+    "customfield_17851": null,
+    "customfield_17858": null,
+    "customfield_15955": null,
+    "customfield_17855": null,
+    "customfield_10413": null,
+    "customfield_15308": null,
+    "customfield_17050": null,
+    "updated": "2018-07-04T05:11:30.000+0200",
+    "customfield_12271": null,
+    "customfield_12272": null,
+    "timeoriginalestimate": null,
+    "customfield_12550": "9223372036854775807",
+    "customfield_15301": null,
+    "description": null,
+    "customfield_10372": null,
+    "customfield_12274": null,
+    "customfield_15302": null,
+    "customfield_16357": null,
+    "customfield_16356": null,
+    "customfield_12276": null,
+    "customfield_15300": null,
+    "customfield_16355": null,
+    "customfield_12279": null,
+    "customfield_15305": null,
+    "timetracking": {},
+    "customfield_15304": null,
+    "customfield_12669": null,
+    "attachment": [],
+    "summary": "Ensure example code is consistent with docs processes",
+    "customfield_17150": null,
+    "customfield_11050": [
+      "ulivz(ulivz)"
+    ],
+    "customfield_12261": [
+      {
+        "self": "https://jira.xxx.com/rest/api/2/customFieldOption/14042",
+        "value": "Production",
+        "id": "14042"
+      }
+    ],
+    "customfield_10360": {
+      "self": "https://jira.xxx.com/rest/api/2/customFieldOption/11054",
+      "value": "Unknown at this stage",
+      "id": "11054"
+    },
+    "customfield_12660": null,
+    "customfield_15653": null,
+    "customfield_14961": [
+      "ulivz(ulivz)"
+    ],
+    "customfield_15654": null,
+    "customfield_17952": null,
+    "customfield_17951": null,
+    "customfield_12664": null,
+    "customfield_12663": null,
+    "customfield_14962": "1_*:*_1_*:*_35302000_*|*_5_*:*_1_*:*_0_*|*_10031_*:*_1_*:*_533000",
+    "customfield_10400": null,
+    "customfield_12665": null,
+    "customfield_13754": {
+      "self": "https://jira.xxx.com/rest/api/2/customFieldOption/14665",
+      "value": "PRODUCT_BACKLOG",
+      "id": "14665"
+    },
+    "customfield_14963": "9223372036854775807",
+    "customfield_10357": null,
+    "customfield_12657": null,
+    "customfield_10358": null,
+    "customfield_12656": null,
+    "environment": null,
+    "customfield_12659": null,
+    "customfield_12658": null,
+    "duedate": null,
+    "comment": {
+      "comments": [
+        {
+          "self": "https://jira.xxx.com/rest/api/2/issue/615611/comment/1197819",
+          "id": "1197819",
+          "author": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=ulivz",
+            "name": "ulivz",
+            "key": "ulivz",
+            "emailAddress": "ulivz@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=ulivz&avatarId=18818",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=ulivz&avatarId=18818",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=ulivz&avatarId=18818"
+            },
+            "displayName": "ULIVZ",
+            "active": true,
+            "timeZone": "Asia/Shanghai"
+          },
+          "body": "Thumbup tag: *QA-THUMBUP-luke_20180703-ULIVZ-38804-nd-units-refactor-naming-236*",
+          "updateAuthor": {
+            "self": "https://jira.xxx.com/rest/api/2/user?username=ulivz",
+            "name": "ulivz",
+            "key": "ulivz",
+            "emailAddress": "ulivz@ebay.com",
+            "avatarUrls": {
+              "48x48": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+              "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=ulivz&avatarId=18818",
+              "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=ulivz&avatarId=18818",
+              "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=ulivz&avatarId=18818"
+            },
+            "displayName": "ULIVZ",
+            "active": true,
+            "timeZone": "Asia/Shanghai"
+          },
+          "created": "2018-07-03T14:03:53.000+0200",
+          "updated": "2018-07-03T14:03:53.000+0200"
+        }
+      ],
+      "maxResults": 1,
+      "total": 1,
+      "startAt": 0
+    }
+  },
+  "changelog": {
+    "startAt": 0,
+    "maxResults": 10,
+    "total": 10,
+    "histories": [
+      {
+        "id": "5846575",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=ulivz",
+          "name": "ulivz",
+          "key": "ulivz",
+          "emailAddress": "ulivz@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=ulivz&avatarId=18818",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=ulivz&avatarId=18818",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=ulivz&avatarId=18818"
+          },
+          "displayName": "ULIVZ",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-03T04:07:22.000+0200",
+        "items": [
+          {
+            "field": "Actual result",
+            "fieldtype": "custom",
+            "from": null,
+            "fromString": "Currently in nd-units component, we write some classes that contains ad. but this content will be lost when user enables JavaScript.",
+            "to": null,
+            "toString": "Currently in nd-units component, we write some classes that contains ad. but this content will be lost when user enables adBlocker."
+          }
+        ]
+      },
+      {
+        "id": "5846576",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=ulivz",
+          "name": "ulivz",
+          "key": "ulivz",
+          "emailAddress": "ulivz@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=ulivz&avatarId=18818",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=ulivz&avatarId=18818",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=ulivz&avatarId=18818"
+          },
+          "displayName": "ULIVZ",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-03T04:07:43.000+0200",
+        "items": [
+          {
+            "field": "Expected result",
+            "fieldtype": "custom",
+            "from": null,
+            "fromString": "This content shouldn't be lost, change ad to item instead.",
+            "to": null,
+            "toString": "This content shouldn't be hidden at any time, change ad to item instead."
+          }
+        ]
+      },
+      {
+        "id": "5846578",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=ulivz",
+          "name": "ulivz",
+          "key": "ulivz",
+          "emailAddress": "ulivz@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=ulivz&avatarId=18818",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=ulivz&avatarId=18818",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=ulivz&avatarId=18818"
+          },
+          "displayName": "ULIVZ",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-03T04:07:57.000+0200",
+        "items": [
+          {
+            "field": "summary",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": "ND - Refactor naming - Elements cannot contains \"ad\"",
+            "to": null,
+            "toString": "ND - Refactor naming - Element class cannot contains \"ad\""
+          }
+        ]
+      },
+      {
+        "id": "5846579",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=ulivz",
+          "name": "ulivz",
+          "key": "ulivz",
+          "emailAddress": "ulivz@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=ulivz&avatarId=18818",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=ulivz&avatarId=18818",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=ulivz&avatarId=18818"
+          },
+          "displayName": "ULIVZ",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-03T04:08:19.000+0200",
+        "items": [
+          {
+            "field": "Story Points",
+            "fieldtype": "custom",
+            "from": null,
+            "fromString": null,
+            "to": null,
+            "toString": "1"
+          }
+        ]
+      },
+      {
+        "id": "5846643",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=ulivz",
+          "name": "ulivz",
+          "key": "ulivz",
+          "emailAddress": "ulivz@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=ulivz&avatarId=18818",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=ulivz&avatarId=18818",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=ulivz&avatarId=18818"
+          },
+          "displayName": "ULIVZ",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-03T04:56:54.000+0200",
+        "items": [
+          {
+            "field": "Expected result",
+            "fieldtype": "custom",
+            "from": null,
+            "fromString": "This content shouldn't be hidden at any time, change ad to item instead.",
+            "to": null,
+            "toString": "This content shouldn't be hidden at any time, change ad to item instead.\r\n\r\n \r\n\r\nAutomation also needs to be updated"
+          }
+        ]
+      },
+      {
+        "id": "5846646",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=ulivz",
+          "name": "ulivz",
+          "key": "ulivz",
+          "emailAddress": "ulivz@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=ulivz&avatarId=18818",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=ulivz&avatarId=18818",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=ulivz&avatarId=18818"
+          },
+          "displayName": "ULIVZ",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-03T04:57:04.000+0200",
+        "items": [
+          {
+            "field": "Story Points",
+            "fieldtype": "custom",
+            "from": null,
+            "fromString": "1",
+            "to": null,
+            "toString": "2"
+          }
+        ]
+      },
+      {
+        "id": "5846647",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=ulivz",
+          "name": "ulivz",
+          "key": "ulivz",
+          "emailAddress": "ulivz@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=ulivz&avatarId=18818",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=ulivz&avatarId=18818",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=ulivz&avatarId=18818"
+          },
+          "displayName": "ULIVZ",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-03T04:57:44.000+0200",
+        "items": [
+          {
+            "field": "Expected result",
+            "fieldtype": "custom",
+            "from": null,
+            "fromString": "This content shouldn't be hidden at any time, change ad to item instead.\r\n\r\n \r\n\r\nAutomation also needs to be updated",
+            "to": null,
+            "toString": "This content shouldn't be hidden at any time, change ad to item instead.\r\n\r\nAutomation also needs to be updated"
+          }
+        ]
+      },
+      {
+        "id": "5848386",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=ulivz",
+          "name": "ulivz",
+          "key": "ulivz",
+          "emailAddress": "ulivz@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=ulivz&avatarId=18818",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=ulivz&avatarId=18818",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=ulivz&avatarId=18818"
+          },
+          "displayName": "ULIVZ",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-03T13:54:50.000+0200",
+        "items": [
+          {
+            "field": "status",
+            "fieldtype": "jira",
+            "from": "1",
+            "fromString": "Open",
+            "to": "10031",
+            "toString": "In QA Testing"
+          }
+        ]
+      },
+      {
+        "id": "5848422",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=ulivz",
+          "name": "ulivz",
+          "key": "ulivz",
+          "emailAddress": "ulivz@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars2.githubusercontent.com/u/23133919?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=ulivz&avatarId=18818",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=ulivz&avatarId=18818",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=ulivz&avatarId=18818"
+          },
+          "displayName": "ULIVZ",
+          "active": true,
+          "timeZone": "Asia/Shanghai"
+        },
+        "created": "2018-07-03T14:03:43.000+0200",
+        "items": [
+          {
+            "field": "resolution",
+            "fieldtype": "jira",
+            "from": null,
+            "fromString": null,
+            "to": "14",
+            "toString": "Done"
+          },
+          {
+            "field": "status",
+            "fieldtype": "jira",
+            "from": "10031",
+            "fromString": "In QA Testing",
+            "to": "5",
+            "toString": "Resolved"
+          }
+        ]
+      },
+      {
+        "id": "5850388",
+        "author": {
+          "self": "https://jira.xxx.com/rest/api/2/user?username=dexter",
+          "name": "dexter",
+          "key": "dexter",
+          "emailAddress": "dexter@ebay.com",
+          "avatarUrls": {
+            "48x48": "https://avatars3.githubusercontent.com/u/63648?s=40&v=4",
+            "24x24": "https://jira.xxx.com/secure/useravatar?size=small&ownerId=dexter&avatarId=16972",
+            "16x16": "https://jira.xxx.com/secure/useravatar?size=xsmall&ownerId=dexter&avatarId=16972",
+            "32x32": "https://jira.xxx.com/secure/useravatar?size=medium&ownerId=dexter&avatarId=16972"
+          },
+          "displayName": "Dexter Wang",
+          "active": true,
+          "timeZone": "America/Adak"
+        },
+        "created": "2018-07-04T05:11:30.000+0200",
+        "items": [
+          {
+            "field": "Sprint",
+            "fieldtype": "custom",
+            "from": null,
+            "fromString": null,
+            "to": "7808",
+            "toString": "Google S14 20180715"
+          }
+        ]
+      }
+    ]
+  }
+}
