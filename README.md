@@ -1,13 +1,5 @@
 # JIRA
 
-## TODO
-
-- Better time-zone handling
-- Website favicon
-- Integrate [bolt-jira-helpers](https://github.corp.ebay.com/haolchen/bolt-jira-helpers)
-
-Contriutions are welcome!
-
 ## Build Setup
 
 ``` bash
