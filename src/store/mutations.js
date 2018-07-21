@@ -11,7 +11,7 @@ const AUTH_COOKIE = CookieUtils.getCookie(AUTH_COOKIE_NAME)
 export const state = {
   loggedIn: !!AUTH_COOKIE,
   loginning: false,
-  networkAvailable: 0, // -1: inavailable, 0: unknown, 1: available
+  networkAvailable: process.env.APP_MODE === 'feOnly' ? 1 : 0, // -1: inavailable, 0: unknown, 1: available
   username: USER_NAME,
   auth: AUTH_COOKIE,
   teams: [

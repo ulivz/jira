@@ -19,12 +19,12 @@
 </template>
 
 <script>
-  import { mapState, mapMutations } from 'vuex'
-  import { login } from '../../fetch/auth'
+  import {mapState, mapMutations} from 'vuex'
+  import {login} from '../../fetch/auth'
 
   export default {
     name: 'LoginForm',
-    data () {
+    data() {
       return {
         isLogining: false,
         loginForm: {
@@ -33,11 +33,11 @@
         },
         ruleInline: {
           username: [
-            { required: true, message: 'Please fill in the user name', trigger: 'blur' }
+            {required: true, message: 'Please fill in the user name', trigger: 'blur'}
           ],
           password: [
-            { required: true, message: 'Please fill in the password.', trigger: 'blur' },
-            { type: 'string', min: 6, message: 'The password length cannot be less than 6 bits', trigger: 'blur' }
+            {required: true, message: 'Please fill in the password.', trigger: 'blur'},
+            {type: 'string', min: 6, message: 'The password length cannot be less than 6 bits', trigger: 'blur'}
           ]
         }
       }
@@ -63,7 +63,9 @@
             this.loginStart()
             // Now we still are 403 Forbidden
             login(this.loginForm)
-              .then(({ status, body }) => {
+              .then(({status, body}) => {
+                console.log(status)
+                console.log(body)
                 if (status === 200) {
                   this.loginSuccess({
                     auth: body.auth,

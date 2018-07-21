@@ -11,7 +11,6 @@
 </script>
 
 <style>
-
   ul li {
     list-style: none;
     padding: 0;
@@ -25,6 +24,4 @@
   ::-moz-selection {
     background: rgba(161, 102, 171, 0.8)
   }
-
-
 </style>

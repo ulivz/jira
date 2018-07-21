@@ -169,7 +169,6 @@
         }])
       },
       recentUpdatedDay(val) {
-        console.log(val)
         this.executeFilter([{
           fn: recentUpdate,
           enable: val,

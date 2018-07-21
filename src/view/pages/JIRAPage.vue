@@ -65,6 +65,9 @@
       ])
     },
     mounted() {
+      if (process.env.APP_MODE === 'feOnly') {
+        return
+      }
       return NetworkUtil.ping('https://jira.corp.ebay.com')
         .then(() => {
           this.networkChange(1)
