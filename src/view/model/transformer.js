@@ -10,7 +10,7 @@ const NOW = new Date().getTime()
  * @param day
  * @returns {*}
  */
-function getStatus (histories, day) {
+export function getStatus (histories, day) {
   if (day > NOW) {
     return 'Future'
   }

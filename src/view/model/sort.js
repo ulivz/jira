@@ -19,7 +19,8 @@ export function sortByStatus(prev, next) {
 /**
  * Sort by QA
  */
-let devList = []
+const devList = []
+
 export function sortByDev(prev, next) {
   let prevDevName = prev.assignee && prev.assignee.name || 'unknown_dev'
   let nextDevName = prev.assignee && next.assignee.name || 'unknown_dev'
@@ -35,7 +36,8 @@ export function sortByDev(prev, next) {
 /**
  * Sort by Dev
  */
-let qaList = []
+const qaList = []
+
 export function sortByQA(prev, next) {
   let prevQAName = prev.qa && prev.qa.name || 'unknown_qa'
   let nextQAName = prev.qa && next.qa.name || 'unknown_qa'
