@@ -22,7 +22,6 @@
       <SprintTrendDiagram
         ref='trendDiagram'
         v-if="loggedIn && networkAvailable"
-        :placeholder="placeholder"
         :teams="teams"
       />
 

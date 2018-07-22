@@ -84,6 +84,7 @@
 
   export default {
     components: { Loading, DropdownTransition },
+
     data() {
       return {
         // sprint
@@ -110,6 +111,7 @@
         data: []
       }
     },
+
     methods: {
       setDisplayStatus(show) {
         this.show = show
