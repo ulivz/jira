@@ -10,7 +10,8 @@ JIRA itself provides a lot of valuable functions，e.g. **Scrum boards**, **Kanb
 
 ## Features
 
-- Daily state report based on sprint
+- Daily ticket's state report based on sprint
+- Support multiple teams
 - Login Integration
 - Built-in filters and sorters 
 - Extensible filter
@@ -24,6 +25,15 @@ This project uses a standard front-and-backup-end-separation structure：
 - BFF: `Express`.
 - Cache：`LRU`.
 - CI: `pm2`.
+
+## Test Account
+
+Test accounts are configured in [accounts.json](https://github.com/ulivz/jira/blob/master/api/mock/accounts.json).
+
+Uername | Password
+---|---
+vue | 123456
+username | 123456
 
 ## Build Setup
 
@@ -89,11 +99,7 @@ yarn ci       # Follow-up release
 
 The demo data of this project are all from the real production environment, but all data has been confused in order not to violate the policy.
 
-- All avatars are crawled from the nearest [Github Trending](https://github.com/trending).
+- All avatars are crawled from the latest [Github Trending](https://github.com/trending).
 - All tickets are crawled from [mongodb's JIRA](https://jira.mongodb.org/secure/Dashboard.jspa).
 - All names are randomized.
 
-## PORT
-
-- Webpack Dev Server: 8081
-- Api Server: 3000
