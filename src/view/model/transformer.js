@@ -107,7 +107,7 @@ export function transformSprintData (sprint) {
     {
       title: 'ID',
       key: 'id',
-      width: 120,
+      width: 130,
       className: 'issue-id',
       fixed: 'left',
       render: (h, params) => {
