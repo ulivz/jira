@@ -48,8 +48,19 @@
       </DropdownTransition>
     </div>
 
-    <Table ref="table" border :loading="loading" :columns="columns" :data="data" size="large"></Table>
-    <Loading v-show="loading" extra-classes="loading-background"></Loading>
+    <Table
+      ref="table" border
+      :loading="loading"
+      :columns="columns"
+      :data="data"
+      size="large"
+    />
+
+    <Loading
+      v-show="loading"
+      extra-classes="loading-background"
+    />
+
   </div>
 </template>
 

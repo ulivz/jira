@@ -6,32 +6,6 @@
   height: calc(100% - #{$offset} * 2);
 }
 
-// Responsive design
-
-$mobile-tablet: 830px;
-//$tablet-medium: 980px;
-$tablet-desktop: 1280px;
-
-$mobile: 'mobile';
-$tablet: 'tablet';
-$desktop: 'desktop';
-
-@mixin scope-breakpoint($scope) {
-  @if ($scope == $mobile) {
-    @media (max-width: $mobile-tablet) {
-      @content;
-    }
-  } @else if ($scope == $tablet) {
-    @media (min-width: $mobile-tablet) and (max-width: $tablet-desktop) {
-      @content;
-    }
-  } @else if ($scope == $desktop) {
-    @media (min-width: $tablet-desktop) {
-      @content;
-    }
-  }
-}
-
 %stripe-wrapper {
   width: 100%;
   padding: 0 2.75%;

@@ -25,7 +25,7 @@
         </Select>
       </li>
 
-      <li class="welcome">@{{username}}</li>
+      <li class="welcome">Hello, @{{username}}</li>
 
       <li class="logout">
         <Button

@@ -29,7 +29,7 @@
 <style lang="scss" scoped>
   .preloader {
     @extend %full-expand;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(255, 255, 255, .2);
     opacity: 0;
     transition: opacity 0.5s;
     z-index: -100;

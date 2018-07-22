@@ -1,7 +1,7 @@
 <template>
   <div class="footer fadeInUp">
     <div class="footer-wrapper">
-      <ul class="footer-links-part-1">
+      <ul class="footer-left-links">
         <li>© 2018 ULIVZ</li>
         <li
           v-for="(item, index) in leftLinks"
@@ -18,7 +18,7 @@
         <img src="../../../static/assets/images/logo-ecg.png" alt="">
       </div>
 
-      <ul class="footer-links-part-2">
+      <ul class="footer-right-links">
         <li
           v-for="(item, index) in rightLinks"
           :key="index"
@@ -64,7 +64,8 @@
       height: 80px;
       display: flex;
     }
-    ul.footer-links-part-1, ul.footer-links-part-2 {
+
+    ul.footer-left-links, ul.footer-right-links {
       line-height: 80px;
       flex: 1;
       list-style: none;
@@ -72,18 +73,21 @@
         display: inline-block;
       }
     }
-    ul.footer-links-part-1 {
+
+    ul.footer-left-links {
       text-align: left;
       li {
         margin-right: 20px;
       }
     }
-    ul.footer-links-part-2 {
+
+    ul.footer-right-links {
       text-align: right;
       li {
         margin-left: 20px;
       }
     }
+
     .footer-logo {
       flex: 0 0 100px;
       display: flex;

@@ -1,24 +1,35 @@
 <template>
   <div class="page login-page">
     <GradientBackground/>
-    <j-header v-show="loggedIn"></j-header>
-    <div rel="scrollWrapper" class="content animated slideInUp" :class="{'logged': loggedIn}">
-      <!--<div class="website-title">Great Wall JIRA</div>-->
-      <!--<div class="content-line-wrapper"></div>-->
+    <JHeader v-show="loggedIn"/>
+    <div
+      rel="scrollWrapper"
+      class="content animated slideInUp"
+      :class="{'logged': loggedIn}"
+    >
       <template v-if="!loggedIn">
         <div class="headline">
           <svg class="icon icon-jira" aria-hidden="true">
             <use xlink:href="#icon-Jira"></use>
           </svg>
         </div>
-        <LoginForm></LoginForm>
+        <LoginForm/>
       </template>
 
-      <SprintTrendDiagram :placeholder="placeholder" :teams="teams" ref='trendDiagram'
-                          v-if="loggedIn && networkAvailable"></SprintTrendDiagram>
-      <j-footer></j-footer>
+      <SprintTrendDiagram
+        ref='trendDiagram'
+        v-if="loggedIn && networkAvailable"
+        :placeholder="placeholder"
+        :teams="teams"
+      />
+
+      <JFooter v-show="loggedIn"/>
     </div>
-    <Loading ref='loading' v-show="loginning"/>
+
+    <Loading
+      ref='loading'
+      v-show="loginning"
+    />
   </div>
 
 </template>
@@ -31,14 +42,15 @@
   import LoginForm from '../components/LoginForm'
   import Loading from '../components/Loading'
   import SprintTrendDiagram from '../components/SprintTrendDiagram.vue'
-  //  import BScroll from 'better-scroll'
   import NetworkUtil from '../../utils/NetworkUtil'
 
   export default {
-    name: 'Login',
+
+    name: 'JIRAPage',
+
     components: {
-      'j-header': Header,
-      'j-footer': Footer,
+      JHeader: Header,
+      JFooter: Footer,
       GradientBackground,
       LoginForm,
       Loading,
@@ -69,23 +81,16 @@
         return
       }
       return NetworkUtil.ping('https://jira.corp.ebay.com')
-        .then(() => {
-          this.networkChange(1)
-        })
+        .then(() => this.networkChange(1))
         .catch(() => {
           this.$Message.error('Your current network has no permissions to access JIRA!')
           this.networkChange(-1)
         })
-//      this.$nextTick(() => {
-//        this.scroll = new BScroll(this.$refs.scrollWrapper, {})
-//      })
     }
   }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
-
   #app {
     @extend %full-expand;
   }
@@ -106,26 +111,6 @@
     &.logged {
       top: 80px;
     }
-
-    /*.website-title {
-      font-size: 60px;
-      font-weight: 200;
-      text-align: center;
-      font-family: unset;
-      color: white;
-      text-transform: uppercase;
-      letter-spacing: 10px;
-      background-image: linear-gradient(90deg, #F79533 0%, #F37055 15%, #EF4E7B 30%, #A166AB 44%, #5073B8 58%, #1098AD 72%, #07B39B 86%, #6DBA82 100%);
-      background-size: cover;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    .content-line-wrapper {
-      @include percentage-expand(10px);
-      border: 1px solid rgba(255, 255, 255, .2);
-      border-radius: 20px;
-    }*/
-
   }
 
   .headline {
@@ -148,5 +133,4 @@
       font-size: 220px;
     }
   }
-
 </style>
