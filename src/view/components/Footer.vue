@@ -2,23 +2,32 @@
   <div class="footer fadeInUp">
     <div class="footer-wrapper">
       <ul class="footer-links-part-1">
-        <li>© 2017 <span title="0.43384s from github-corp-ebay-com-primary">
-          BOLT Great Wall ·
-          <a href="https://github.corp.ebay.com/haolchen" target="_blank">@haolchen</a> ·
-           <a href="https://github.com/ulivz" target="_blank">@ULIVZ</a>
-        </span></li>
-        <li><a href="https://jira.corp.ebay.com/secure/RapidBoard.jspa?rapidView=2128&view=planning" target="_blank">JIRA</a>
-        </li>
-        <li><a href="http://ci.optimus.vip.ebay.com/" target="_blank">Jenkins</a></li>
-        <li><a href="https://github.corp.ebay.com/haolchen/bolt-jira-report/issues" target="_blank">Report Issue</a>
+        <li>© 2018 ULIVZ</li>
+        <li
+          v-for="(item, index) in leftLinks"
+          :key="index"
+        >
+          <a
+            target="_blank"
+            :href="item.link"
+          >{{ item.text }}</a>
         </li>
       </ul>
+
       <div class="footer-logo">
         <img src="../../../static/assets/images/logo-ecg.png" alt="">
       </div>
+
       <ul class="footer-links-part-2">
-        <li><a href="https://www.vivanuncios.com.mx" target="_blank">Vivanuncios</a></li>
-        <li><a href="https://www.gumtree.co.za" target="_blank">Gumtree ZA</a></li>
+        <li
+          v-for="(item, index) in rightLinks"
+          :key="index"
+        >
+          <a
+            target="_blank"
+            :href="item.link"
+          >{{ item.text }}</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -27,9 +36,19 @@
 <script>
   export default {
     name: 'Header',
+
     data() {
-      return {}
+      return {
+        leftLinks: [
+          { text: 'JIRA', link: 'https://www.atlassian.com/software/jira' },
+          { text: 'Github', link: 'https://github.com/ulivz/jira' }
+        ],
+        rightLinks: [
+          { text: 'Github', link: 'https://github.com/ulivz' }
+        ]
+      }
     },
+
     methods: {}
   }
 </script>
