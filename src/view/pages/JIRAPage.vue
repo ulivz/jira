@@ -105,6 +105,9 @@
     background-color: white;
     text-align: center;
     top: 61.8%;
+    @include scope-breakpoint($mobile) {
+      top: 55%;
+    }
     transition: top 0.5s;
     overflow: scroll;
     -webkit-overflow-scrolling: touch;
@@ -114,7 +117,7 @@
   }
 
   .headline {
-    max-height: 180px;
+    max-height: 160px;
     overflow: hidden;
     .logo-greatwall-wrapper {
       position: relative;
@@ -131,6 +134,9 @@
     .icon-jira {
       vertical-align: middle;
       font-size: 220px;
+      @include scope-breakpoint($mobile) {
+        font-size: 180px;
+      }
     }
   }
 </style>

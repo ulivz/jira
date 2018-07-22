@@ -1,18 +1,43 @@
 <template>
   <div class="login-form">
-    <Form ref="loginForm" :model="loginForm" :rules="ruleInline" inline>
+    <Form
+      ref="loginForm"
+      :model="loginForm"
+      :rules="ruleInline"
+      inline
+    >
       <FormItem prop="user">
-        <Input type="text" v-model="loginForm.username" placeholder="Username">
-          <Icon type="ios-person-outline" slot="prepend"></Icon>
+        <Input
+          type="text"
+          v-model="loginForm.username"
+          placeholder="Username"
+        >
+        <Icon
+          type="ios-person-outline"
+          slot="prepend"
+        />
         </Input>
       </FormItem>
+
       <FormItem prop="password">
-        <Input type="password" v-model="loginForm.password" placeholder="Password">
-          <Icon type="ios-locked-outline" slot="prepend"></Icon>
+        <Input
+          type="password"
+          v-model="loginForm.password"
+          placeholder="Password"
+        >
+        <Icon
+          type="ios-locked-outline"
+          slot="prepend"
+        />
         </Input>
       </FormItem>
+
       <FormItem>
-        <Button type="ghost" @click="handleSubmit('loginForm')">Signin</Button>
+        <Button
+          type="ghost"
+          @click="handleSubmit('loginForm')"
+        >Signin
+        </Button>
       </FormItem>
     </Form>
   </div>
@@ -51,6 +76,7 @@
         'teams'
       ])
     },
+
     methods: {
       handleSubmit(name) {
         if (this.networkAvailable === 0) {
@@ -76,6 +102,7 @@
           }
         })
       },
+
       ...mapMutations([
         'loginStart',
         'loginSuccess',
@@ -90,11 +117,22 @@
   .login-form {
     opacity: 1;
     width: 440px;
+    @include scope-breakpoint($mobile) {
+      width: auto;
+    }
     margin: 20px auto 0;
   }
 
   // @override
   .ivu-form {
+    .ivu-form-item {
+      @include scope-breakpoint($mobile) {
+        display: block;
+        width: 70%;
+        margin: 10px auto;
+      }
+    }
+
     .ivu-form-item-error {
       .ivu-input-group-prepend {
         border: 1px solid rgba(255, 0, 0, .5);
