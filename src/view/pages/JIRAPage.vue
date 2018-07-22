@@ -34,7 +34,7 @@
     />
 
     <Sidebar>
-      App
+      <Toolbox></Toolbox>
     </Sidebar>
   </div>
 
@@ -44,6 +44,7 @@
   import { mapState, mapMutations } from 'vuex'
   import Header from '../components/Header.vue'
   import Footer from '../components/Footer.vue'
+  import Toolbox from '../components/Toolbox.vue'
   import Sidebar from '../components/Sidebar.vue'
   import GradientBackground from '../components/GradientBackground'
   import LoginForm from '../components/LoginForm'
@@ -61,6 +62,7 @@
       LoginForm,
       Loading,
       Sidebar,
+      Toolbox,
       SprintTrendDiagram
     },
     methods: {

@@ -6,7 +6,17 @@
         'hide-text': !showStatusText
         }">
 
-    <Toolbox/>
+    <div
+      class='tool-box-switch'
+      @click="setDisplayToolbox(!displayToolbox)"
+    >
+      <Icon type="navicon"></Icon>
+      <span class="tool-box-text">Advanced</span>
+    </div>
+
+    <DropdownTransition>
+      <Toolbox v-if="displayToolbox"/>
+    </DropdownTransition>
 
     <Table
       ref="table" border
@@ -31,14 +41,16 @@
   import SprintTrendDiagramModel from '../model/SprintTrendDiagramModel'
   import Toolbox from './Toolbox.vue'
   import Loading from './Loading.vue'
+  import DropdownTransition from './DropdownTransition.vue'
 
   const diagramModel = new SprintTrendDiagramModel()
 
   export default {
-    components: { Loading, Toolbox },
+    components: { Loading, Toolbox, DropdownTransition },
 
     data() {
       return {
+        displayToolbox: true,
         loading: true,
         columns: [],
         data: []
@@ -81,6 +93,10 @@
         requestAnimationFrame(() => {
           this.loading = false
         })
+      },
+
+      setDisplayToolbox(display) {
+        this.displayToolbox = display
       },
 
       ...mapMutations([
@@ -166,6 +182,24 @@
     font-size: 14px;
     font-family: Arial, sans-serif;
     padding-top: 20px;
+
+    .tool-box-switch {
+      transition: all 0.3s;
+      display: inline-block;
+      padding-top: 3px;
+      text-align: left;
+      cursor: pointer;
+      .tool-box-text {
+        padding-left: 5px;
+      }
+    }
+
+    @include scope-breakpoint($mobile) {
+      .tool-box {
+        display: none !important;
+      }
+    }
+
     .issue-id {
       a {
         font-weight: bold;

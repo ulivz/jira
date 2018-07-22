@@ -18,7 +18,7 @@
     },
 
     data() {
-      return { show: false }
+      return { show: true }
     },
 
     methods: {
@@ -45,6 +45,9 @@
     backface-visibility: hidden;
     &.open {
       transform: translate3d(0, 0, 0);
+    }
+    @include scope-breakpoint($tablet) {
+      display: none;
     }
     @include scope-breakpoint($desktop) {
       display: none;
