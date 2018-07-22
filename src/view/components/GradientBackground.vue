@@ -9,6 +9,12 @@
 </template>
 
 <script>
+  export default {
+    mounted() {
+      setupGradientAnimation()
+      createStars()
+    }
+  }
 
   function setupGradientAnimation() {
     let active = Math.round(Math.random() * 2)
@@ -36,7 +42,7 @@
     let stars = document.getElementById('stars')
     let star = document.getElementsByClassName('star')
 
-    // js随机生成流星
+    // Random meteor
     for (let j = 0; j < 30; j++) {
       let newStar = document.createElement('div')
       newStar.className = 'star'
@@ -45,27 +51,18 @@
       stars.appendChild(newStar)
     }
 
-    // 封装随机数方法
     function randomDistance(max, min) {
       let distance = Math.floor(Math.random() * (max - min + 1) * 10 + min)
       return distance
     }
 
-    // 给流星添加动画延时
+    // Set animation delay for meteor
     for (let i = 0, len = star.length; i < len; i++) {
       if (i % 6 === 0) {
         star[i].style.animationDelay = '0s'
       } else {
         star[i].style.animationDelay = i * 0.8 + 's'
       }
-    }
-  }
-
-
-  export default {
-    mounted () {
-      setupGradientAnimation()
-      createStars()
     }
   }
 </script>

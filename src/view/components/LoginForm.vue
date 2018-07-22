@@ -3,12 +3,12 @@
     <Form ref="loginForm" :model="loginForm" :rules="ruleInline" inline>
       <FormItem prop="user">
         <Input type="text" v-model="loginForm.username" placeholder="Username">
-        <Icon type="ios-person-outline" slot="prepend"></Icon>
+          <Icon type="ios-person-outline" slot="prepend"></Icon>
         </Input>
       </FormItem>
       <FormItem prop="password">
         <Input type="password" v-model="loginForm.password" placeholder="Password">
-        <Icon type="ios-locked-outline" slot="prepend"></Icon>
+          <Icon type="ios-locked-outline" slot="prepend"></Icon>
         </Input>
       </FormItem>
       <FormItem>
@@ -19,29 +19,30 @@
 </template>
 
 <script>
-  import {mapState, mapMutations} from 'vuex'
-  import {login} from '../../fetch/auth'
+  import { mapState, mapMutations } from 'vuex'
+  import { login } from '../../fetch/auth'
 
   export default {
     name: 'LoginForm',
+
     data() {
       return {
         isLogining: false,
-        loginForm: {
-          username: 'haolchen',
-          password: '122333aW'
-        },
+
+        loginForm: { username: '', password: '' },
+
         ruleInline: {
           username: [
-            {required: true, message: 'Please fill in the user name', trigger: 'blur'}
+            { required: true, message: 'Please fill in the user name', trigger: 'blur' }
           ],
           password: [
-            {required: true, message: 'Please fill in the password.', trigger: 'blur'},
-            {type: 'string', min: 6, message: 'The password length cannot be less than 6 bits', trigger: 'blur'}
+            { required: true, message: 'Please fill in the password.', trigger: 'blur' },
+            { type: 'string', min: 6, message: 'The password length cannot be less than 6 bits', trigger: 'blur' }
           ]
         }
       }
     },
+
     computed: {
       ...mapState([
         'loggedIn',
@@ -62,20 +63,14 @@
           if (valid) {
             this.loginStart()
             // Now we still are 403 Forbidden
-            login(this.loginForm)
-              .then(({status, body}) => {
-                console.log(status)
-                console.log(body)
-                if (status === 200) {
-                  this.loginSuccess({
-                    auth: body.auth,
-                    username: body.username
-                  })
-                } else {
-                  this.$Message.error(status + ': Login failed! 😑')
-                  this.loginFail()
-                }
-              })
+            login(this.loginForm).then(({ status, body }) => {
+              if (status === 200) {
+                this.loginSuccess({ auth: body.auth, username: body.username })
+              } else {
+                this.$Message.error(status + ': Login failed! 😑')
+                this.loginFail()
+              }
+            })
           } else {
             this.$Message.error('Check the login form failed, please check your input!')
           }
@@ -90,8 +85,7 @@
   }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss">
+<style lang="scss" scoped>
 
   .login-form {
     opacity: 1;
@@ -118,12 +112,10 @@
 
   // @override
   .ivu-btn.ivu-btn-ghost {
-    /*color: #fff;*/
     &:hover {
       color: #57a3f3;
       background-color: transparent;
       border-color: #57a3f3;
     }
   }
-
 </style>

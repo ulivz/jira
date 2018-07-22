@@ -1,9 +1,12 @@
 <template>
   <div class="sprint-trend-diagram default-jira-theme"
-       :class="{'loading': loading, 'show-text': showStatusText, 'hide-text': !showStatusText}">
-    <!-- TOOL BOX -->
-    <div class="tool-box">
+       :class="{
+        'loading': loading,
+        'show-text': showStatusText,
+        'hide-text': !showStatusText
+        }">
 
+    <div class="tool-box">
       <div class='tool-box-switch' @click="switchToolboxStatus">
         <Icon type="navicon"></Icon>
         <span class="tool-box-text">Advanced</span>
@@ -62,29 +65,14 @@
   const diagramModel = new SprintTrendDiagramModel()
   const RECENT_UPDATED_DAY_OPTIONS = [1, 2, 7, 'default']
   const SORT_OPTIONS = [
-    {
-      key: 1,
-      text: 'Default'
-    },
-    {
-      key: 2,
-      text: 'Status'
-    },
-    {
-      key: 3,
-      text: 'Dev'
-    },
-    {
-      key: 4,
-      text: 'QA'
-    }
+    { key: 1, text: 'Default' },
+    { key: 2, text: 'Status' },
+    { key: 3, text: 'Dev' },
+    { key: 4, text: 'QA' }
   ]
 
   export default {
-    components: {
-      Loading,
-      DropdownTransition
-    },
+    components: { Loading, DropdownTransition },
     data() {
       return {
         // sprint
@@ -115,19 +103,22 @@
       setDisplayStatus(show) {
         this.show = show
       },
+
       switchToolboxStatus() {
         this.showToolBox = !this.showToolBox
       },
+
       setRenderData() {
         this.sprints = diagramModel.getSprints()
         this.acitveSprintId = diagramModel.getActiveSprintId()
         this.columns = diagramModel.getColumns()
         this.data = diagramModel.getTableData()
       },
+
       switchTeam(teamId) {
         this.loading = true
         diagramModel.switch(teamId)
-          .then(() => nextTick())
+          .then(nextTick)
           .then(() => {
             this.setRenderData()
             this.loading = false
@@ -137,6 +128,7 @@
             this.$Message.error('Server seems to be wrong. 😑')
           })
       },
+
       executeFilter(filterList) {
         this.loading = true
         this.data = diagramModel.getTableData({ filterList })
@@ -144,6 +136,7 @@
           this.loading = false
         })
       },
+
       executeSort(sortList) {
         this.loading = true
         this.data = diagramModel.getTableData({ sortList })
@@ -152,15 +145,18 @@
         })
       }
     },
+
     watch: {
       currentTeamId(id) {
         this.switchTeam(id)
       },
+
       showStatusText() {
         requestAnimationFrame(() => {
           this.$refs.table.handleResize()
         })
       },
+
       onlyMe(val) {
         this.executeFilter([{
           fn: onlyMe,
@@ -168,6 +164,7 @@
           extraParams: [this.username]
         }])
       },
+
       recentUpdatedDay(val) {
         this.executeFilter([{
           fn: recentUpdate,
@@ -175,6 +172,7 @@
           extraParams: [val]
         }])
       },
+
       acitveSprintId(sprintId) {
         this.loading = true
         diagramModel.switch(this.currentTeamId, sprintId)
@@ -185,23 +183,16 @@
             })
           })
       },
+
       avtiveSortStrategy(val) {
         this.executeSort([
-          {
-            fn: sortByStatus,
-            enable: val === 2
-          },
-          {
-            fn: sortByDev,
-            enable: val === 3
-          },
-          {
-            fn: sortByQA,
-            enable: val === 4
-          }
+          { fn: sortByStatus, enable: val === 2 },
+          { fn: sortByDev, enable: val === 3 },
+          { fn: sortByQA, enable: val === 4 }
         ])
       }
     },
+
     computed: {
       ...mapState([
         'currentTeamId',
@@ -209,12 +200,13 @@
         'auth'
       ])
     },
+
     mounted() {
       setTimeout(() => {
         requestAnimationFrame(() => {
           this.switchTeam(this.currentTeamId)
         })
-      }, 500)
+      }, 1000)
     }
   }
 </script>
@@ -255,7 +247,7 @@
             color: #aaa;
             margin-left: 5px;
           }
-          &:last-child{
+          &:last-child {
             margin-right: 0;
           }
           &.tool-switch {

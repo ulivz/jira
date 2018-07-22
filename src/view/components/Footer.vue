@@ -10,9 +10,8 @@
         <li><a href="https://jira.corp.ebay.com/secure/RapidBoard.jspa?rapidView=2128&view=planning" target="_blank">JIRA</a>
         </li>
         <li><a href="http://ci.optimus.vip.ebay.com/" target="_blank">Jenkins</a></li>
-        <li><a href="https://github.corp.ebay.com/haolchen/bolt-jira-report/issues" target="_blank">Report Issue</a></li>
-        <!--<li><a href="https://github.corp.ebay.com/ecg-global/bolt-2dot0-frontend">Github 2.0</a></li>-->
-        <!--<li><a href="https://github.corp.ebay.com/ecg-global/bolt-platform">Github 1.0</a></li>-->
+        <li><a href="https://github.corp.ebay.com/haolchen/bolt-jira-report/issues" target="_blank">Report Issue</a>
+        </li>
       </ul>
       <div class="footer-logo">
         <img src="../../../static/assets/images/logo-ecg.png" alt="">
@@ -20,10 +19,6 @@
       <ul class="footer-links-part-2">
         <li><a href="https://www.vivanuncios.com.mx" target="_blank">Vivanuncios</a></li>
         <li><a href="https://www.gumtree.co.za" target="_blank">Gumtree ZA</a></li>
-        <!--<li><a href="www.gumtree.ie">Gumtree IE</a></li>-->
-        <!--<li><a href="www.gumtree.pl">Gumtree PL</a></li>-->
-        <!--<li><a href="www.gumtree.sg">Gumtree SG</a></li>-->
-        <!--<li><a href="www.alamaula.com">alaMaula AR</a></li>-->
       </ul>
     </div>
   </div>
@@ -32,9 +27,8 @@
 <script>
   export default {
     name: 'Header',
-    data () {
-      return {
-      }
+    data() {
+      return {}
     },
     methods: {}
   }

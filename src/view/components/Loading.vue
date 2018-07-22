@@ -1,5 +1,9 @@
 <template>
-  <div class="preloader" :class="[show ? 'loading' : '', extraClasses]">
+  <div class="preloader"
+       :class="[
+        show ? 'loading' : '',
+        extraClasses]"
+  >
     <div class="loader"></div>
   </div>
 </template>
@@ -9,11 +13,11 @@
     props: {
       extraClasses: String
     },
+
     data() {
-      return {
-        show: true
-      }
+      return { show: true }
     },
+
     methods: {
       setDisplayStatus(show) {
         this.show = show
@@ -23,7 +27,6 @@
 </script>
 
 <style lang="scss" scoped>
-
   .preloader {
     @extend %full-expand;
     background-color: rgba(0, 0, 0, .5);
@@ -47,7 +50,6 @@
     border-radius: 50%;
     border: 3px solid transparent;
     border-top-color: #9370DB;
-    -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
   }
 
@@ -61,7 +63,6 @@
     border-radius: 50%;
     border: 3px solid transparent;
     border-top-color: #BA55D3;
-    -webkit-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
   }
 
@@ -75,34 +76,15 @@
     border-radius: 50%;
     border: 3px solid transparent;
     border-top-color: #FF00FF;
-    -webkit-animation: spin 1.5s linear infinite;
     animation: spin 1.5s linear infinite;
-  }
-
-  @-webkit-keyframes spin {
-    0% {
-      -webkit-transform: rotate(0deg);
-      -ms-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    100% {
-      -webkit-transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
   }
 
   @keyframes spin {
     0% {
-      -webkit-transform: rotate(0deg);
-      -ms-transform: rotate(0deg);
       transform: rotate(0deg);
     }
     100% {
-      -webkit-transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
       transform: rotate(360deg);
     }
   }
-
 </style>
