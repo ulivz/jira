@@ -5,7 +5,10 @@
     <div
       rel="scrollWrapper"
       class="content animated slideInUp"
-      :class="{'logged': loggedIn}"
+      :class="{
+        'logged': loggedIn,
+        'input-focused': inputFocused
+      }"
     >
       <template v-if="!loggedIn">
         <div class="headline">
@@ -45,7 +48,6 @@
   import NetworkUtil from '../../utils/NetworkUtil'
 
   export default {
-
     name: 'JIRAPage',
 
     components: {
@@ -66,8 +68,11 @@
         'changeTeam'
       ])
     },
+
     computed: {
       ...mapState([
+        'inputFocused',
+        'blurInput',
         'loggedIn',
         'loginning',
         'networkAvailable',
@@ -76,6 +81,7 @@
         'auth'
       ])
     },
+
     mounted() {
       if (process.env.APP_MODE === 'feOnly') {
         return
@@ -113,6 +119,11 @@
     -webkit-overflow-scrolling: touch;
     &.logged {
       top: 80px;
+    }
+    @include scope-breakpoint($mobile) {
+      &.input-focused {
+        top: 30%;
+      }
     }
   }
 

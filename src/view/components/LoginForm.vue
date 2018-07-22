@@ -10,6 +10,8 @@
         <Input
           type="text"
           v-model="loginForm.username"
+          @on-focus="focusInput"
+          @on-blur="blurInput"
           placeholder="Username"
         >
         <Icon
@@ -23,6 +25,8 @@
         <Input
           type="password"
           v-model="loginForm.password"
+          @on-focus="focusInput"
+          @on-blur="blurInput"
           placeholder="Password"
         >
         <Icon
@@ -54,7 +58,7 @@
       return {
         isLogining: false,
 
-        loginForm: { username: '', password: '' },
+        loginForm: { username: 'vue', password: '123456' },
 
         ruleInline: {
           username: [
@@ -104,6 +108,8 @@
       },
 
       ...mapMutations([
+        'focusInput',
+        'blurInput',
         'loginStart',
         'loginSuccess',
         'loginFail'

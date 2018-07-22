@@ -14,6 +14,7 @@ export const state = {
   networkAvailable: process.env.APP_MODE === 'feOnly' ? 1 : 0, // -1: inavailable, 0: unknown, 1: available
   username: USER_NAME,
   auth: AUTH_COOKIE,
+  inputFocused: false,
   teams: [
     {
       name: 'Facebook',
@@ -28,6 +29,13 @@ export const state = {
 }
 
 export const mutations = {
+  focusInput(state) {
+    state.inputFocused = true
+  },
+
+  blurInput(state) {
+    state.inputFocused = false
+  },
 
   loginStart(state) {
     state.loginning = true
