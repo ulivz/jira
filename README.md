@@ -6,7 +6,7 @@
 
 JIRA itself provides a lot of valuable functions，e.g. **Scrum boards**, **Kanban boards**, **Agile reporting** etc. Surely, this project wasn't a duplicated wheel, It implements a small function that JIRA hasn't implemented at present, which I called `"State Report"`。
 
-`"State Report"` stems from the needs of international team cooperation. Suppose there are the following scenes: you are the lead of a multinational technical team. You and your technician are in City A, and your demand side (usually a PM or PD) is in City B, which is 8 time zones away from City A. then you will face a problem —— **How to tell the PM about the latest ticket's progress every day?**. If you use JIRA, you will find that JIRA does not have a page and records a state of ticket at different time points. And then, it's time for the project to come out.
+`"State Report"` stems from the needs of international team cooperation. Suppose there are the following scenes: you are the lead of a multinational technical team. You and your technician are in City A, and your demand side (usually a PM or PD) is in City B, which is 8 time zones away from City A. then you will face a problem —— **How to tell the distant colleagues about the latest ticket's state change every day?**. If you use JIRA, you will find that JIRA does not have a page and records a state of ticket at different time points. And then, it's time for the project to come out.
 
 ## Features
 
