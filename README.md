@@ -2,35 +2,68 @@
 
 ## Introduction
 
-[JIRA](https://www.atlassian.com/software/jira) Software is the project management tool for agile teams, which is trusted by over 50,000 customers worldwide.
+[JIRA](https://www.atlassian.com/software/jira) Software is the project management tool for agile teams.
 
 JIRA itself provides a lot of valuable functions，e.g. **Scrum boards**, **Kanban boards**, **Agile reporting** etc. Surely, this project wasn't a duplicated wheel, It implements a small function that JIRA hasn't implemented at present, which I called `"State Report"`。
 
-`"State Report"` stems from the needs of international team cooperation. Suppose there are the following scenes, You are the lead of a multinational technical team. You and your technician are in City A, and your demand side (usually a PM or PD) is in City B, which is 8 time zones away from City A. then you will face a problem —— **How to tell the PM about the latest ticket's progress every day?**. If you use JIRA, you will find that JIRA does not have a page and records a state of ticket at different time points. And then, it's time for the project to come out.
+`"State Report"` stems from the needs of international team cooperation. Suppose there are the following scenes: you are the lead of a multinational technical team. You and your technician are in City A, and your demand side (usually a PM or PD) is in City B, which is 8 time zones away from City A. then you will face a problem —— **How to tell the PM about the latest ticket's progress every day?**. If you use JIRA, you will find that JIRA does not have a page and records a state of ticket at different time points. And then, it's time for the project to come out.
 
-## Policy
+## Features
 
-The demo data of this project are all from the real production environment, but all data has been confused in order not to violate the policy.
+- Daily state report based on sprint
+- Login Integration
+- Built-in filters and sorters 
+- Extensible filter
+- Extensible sorter
 
-- All avatars are crawled from the nearest [Github Trending](https://github.com/trending)
-- All tickets are crawled from [mongodb's JIRA](https://jira.mongodb.org/secure/Dashboard.jspa)
-- All names are randomized.
+## Architecture
+
+This project uses a standard front-and-backup-end-separation structure：
+
+- FE: `Vue.js` / `vuex`.
+- BFF: `Express`.
+- Cache：`LRU`.
+- CI: `pm2`.
 
 ## Build Setup
 
-``` bash
-# install dependencies
-npm install
+It's recommended to use [yarn](https://github.com/yarnpkg/yarn) to manage this project.
 
+### Install Dependencies
+
+```bash
+yarn
+```
+
+### FE only mode
+
+> This mode is specially opened for the convenience of the demo.
+
+```bash
 # serve with hot reload at http://localhost:8081
-npm run dev
+yarn feonly:dev
 
 # build for production with minification
-npm run build
+yarn feonly:build
+```
+
+### Full Mode
+
+```bash
+# api server at http://localhost:3000
+# serve FE with hot reload at http://localhost:8081
+yarn dev # equivalent to "yarn dev:fe" & "yarn dev:api"
+
+# build for production with minification
+yarn build
 
 # build for production and view the bundle analyzer report
 npm run build --report
+```
 
+### Test
+
+```bash
 # run unit tests
 npm run unit
 
@@ -40,6 +73,25 @@ npm run e2e
 # run all tests
 npm test
 ```
+
+### Release
+
+> FYI, this is the most primitive CI way, it's recommended to use k8s/docker for continuous integration.
+
+- First time:
+
+```bash
+yarn release  # Release first time
+yarn ci       # Follow-up release
+```
+
+## Policy
+
+The demo data of this project are all from the real production environment, but all data has been confused in order not to violate the policy.
+
+- All avatars are crawled from the nearest [Github Trending](https://github.com/trending).
+- All tickets are crawled from [mongodb's JIRA](https://jira.mongodb.org/secure/Dashboard.jspa).
+- All names are randomized.
 
 ## PORT
 
