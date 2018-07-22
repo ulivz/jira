@@ -8,6 +8,14 @@ const USERNAME_COOKIE_NAME = 'jira_name'
 const USER_NAME = CookieUtils.getCookie(USERNAME_COOKIE_NAME)
 const AUTH_COOKIE = CookieUtils.getCookie(AUTH_COOKIE_NAME)
 
+const RECENT_UPDATED_DAY_OPTIONS = [1, 2, 7, 'default']
+const SORT_OPTIONS = [
+  { key: 1, text: 'Default' },
+  { key: 2, text: 'Status' },
+  { key: 3, text: 'Dev' },
+  { key: 4, text: 'QA' }
+]
+
 export const state = {
   loggedIn: !!AUTH_COOKIE,
   loginning: false,
@@ -25,7 +33,27 @@ export const state = {
       id: 1066
     }
   ],
-  currentTeamId: 2128
+
+  // Current active team id
+  currentTeamId: 1066,
+
+  // Current active sprint id
+  acitveSprintId: null,
+
+  // Current available sprints list
+  sprints: [],
+
+  // Whether to show status text
+  showStatusText: false,
+
+  // Filters
+  onlyMe: false,
+  recentUpdatedDayOptions: RECENT_UPDATED_DAY_OPTIONS,
+  recentUpdatedDay: RECENT_UPDATED_DAY_OPTIONS[RECENT_UPDATED_DAY_OPTIONS.length - 1],
+
+  // Sorters
+  sortOptions: SORT_OPTIONS,
+  avtiveSortStrategy: SORT_OPTIONS[0].key
 }
 
 export const mutations = {
@@ -65,6 +93,30 @@ export const mutations = {
 
   changeTeam(state, id) {
     state.currentTeamId = id
+  },
+
+  setSprints(state, sprints) {
+    state.sprints = sprints
+  },
+
+  setActiveSprintId(state, id) {
+    state.acitveSprintId = id
+  },
+
+  setStatusTextDisplay(state, isDisplay) {
+    state.showStatusText = isDisplay
+  },
+
+  setOnlyMe(state, onlyMe) {
+    state.onlyMe = onlyMe
+  },
+
+  setActiveSortStrategy(state, avtiveSortStrategy) {
+    state.avtiveSortStrategy = avtiveSortStrategy
+  },
+
+  setRecentUpdatedDay(state, recentUpdatedDay) {
+    state.recentUpdatedDay = recentUpdatedDay
   }
 }
 

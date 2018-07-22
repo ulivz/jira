@@ -6,47 +6,7 @@
         'hide-text': !showStatusText
         }">
 
-    <div class="tool-box">
-      <div class='tool-box-switch' @click="switchToolboxStatus">
-        <Icon type="navicon"></Icon>
-        <span class="tool-box-text">Advanced</span>
-      </div>
-
-      <DropdownTransition>
-        <ul class="tool-collection" v-if="showToolBox">
-          <li class="tool-unit tool-switch status-switch">
-            <i-Switch v-model="showStatusText"></i-Switch>
-            <span>Show Status</span>
-          </li>
-
-          <li class="tool-unit tool-switch only-me">
-            <i-Switch v-model="onlyMe"></i-Switch>
-            <span>Only Me</span>
-          </li>
-
-          <li class="tool-unit">
-            <span>Sprint: </span>
-            <Select placeholder="Select a sprint" v-model="acitveSprintId" style="width:200px">
-              <Option v-for="sprint in sprints" :value="sprint.id" :key="sprint.id">{{ sprint.name }}</Option>
-            </Select>
-          </li>
-
-          <li class="tool-unit sort-by">
-            <span>Sort By: </span>
-            <Select placeholder="Select a sort strategy" v-model="avtiveSortStrategy" style="width:150px">
-              <Option v-for="option in sortOptions" :value="option.key" :key="option.key">{{ option.text }}</Option>
-            </Select>
-          </li>
-
-          <li class="tool-unit recent-update">
-            <span>Recently updated(day(s)): </span>
-            <RadioGroup v-model="recentUpdatedDay" type="button">
-              <Radio v-for="option in recentUpdatedDayOptions" :key="option" :label="option"></Radio>
-            </RadioGroup>
-          </li>
-        </ul>
-      </DropdownTransition>
-    </div>
+    <Toolbox/>
 
     <Table
       ref="table" border
@@ -60,52 +20,25 @@
       v-show="loading"
       extra-classes="loading-background"
     />
-
   </div>
 </template>
 
 <script>
-  import { mapState } from 'vuex'
+  import { mapState, mapMutations } from 'vuex'
   import { onlyMe, recentUpdate } from '../model/filters'
   import { sortByStatus, sortByDev, sortByQA } from '../model/sort'
   import { nextTick } from '../../utils/nextTick'
   import SprintTrendDiagramModel from '../model/SprintTrendDiagramModel'
+  import Toolbox from './Toolbox.vue'
   import Loading from './Loading.vue'
-  import DropdownTransition from './DropdownTransition.vue'
 
   const diagramModel = new SprintTrendDiagramModel()
-  const RECENT_UPDATED_DAY_OPTIONS = [1, 2, 7, 'default']
-  const SORT_OPTIONS = [
-    { key: 1, text: 'Default' },
-    { key: 2, text: 'Status' },
-    { key: 3, text: 'Dev' },
-    { key: 4, text: 'QA' }
-  ]
 
   export default {
-    components: { Loading, DropdownTransition },
+    components: { Loading, Toolbox },
 
     data() {
       return {
-        // sprint
-        acitveSprintId: null,
-        sprints: [],
-
-        // sort
-        sortOptions: SORT_OPTIONS,
-        avtiveSortStrategy: SORT_OPTIONS[0].key,
-
-        showToolBox: true,
-        showStatusText: false,
-
-        // filter
-        onlyMe: false,
-
-        // filter - re
-        recentUpdatedDayOptions: RECENT_UPDATED_DAY_OPTIONS,
-        recentUpdatedDay: RECENT_UPDATED_DAY_OPTIONS[RECENT_UPDATED_DAY_OPTIONS.length - 1],
-
-        show: true,
         loading: true,
         columns: [],
         data: []
@@ -113,17 +46,9 @@
     },
 
     methods: {
-      setDisplayStatus(show) {
-        this.show = show
-      },
-
-      switchToolboxStatus() {
-        this.showToolBox = !this.showToolBox
-      },
-
       setRenderData() {
-        this.sprints = diagramModel.getSprints()
-        this.acitveSprintId = diagramModel.getActiveSprintId()
+        this.setSprints(diagramModel.getSprints())
+        this.setActiveSprintId(diagramModel.getActiveSprintId())
         this.columns = diagramModel.getColumns()
         this.data = diagramModel.getTableData()
       },
@@ -156,7 +81,12 @@
         requestAnimationFrame(() => {
           this.loading = false
         })
-      }
+      },
+
+      ...mapMutations([
+        'setActiveSprintId',
+        'setSprints'
+      ])
     },
 
     watch: {
@@ -208,9 +138,15 @@
 
     computed: {
       ...mapState([
+        'recentUpdatedDay',
+        'avtiveSortStrategy',
+        'acitveSprintId',
         'currentTeamId',
+        'showStatusText',
         'username',
-        'auth'
+        'auth',
+        'sprints',
+        'onlyMe'
       ])
     },
 
@@ -230,59 +166,6 @@
     font-size: 14px;
     font-family: Arial, sans-serif;
     padding-top: 20px;
-    .tool-box {
-      display: flex;
-      transition: height 0.2s;
-      margin-bottom: 10px;
-      .tool-box-switch {
-        transition: all 0.3s;
-        flex: 0 0 150px;
-        padding-top: 3px;
-        text-align: left;
-        cursor: pointer;
-        .tool-box-text {
-          padding-left: 5px;
-        }
-      }
-      .tool-collection {
-        flex: 1;
-        list-style: none;
-        text-align: left;
-        transition: all 0.3s;
-        overflow: hidden;
-        .tool-unit {
-          display: inline-block;
-          cursor: pointer;
-          margin-right: 35px;
-          padding-bottom: 10px;
-          span {
-            transition: color 0.3s;
-            color: #aaa;
-            margin-left: 5px;
-          }
-          &:last-child {
-            margin-right: 0;
-          }
-          &.tool-switch {
-            .ivu-switch-checked {
-              border-color: #f15c75;
-              background-color: #f15c75;
-            }
-            .ivu-switch {
-              &.ivu-switch-checked {
-                & ~ span {
-                  color: #f15c75;
-                }
-              }
-            }
-          }
-        }
-        .sort-by {
-          display: inline-block;
-        }
-      }
-    }
-
     .issue-id {
       a {
         font-weight: bold;
