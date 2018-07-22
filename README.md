@@ -1,12 +1,24 @@
 # JIRA
 
+* [Introduction](#introduction)
+* [Features](#features)
+* [Architecture](#architecture)
+* [Test Account](#test-account)
+* [Build Setup](#build-setup)
+  + [Install Dependencies](#install-dependencies)
+  + [FE only mode](#fe-only-mode)
+  + [Full Mode](#full-mode)
+  + [Test](#test)
+  + [Release](#release)
+* [Policy](#policy)
+
 ## Introduction
 
 [JIRA](https://www.atlassian.com/software/jira) Software is the project management tool for agile teams.
 
-JIRA itself provides a lot of valuable functions，e.g. **Scrum boards**, **Kanban boards**, **Agile reporting** etc. Surely, this project wasn't a duplicated wheel, It implements a small function that JIRA hasn't implemented at present, which I called `"State Report"`。
+JIRA itself provides a lot of valuable functions，e.g. **Scrum boards**, **Kanban boards**, **Agile reporting** etc. Surely, this project wasn't a duplicated wheel, It implements a small function that JIRA hasn't implemented at present, which I called `State Report`。
 
-`"State Report"` stems from the needs of international team cooperation. Suppose there are the following scenes: you are the lead of a multinational technical team. You and your technician are in City A, and your demand side (usually a PM or PD) is in City B, which is 8 time zones away from City A. then you will face a problem —— **How to tell the distant colleagues about the latest ticket's state change every day?**. If you use JIRA, you will find that JIRA does not have a page and records a state of ticket at different time points. And then, it's time for the project to come out.
+`State Report` stems from the needs of international team cooperation. Suppose there are the following scenes: you are the lead of a multinational technical team. You and your technician are in City A, and your demand side (usually a PM or PD) is in City B, which is 8 time zones away from City A. then you will face a problem —— **How to tell the distant colleagues about the latest ticket's state change every day?**. If you use JIRA, you will find that JIRA does not have a page and records a state of ticket at different time points. And then, it's time for the project to come out.
 
 ## Features
 
@@ -68,27 +80,25 @@ yarn dev # equivalent to "yarn dev:fe" & "yarn dev:api"
 yarn build
 
 # build for production and view the bundle analyzer report
-npm run build --report
+yarn build --report
 ```
 
 ### Test
 
 ```bash
 # run unit tests
-npm run unit
+yarn unit
 
 # run e2e tests
-npm run e2e
+yarn e2e
 
 # run all tests
-npm test
+yarn test
 ```
 
 ### Release
 
 > FYI, this is the most primitive CI way, it's recommended to use k8s/docker for continuous integration.
-
-- First time:
 
 ```bash
 yarn release  # Release first time
