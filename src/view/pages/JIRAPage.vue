@@ -32,6 +32,10 @@
       ref='loading'
       v-show="loginning"
     />
+
+    <Sidebar>
+      App
+    </Sidebar>
   </div>
 
 </template>
@@ -40,6 +44,7 @@
   import { mapState, mapMutations } from 'vuex'
   import Header from '../components/Header.vue'
   import Footer from '../components/Footer.vue'
+  import Sidebar from '../components/Sidebar.vue'
   import GradientBackground from '../components/GradientBackground'
   import LoginForm from '../components/LoginForm'
   import Loading from '../components/Loading'
@@ -55,6 +60,7 @@
       GradientBackground,
       LoginForm,
       Loading,
+      Sidebar,
       SprintTrendDiagram
     },
     methods: {

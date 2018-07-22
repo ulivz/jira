@@ -58,7 +58,7 @@
       return {
         isLogining: false,
 
-        loginForm: { username: 'vue', password: '123456' },
+        loginForm: { username: 'ulivz', password: '123456' },
 
         ruleInline: {
           username: [

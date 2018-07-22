@@ -1,21 +1,24 @@
 <template>
-  <div class="sidebar"
-       :class="[
-        show ? 'loading' : '',
-        extraClasses]"
+  <div
+    class="sidebar"
+    :class="{
+      'open': show
+    }"
   >
-    <div class="loader"></div>
+    <slot/>
   </div>
 </template>
 
 <script>
   export default {
+    name: 'Sidebar',
+
     props: {
       extraClasses: String
     },
 
     data() {
-      return { show: true }
+      return { show: false }
     },
 
     methods: {
@@ -27,64 +30,24 @@
 </script>
 
 <style lang="scss" scoped>
-  .preloader {
-    @extend %full-expand;
-    background-color: rgba(255, 255, 255, .2);
-    opacity: 0;
-    transition: opacity 0.5s;
-    z-index: -100;
-    &.loading {
-      opacity: 1;
-      z-index: 100;
+  .sidebar {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 260px;
+    background: #fff;
+    padding-top: .5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0, 1);
+    transform: translate3d(-105%, 0, 0);
+    backface-visibility: hidden;
+    &.open {
+      transform: translate3d(0, 0, 0);
     }
-  }
-
-  .loader {
-    display: block;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    width: 150px;
-    height: 150px;
-    margin: -75px 0 0 -75px;
-    border-radius: 50%;
-    border: 3px solid transparent;
-    border-top-color: #9370DB;
-    animation: spin 2s linear infinite;
-  }
-
-  .loader:before {
-    content: "";
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    right: 5px;
-    bottom: 5px;
-    border-radius: 50%;
-    border: 3px solid transparent;
-    border-top-color: #BA55D3;
-    animation: spin 3s linear infinite;
-  }
-
-  .loader:after {
-    content: "";
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    right: 15px;
-    bottom: 15px;
-    border-radius: 50%;
-    border: 3px solid transparent;
-    border-top-color: #FF00FF;
-    animation: spin 1.5s linear infinite;
-  }
-
-  @keyframes spin {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
+    @include scope-breakpoint($desktop) {
+      display: none;
     }
   }
 </style>
