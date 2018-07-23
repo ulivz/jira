@@ -1,20 +1,19 @@
 <template>
   <ul class="tool-box">
     <li class="tool-unit tool-switch status-switch">
-      <i-Switch @on-change="setShowStatusText"/>
+      <i-Switch v-model="_showStatusText"/>
       <span>Show Status</span>
     </li>
 
     <li class="tool-unit tool-switch only-me">
-      <i-Switch @on-change="setOnlyMe"/>
+      <i-Switch v-model="_onlyMe"/>
       <span>Only Me</span>
     </li>
 
     <li class="tool-unit">
       <span>Sprint: </span>
       <Select
-        @on-change="setActiveSprintId"
-        :value="acitveSprintId"
+        v-model="_activeSprintId"
         :style="{ 'width': '200px' }"
         placeholder="Select a sprint"
       >
@@ -30,8 +29,7 @@
     <li class="tool-unit sort-by">
       <span>Sort By: </span>
       <Select
-        @on-change="setActiveSortStrategy"
-        :value="avtiveSortStrategy"
+        v-model="_activeSortStrategy"
         :style="{ 'width': '150px' }"
         placeholder="Select a sort strategy"
       >
@@ -47,8 +45,7 @@
     <li class="tool-unit recent-update">
       <span>Recently updated(day(s)): </span>
       <RadioGroup
-        :value="recentUpdatedDay"
-        @on-change="setRecentUpdatedDay"
+        v-model="_recentUpdatedDay"
         type="button"
       >
         <Radio
@@ -62,30 +59,56 @@
 </template>
 
 <script>
-  import { mapState, mapMutations } from 'vuex'
+  import { mapState } from 'vuex'
 
   export default {
     name: 'Toolbox',
 
     computed: {
+      _showStatusText: {
+        get() {
+          return this.$store.state.showStatusText
+        },
+        set(value) {
+          this.$store.commit('setShowStatusText', value)
+        }
+      },
+      _onlyMe: {
+        get() {
+          return this.$store.state.onlyMe
+        },
+        set(value) {
+          this.$store.commit('setOnlyMe', value)
+        }
+      },
+      _activeSprintId: {
+        get() {
+          return this.$store.state.activeSprintId
+        },
+        set(value) {
+          this.$store.commit('setActiveSprintId', value)
+        }
+      },
+      _activeSortStrategy: {
+        get() {
+          return this.$store.state.avtiveSortStrategy
+        },
+        set(value) {
+          this.$store.commit('setActiveSortStrategy', value)
+        }
+      },
+      _recentUpdatedDay: {
+        get() {
+          return this.$store.state.recentUpdatedDay
+        },
+        set(value) {
+          this.$store.commit('setRecentUpdatedDay', value)
+        }
+      },
       ...mapState([
         'sprints',
         'sortOptions',
-        'showStatusText',
-        'acitveSprintId',
-        'recentUpdatedDay',
-        'avtiveSortStrategy',
         'recentUpdatedDayOptions'
-      ])
-    },
-
-    methods: {
-      ...mapMutations([
-        'setOnlyMe',
-        'setActiveSprintId',
-        'setShowStatusText',
-        'setRecentUpdatedDay',
-        'setActiveSortStrategy'
       ])
     }
   }

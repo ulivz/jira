@@ -44,7 +44,7 @@ export const state = {
   currentTeamId: 1066,
 
   // Current active sprint id
-  acitveSprintId: null,
+  activeSprintId: null,
 
   // Current available sprints list
   sprints: [],
@@ -106,7 +106,7 @@ export const mutations = {
   },
 
   setActiveSprintId(state, id) {
-    state.acitveSprintId = id
+    state.activeSprintId = id
   },
 
   setShowStatusText(state, isDisplay) {

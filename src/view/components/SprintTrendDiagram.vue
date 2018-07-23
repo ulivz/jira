@@ -131,7 +131,7 @@
         }])
       },
 
-      acitveSprintId(sprintId) {
+      activeSprintId(sprintId) {
         this.handleSprintIdChange(sprintId)
       },
 
@@ -147,7 +147,7 @@
     computed: {
       ...mapState([
         'avtiveSortStrategy',
-        'acitveSprintId',
+        'activeSprintId',
         'auth',
         'currentTeamId',
         'onlyMe',
@@ -168,7 +168,7 @@
 
       deviceChange(() => {
         setTimeout(() => {
-          this.handleSprintIdChange(this.acitveSprintId)
+          this.handleSprintIdChange(this.activeSprintId)
         })
       })
     }
