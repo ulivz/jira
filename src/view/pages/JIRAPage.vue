@@ -157,4 +157,12 @@
       }
     }
   }
+
+  .sidebar {
+    .tool-box {
+      .tool-unit {
+        margin-bottom: 20px;
+      }
+    }
+  }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="header fadeInDown">
-
+    <Icon type="android-menu"></Icon>
     <div class="header-left">
       <i class="icon iconfont icon-Jira"></i>
       <a target="_blank"
@@ -9,25 +9,13 @@
       </a>
     </div>
 
-    <ul class="header-right">
-      <li class="team-switch">
-        <Select
-          @on-change="switchTeam"
-          :placeholder="currentTeam.name"
-        >
-          <Option
-            v-for="team in teams"
-            :value="team.id"
-            :key="team.id"
-          >
-            {{ team.name }}
-          </Option>
-        </Select>
-      </li>
+    <div class="header-right">
 
-      <li class="welcome">Hello, @{{username}}</li>
+      <TeamSelect/>
 
-      <li class="logout">
+      <div class="welcome">Hello, @{{username}}</div>
+
+      <div class="logout">
         <Button
           type="dashed"
           @click="openLogoutConfirmModal"
@@ -43,16 +31,19 @@
         >
           <p>Are you sure you want to log out?</p>
         </Modal>
-      </li>
-    </ul>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
   import { mapState, mapMutations } from 'vuex'
+  import TeamSelect from './TeamSelect.vue'
 
   export default {
     name: 'Header',
+
+    components: { TeamSelect },
 
     data() {
       return {
@@ -61,17 +52,7 @@
       }
     },
 
-    computed: {
-      currentTeam() {
-        return this.teams.find(team => team.id === this.currentTeamId)
-      },
-
-      ...mapState([
-        'teams',
-        'currentTeamId',
-        'username'
-      ])
-    },
+    computed: mapState(['username']),
 
     methods: {
       openLogoutConfirmModal() {
@@ -83,7 +64,6 @@
       },
 
       switchTeam(id) {
-        this.$Message.info('You have switched to ' + this.currentTeam.name)
         this.changeTeam(id)
       },
 
@@ -136,19 +116,6 @@
       & > li {
         display: inline-block;
         margin-left: 20px;
-      }
-      .team-switch {
-        a {
-          color: #fff;
-        }
-        .ivu-dropdown-menu {
-          li {
-            text-align: center;
-          }
-        }
-        .ivu-select-placeholder {
-          color: #495060 !important;
-        }
       }
       .welcome {
       }

@@ -5,6 +5,11 @@
       'open': show
     }"
   >
+    <div class="sidebar-header">
+      <Icon
+        @click="setDisplayStatus(false)"
+        type="ios-close-empty"/>
+    </div>
     <slot/>
   </div>
 </template>
@@ -38,13 +43,20 @@
     bottom: 0;
     width: 260px;
     background: #fff;
-    padding-top: .5rem;
+    padding: 10px 20px 20px 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.4s cubic-bezier(0.4, 0, 0, 1);
     transform: translate3d(-105%, 0, 0);
     backface-visibility: hidden;
     &.open {
       transform: translate3d(0, 0, 0);
+    }
+    .sidebar-header {
+      text-align: right;
+      .ivu-icon-ios-close-empty {
+        font-size: 50px;
+        color: #aaa;
+      }
     }
     @include scope-breakpoint($tablet) {
       display: none;

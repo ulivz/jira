@@ -123,5 +123,6 @@ export const mutations = {
 export const getters = {
   defaultTeam(state) {
     return state.teams[0]
-  }
+  },
+  getTeamNameById: state => teamId => state.teams.find(team => team.id === teamId).name
 }
