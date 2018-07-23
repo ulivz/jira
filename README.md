@@ -23,11 +23,12 @@ JIRA itself provides a lot of valuable functions，e.g. **Scrum boards**, **Kanb
 ## Features
 
 - Daily ticket's state report based on sprint
+- Responsive UI
 - Support multiple teams
 - Login Integration
 - Built-in filters and sorters 
-- Extensible filter
-- Extensible sorter
+- Extensible filters
+- Extensible sorters
 
 ## Architecture
 
