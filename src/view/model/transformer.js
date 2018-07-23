@@ -1,6 +1,10 @@
 /* eslint-disable */
 
-import DateUtil from '../../utils/DateUtil'
+import {
+  getIntervalsDays,
+  isWeekend,
+  CrossDate
+} from '../../utils/DateUtil'
 
 const ISSUE_BROWSR_BASE_URL = 'https://jira.xxx.com/browse/'
 const NOW = new Date().getTime()
@@ -19,7 +23,7 @@ export function getStatus(histories, day) {
     return 'Open'
   }
   if (histories.length === 1) {
-    let stamp = new Date(histories[0].time).getTime()
+    let stamp = CrossDate(histories[0].time).getTime()
     if (day < stamp) {
       return histories[0].change.from
     } else {
@@ -29,8 +33,8 @@ export function getStatus(histories, day) {
   for (let i = 0, l = histories.length; i < l - 1; i++) {
     let lh = histories[i]
     let rh = histories[i + 1]
-    let lhStamp = new Date(lh.time).getTime()
-    let rhStamp = new Date(rh.time).getTime()
+    let lhStamp = CrossDate(lh.time).getTime()
+    let rhStamp = CrossDate(rh.time).getTime()
     if (day < lhStamp) {
       return lh.change.from
     } else if (day > lhStamp && day < rhStamp) {
@@ -83,10 +87,12 @@ export function transformSprintData(sprint, {
 } = {}) {
   if (!sprint.days) {
     let { startDate, endDate } = sprint;
+    startDate = startDate.replace(/\//g, '-')
+    endDate = endDate.replace(/\//g, '-')
 
     // To set startDate, endDate to be the same hour/minute/second/ms so that status on last day
     // will always use the latest one.
-    let now = new Date(NOW), start = new Date(startDate), end = new Date(endDate);
+    let now = new Date(NOW), start = CrossDate(startDate), end = CrossDate(endDate);
     start.setHours(now.getHours());
     start.setMinutes(now.getMinutes());
     start.setSeconds(now.getSeconds());
@@ -99,12 +105,12 @@ export function transformSprintData(sprint, {
     endDate = end.getTime();
 
     // Extend the end date to today
-    if (sprint.state === 'ACTIVE' && NOW > new Date(sprint.endDate).getTime()) {
+    if (sprint.state === 'ACTIVE' && NOW > CrossDate(endDate).getTime()) {
       endDate = NOW
     }
 
-    sprint.days = DateUtil.getIntervalsDays(startDate, endDate)
-      .filter(day => !DateUtil.isWeekend(day.key))
+    sprint.days = getIntervalsDays(startDate, endDate)
+      .filter(day => !isWeekend(day.key))
   }
   sprint.columns = [
     {
@@ -121,7 +127,9 @@ export function transformSprintData(sprint, {
           }
         }, params.row.id)
       }
-    },      // id
+    },
+
+    // issue type
     {
       title: '',
       key: 'type',
@@ -137,7 +145,9 @@ export function transformSprintData(sprint, {
           }
         });
       }
-    },        // type
+    },
+
+    // points
     {
       title: '',
       key: 'points',
@@ -151,7 +161,9 @@ export function transformSprintData(sprint, {
           }
         }, params.row.points);
       }
-    },        // point
+    },
+
+    // assignee
     {
       title: 'Dev',
       key: 'assignee',
@@ -167,7 +179,9 @@ export function transformSprintData(sprint, {
           }
         })
       }
-    },        // assignee
+    },
+
+    // QA
     {
       title: 'QA',
       key: 'qa',
@@ -186,14 +200,18 @@ export function transformSprintData(sprint, {
         }
         return h('span', '-')
       }
-    },        // assignee
+    },
+
+    // summary
     {
       title: 'Summary',
       key: 'summary',
       className: 'issue-summary',
       fixed: isMobile ? null : 'left',
       width: isMobile ? 300 : 400,
-    }, // summary
+    },
+
+    // timeline
     ...sprint.days.map(day => {
       day.width = isMobile ? 80 : 100
       day.className = 'jira-status-column'
