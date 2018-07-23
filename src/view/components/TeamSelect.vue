@@ -43,6 +43,7 @@
 
 <style lang="scss" scoped>
   .team-select {
+    text-align: center;
     a {
       color: #fff;
     }

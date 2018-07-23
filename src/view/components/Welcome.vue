@@ -16,7 +16,8 @@
 
 <style lang="scss" scoped>
   .welcome {
-
+    color: white;
+    text-align: center;
   }
 </style>
 

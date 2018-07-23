@@ -52,6 +52,7 @@
 
 <style lang="scss" scoped>
   .logout {
+    text-align: center;
     .ivu-btn-dashed {
       color: #fff;
       &:hover {

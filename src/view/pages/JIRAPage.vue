@@ -125,7 +125,11 @@
     overflow: scroll;
     -webkit-overflow-scrolling: touch;
     &.logged {
-      top: 80px;
+      top: $desktop-header-height;
+      @include scope-breakpoint($mobile) {
+        top: $mobile-header-height;
+      }
+
     }
     @include scope-breakpoint($mobile) {
       &.input-focused {

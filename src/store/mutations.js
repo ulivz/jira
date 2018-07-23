@@ -34,6 +34,8 @@ export const state = {
     }
   ],
 
+  showSideBar: false,
+
   // Current active team id
   currentTeamId: 1066,
 
@@ -117,6 +119,10 @@ export const mutations = {
 
   setRecentUpdatedDay(state, recentUpdatedDay) {
     state.recentUpdatedDay = recentUpdatedDay
+  },
+
+  setShowSideBar(state, showSideBar) {
+    state.showSideBar = showSideBar
   }
 }
 

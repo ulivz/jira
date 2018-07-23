@@ -2,12 +2,12 @@
   <div
     class="sidebar"
     :class="{
-      'open': show
+      'open': showSideBar
     }"
   >
     <div class="sidebar-header">
       <Icon
-        @click="setDisplayStatus(false)"
+        @click="setShowSideBar(!showSideBar)"
         type="ios-close-empty"/>
     </div>
     <slot/>
@@ -15,6 +15,8 @@
 </template>
 
 <script>
+  import { mapState, mapMutations } from 'vuex'
+
   export default {
     name: 'Sidebar',
 
@@ -22,15 +24,9 @@
       extraClasses: String
     },
 
-    data() {
-      return { show: true }
-    },
+    computed: mapState(['showSideBar']),
 
-    methods: {
-      setDisplayStatus(show) {
-        this.show = show
-      }
-    }
+    methods: mapMutations(['setShowSideBar'])
   }
 </script>
 
