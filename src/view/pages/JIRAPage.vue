@@ -37,6 +37,13 @@
       <TeamSelect/>
       <Toolbox/>
     </Sidebar>
+
+    <div
+      class="sidebar-mask"
+      @click="setShowSideBar(false)"
+      :class="{ 'sidebar-open' : showSideBar }"
+    ></div>
+
   </div>
 
 </template>
@@ -70,25 +77,27 @@
     },
     methods: {
       ...mapMutations([
+        'changeTeam',
         'loginStart',
         'loginSuccess',
         'loginFail',
         'logout',
         'networkChange',
-        'changeTeam'
+        'setShowSideBar'
       ])
     },
 
     computed: {
       ...mapState([
-        'inputFocused',
+        'auth',
         'blurInput',
+        'currentTeamId',
+        'inputFocused',
         'loggedIn',
         'loginning',
         'networkAvailable',
-        'teams',
-        'currentTeamId',
-        'auth'
+        'showSideBar',
+        'teams'
       ])
     },
 
@@ -176,6 +185,21 @@
       .tool-unit {
         margin-bottom: 20px;
       }
+    }
+  }
+
+  .sidebar-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    transition: all ease .5s;
+    background-color: transparent;
+    &.sidebar-open {
+      z-index: 9;
+      background-color: rgba(0, 0, 0, .7);
     }
   }
 </style>
