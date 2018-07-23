@@ -97,11 +97,11 @@
             font-size: 50px;
             position: relative;
             top: -5px;
+            color: #fff;
             @include scope-breakpoint($mobile) {
               font-size: 30px;
               top: -2px;
             }
-            color: #fff;
             transition: all 0.5s;
             &:hover {
               background-image: linear-gradient(90deg,
@@ -138,6 +138,9 @@
             border-color: #f15c75;
             background-color: #f15c75;
           }
+        }
+        @include scope-breakpoint($mobile) {
+          display: none;
         }
       }
       & > .team-select {

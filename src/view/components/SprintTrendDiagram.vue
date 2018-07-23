@@ -28,6 +28,7 @@
 <script>
   import { mapState, mapMutations } from 'vuex'
   import { onlyMe, recentUpdate } from '../model/filters'
+  import { deviceChange } from '../../utils/MediaUtil'
   import { sortByStatus, sortByDev, sortByQA } from '../model/sort'
   import { nextTick } from '../../utils/nextTick'
   import SprintTrendDiagramModel from '../model/SprintTrendDiagramModel'
@@ -67,6 +68,17 @@
           .catch(error => {
             console.error(error)
             this.$Message.error('Server seems to be wrong. 😑')
+          })
+      },
+
+      handleSprintIdChange(sprintId) {
+        this.loading = true
+        diagramModel.switch(this.currentTeamId, sprintId)
+          .then(() => {
+            requestAnimationFrame(() => {
+              this.setRenderData()
+              this.loading = false
+            })
           })
       },
 
@@ -120,14 +132,7 @@
       },
 
       acitveSprintId(sprintId) {
-        this.loading = true
-        diagramModel.switch(this.currentTeamId, sprintId)
-          .then(() => {
-            requestAnimationFrame(() => {
-              this.setRenderData()
-              this.loading = false
-            })
-          })
+        this.handleSprintIdChange(sprintId)
       },
 
       avtiveSortStrategy(val) {
@@ -160,6 +165,12 @@
           this.switchTeam(this.currentTeamId)
         })
       }, 1000)
+
+      deviceChange(() => {
+        setTimeout(() => {
+          this.handleSprintIdChange(this.acitveSprintId)
+        })
+      })
     }
   }
 </script>

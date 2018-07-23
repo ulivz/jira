@@ -1,6 +1,7 @@
 /* eslint-disable */
 
 import DateUtil from '../../utils/DateUtil'
+
 const ISSUE_BROWSR_BASE_URL = 'https://jira.xxx.com/browse/'
 const NOW = new Date().getTime()
 
@@ -10,7 +11,7 @@ const NOW = new Date().getTime()
  * @param day
  * @returns {*}
  */
-export function getStatus (histories, day) {
+export function getStatus(histories, day) {
   if (day > NOW) {
     return 'Future'
   }
@@ -49,7 +50,7 @@ export function getStatus (histories, day) {
  * @param days
  * @returns {{}}
  */
-function getStausMap (histories, days) {
+function getStausMap(histories, days) {
   let statusMap = {}
   days.forEach(day => {
     statusMap[day.key] = getStatus(histories, day.key)
@@ -77,7 +78,9 @@ export const STATUS_SEQUENCE_MAP = {
   "Duplicate": 14
 }
 
-export function transformSprintData (sprint) {
+export function transformSprintData(sprint, {
+  isMobile = false
+} = {}) {
   if (!sprint.days) {
     let { startDate, endDate } = sprint;
 
@@ -123,7 +126,7 @@ export function transformSprintData (sprint) {
       title: '',
       key: 'type',
       className: 'issue-type',
-      fixed: 'left',
+      fixed: isMobile ? null: 'left',
       width: 50,
       render: (h, params) => {
         return h('img', {
@@ -139,7 +142,7 @@ export function transformSprintData (sprint) {
       title: '',
       key: 'points',
       className: 'issue-points',
-      fixed: 'left',
+      fixed: isMobile ? null: 'left',
       width: 50,
       render: (h, params) => {
         return h('div', {
@@ -153,7 +156,7 @@ export function transformSprintData (sprint) {
       title: 'Dev',
       key: 'assignee',
       className: 'issue-assignee',
-      fixed: 'left',
+      fixed: isMobile ? null: 'left',
       width: 54,
       render: (h, params) => {
         return h('img', {
@@ -169,7 +172,7 @@ export function transformSprintData (sprint) {
       title: 'QA',
       key: 'qa',
       className: 'issue-qa',
-      fixed: 'left',
+      fixed: isMobile ? null: 'left',
       width: 54,
       render: (h, params) => {
         return h('img', {
@@ -185,7 +188,7 @@ export function transformSprintData (sprint) {
       title: 'Summary',
       key: 'summary',
       className: 'issue-summary',
-      fixed: 'left',
+      fixed: isMobile ? null: 'left',
       width: 400,
     }, // summary
     ...sprint.days.map(day => {

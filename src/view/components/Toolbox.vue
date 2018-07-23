@@ -1,7 +1,7 @@
 <template>
   <ul class="tool-box">
     <li class="tool-unit tool-switch status-switch">
-      <i-Switch @on-change="setStatusTextDisplay"/>
+      <i-Switch @on-change="setShowStatusText"/>
       <span>Show Status</span>
     </li>
 
@@ -83,7 +83,7 @@
       ...mapMutations([
         'setOnlyMe',
         'setActiveSprintId',
-        'setStatusTextDisplay',
+        'setShowStatusText',
         'setRecentUpdatedDay',
         'setActiveSortStrategy'
       ])

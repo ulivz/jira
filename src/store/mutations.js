@@ -50,7 +50,7 @@ export const state = {
   sprints: [],
 
   // Whether to show status text
-  showStatusText: false,
+  showStatusText: true,
 
   // Filters
   onlyMe: false,
@@ -109,7 +109,7 @@ export const mutations = {
     state.acitveSprintId = id
   },
 
-  setStatusTextDisplay(state, isDisplay) {
+  setShowStatusText(state, isDisplay) {
     state.showStatusText = isDisplay
   },
 

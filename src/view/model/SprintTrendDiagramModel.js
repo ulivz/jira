@@ -2,6 +2,7 @@
 
 import { state } from '../../store/mutations'
 import { getIssue, getSprint } from '../../fetch/jira'
+import { isMobile } from '../../utils/MediaUtil'
 import { transformSprintData } from './transformer'
 import MOCK_SPRINT from './mockdata.json'
 
@@ -21,7 +22,7 @@ export default class SprintTrendDiagramModel {
   }
 
   static getPlaceholderData() {
-    return transformSprintData(MOCK_SPRINT)
+    return transformSprintData(MOCK_SPRINT, { isMobile: isMobile() })
   }
 
   loadSprintIssues(teamId, sprintId) {
@@ -65,7 +66,7 @@ export default class SprintTrendDiagramModel {
         this.handleSelectSprint(sprintId)
         return this.loadSprintIssues(teamId, sprintId)
       })
-      .then(() => transformSprintData(this.activeTeam.activeSprint))
+      .then(() => transformSprintData(this.activeTeam.activeSprint, { isMobile: isMobile() }))
   }
 
   getTableData({ filterList, sortList } = {}) {
