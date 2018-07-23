@@ -130,6 +130,7 @@
       display: flex;
       justify-content: flex-end;
       align-items: center;
+      padding-right: 40px;
       & > .show-tool-box {
         color: white;
         margin-right: 20px;

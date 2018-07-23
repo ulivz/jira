@@ -6,7 +6,6 @@
 * [API](#api)
 * [Test Account](#test-account)
 * [Build Setup](#build-setup)
-  + [Install Dependencies](#install-dependencies)
   + [FE only mode](#fe-only-mode)
   + [Full Mode](#full-mode)
   + [Test](#test)
@@ -33,12 +32,12 @@ JIRA itself provides a lot of valuable functions，e.g. **Scrum boards**, **Kanb
 
 ## Architecture
 
-This project uses a standard front-and-backup-end-separation structure：
+This project leverages a standard **front-and-backup-end-separation** structure：
 
-- FE: `Vue.js` / `vuex`.
-- BFF: `Express`.
-- Cache：`LRU`.
-- CI: `pm2`.
+- FE: `Vue.js` / `vuex`
+- BFF: `Express`
+- Cache：`LRU-Cache`
+- CI: `pm2`
 
 ## API
 
