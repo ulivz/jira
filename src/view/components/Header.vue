@@ -82,7 +82,6 @@
         &.menu {
           .ivu-icon-android-menu {
             font-size: 30px;
-            color: rgba(255, 255, 255, .5);
           }
           @include scope-breakpoint($desktop) {
             display: none;
@@ -121,6 +120,7 @@
           color: rgba(255, 255, 255, .5);
           @include scope-breakpoint($mobile) {
             top: 5px;
+            display: none;
           }
         }
       }
@@ -157,6 +157,7 @@
         @include scope-breakpoint($mobile) {
           margin-right: 0px;
           text-align: right;
+          color: rgba(255, 255, 255, .5);
         }
       }
       & > .logout {
