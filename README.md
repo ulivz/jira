@@ -1,5 +1,3 @@
-# JIRA
-
 <p align="center">
   <a href="https://jira.ulivz.com/" target="_blank">
     <img width="500" src="https://raw.githubusercontent.com/ulivz/jira/master/static/assets/images/jira.jpg" alt="logo">
