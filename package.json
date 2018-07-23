@@ -1,7 +1,7 @@
 {
   "name": "jira",
   "version": "2.0.0-beta.1",
-  "description": "JIRA",
+  "description": "Daily ticket state dashboard for JIRA",
   "author": "ULIVZ <chl814@foxmail.com>",
   "private": true,
   "scripts": {
