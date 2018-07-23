@@ -17,6 +17,11 @@
     </div>
 
     <div class="header-right">
+      <Checkbox
+        class="show-tool-box"
+        v-model="_showToolbox"
+      >Tool Box
+      </Checkbox>
       <TeamSelect/>
       <Welcome/>
       <Logout/>
@@ -25,7 +30,7 @@
 </template>
 
 <script>
-  import { mapState, mapMutations } from 'vuex'
+  import { mapMutations } from 'vuex'
   import TeamSelect from './TeamSelect.vue'
   import Welcome from './Welcome.vue'
   import Logout from './Logout.vue'
@@ -41,13 +46,21 @@
       }
     },
 
-    computed: mapState(['showSideBar']),
+    computed: {
+      _showToolbox: {
+        get() {
+          return this.$store.state.showToolbox
+        },
+        set(value) {
+          this.$store.commit('setShowToolbox', value)
+        }
+      }
+    },
 
     methods: mapMutations(['setShowSideBar'])
   }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
   .header {
     @extend %responsive-wrapper;
@@ -117,6 +130,16 @@
       display: flex;
       justify-content: flex-end;
       align-items: center;
+      & > .show-tool-box {
+        color: white;
+        margin-right: 20px;
+        .ivu-checkbox.ivu-checkbox-checked {
+          .ivu-checkbox-inner {
+            border-color: #f15c75;
+            background-color: #f15c75;
+          }
+        }
+      }
       & > .team-select {
         flex: 0 0 100px;
         margin-right: 10px;

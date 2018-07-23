@@ -34,7 +34,11 @@ export const state = {
     }
   ],
 
+  // Sidebar at mobile
   showSideBar: false,
+
+  // Toolbox at desktop
+  showToolbox: true,
 
   // Current active team id
   currentTeamId: 1066,
@@ -123,6 +127,10 @@ export const mutations = {
 
   setShowSideBar(state, showSideBar) {
     state.showSideBar = showSideBar
+  },
+
+  setShowToolbox(state, showToolbox) {
+    state.showToolbox = showToolbox
   }
 }
 

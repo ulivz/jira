@@ -14,7 +14,8 @@
     name: 'DropdownTransition',
 
     methods: {
-      setHeight(items) {
+      setHeight (items) {
+        console.log(items.scrollHeight)
         // explicitly set height so that it can be transitioned
         items.style.height = items.scrollHeight + 'px'
       },

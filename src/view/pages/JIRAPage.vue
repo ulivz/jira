@@ -22,7 +22,6 @@
       <SprintTrendDiagram
         ref='trendDiagram'
         v-if="loggedIn && networkAvailable"
-        :teams="teams"
       />
 
       <JFooter v-show="loggedIn"/>

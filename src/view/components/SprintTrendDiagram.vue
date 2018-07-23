@@ -6,16 +6,8 @@
         'hide-text': !showStatusText
         }">
 
-    <div
-      class='tool-box-switch'
-      @click="setDisplayToolbox(!displayToolbox)"
-    >
-      <Icon type="navicon"></Icon>
-      <span class="tool-box-text">Advanced</span>
-    </div>
-
     <DropdownTransition>
-      <Toolbox v-if="displayToolbox"/>
+      <Toolbox v-show="showToolbox"/>
     </DropdownTransition>
 
     <Table
@@ -50,7 +42,6 @@
 
     data() {
       return {
-        displayToolbox: true,
         loading: true,
         columns: [],
         data: []
@@ -93,10 +84,6 @@
         requestAnimationFrame(() => {
           this.loading = false
         })
-      },
-
-      setDisplayToolbox(display) {
-        this.displayToolbox = display
       },
 
       ...mapMutations([
@@ -154,15 +141,16 @@
 
     computed: {
       ...mapState([
-        'recentUpdatedDay',
         'avtiveSortStrategy',
         'acitveSprintId',
-        'currentTeamId',
-        'showStatusText',
-        'username',
         'auth',
+        'currentTeamId',
+        'onlyMe',
+        'recentUpdatedDay',
+        'showStatusText',
+        'showToolbox',
         'sprints',
-        'onlyMe'
+        'username'
       ])
     },
 
