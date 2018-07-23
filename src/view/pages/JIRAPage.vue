@@ -1,5 +1,9 @@
 <template>
-  <div class="page login-page">
+  <div
+    class="page login-page"
+    @touchstart="onTouchStart"
+    @touchend="onTouchEnd"
+  >
     <GradientBackground/>
     <JHeader v-show="loggedIn"/>
     <div
@@ -75,7 +79,28 @@
       Toolbox,
       TeamSelect
     },
+
     methods: {
+      // side swipe
+      onTouchStart(e) {
+        this.touchStart = {
+          x: e.changedTouches[0].clientX,
+          y: e.changedTouches[0].clientY
+        }
+      },
+
+      onTouchEnd(e) {
+        const dx = e.changedTouches[0].clientX - this.touchStart.x
+        const dy = e.changedTouches[0].clientY - this.touchStart.y
+        if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 40) {
+          if (dx > 0 && this.touchStart.x <= 80) {
+            this.setShowSideBar(true)
+          } else {
+            this.setShowSideBar(false)
+          }
+        }
+      },
+
       ...mapMutations([
         'changeTeam',
         'loginStart',
