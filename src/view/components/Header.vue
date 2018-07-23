@@ -82,6 +82,7 @@
         &.menu {
           .ivu-icon-android-menu {
             font-size: 30px;
+            color: white;
           }
           @include scope-breakpoint($desktop) {
             display: none;

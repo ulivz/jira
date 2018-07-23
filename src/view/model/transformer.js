@@ -126,7 +126,7 @@ export function transformSprintData(sprint, {
       title: '',
       key: 'type',
       className: 'issue-type',
-      fixed: isMobile ? null: 'left',
+      fixed: isMobile ? null : 'left',
       width: 50,
       render: (h, params) => {
         return h('img', {
@@ -142,7 +142,7 @@ export function transformSprintData(sprint, {
       title: '',
       key: 'points',
       className: 'issue-points',
-      fixed: isMobile ? null: 'left',
+      fixed: isMobile ? null : 'left',
       width: 50,
       render: (h, params) => {
         return h('div', {
@@ -156,7 +156,7 @@ export function transformSprintData(sprint, {
       title: 'Dev',
       key: 'assignee',
       className: 'issue-assignee',
-      fixed: isMobile ? null: 'left',
+      fixed: isMobile ? null : 'left',
       width: 54,
       render: (h, params) => {
         return h('img', {
@@ -165,30 +165,33 @@ export function transformSprintData(sprint, {
             alt: params.row.assignee.displayName || '',
             title: params.row.assignee.displayName || ''
           }
-        });
+        })
       }
     },        // assignee
     {
       title: 'QA',
       key: 'qa',
       className: 'issue-qa',
-      fixed: isMobile ? null: 'left',
+      fixed: isMobile ? null : 'left',
       width: 54,
       render: (h, params) => {
-        return h('img', {
-          domProps: {
-            src: params.row.qa.avatarUrl || '',
-            alt: params.row.qa.displayName || '',
-            title: params.row.qa.displayName || ''
-          }
-        });
+        if (params.row.qa && params.row.qa.displayName) {
+          return h('img', {
+            domProps: {
+              src: params.row.qa.avatarUrl || '',
+              alt: params.row.qa.displayName || '',
+              title: params.row.qa.displayName || ''
+            }
+          })
+        }
+        return h('span', '-')
       }
     },        // assignee
     {
       title: 'Summary',
       key: 'summary',
       className: 'issue-summary',
-      fixed: isMobile ? null: 'left',
+      fixed: isMobile ? null : 'left',
       width: 400,
     }, // summary
     ...sprint.days.map(day => {

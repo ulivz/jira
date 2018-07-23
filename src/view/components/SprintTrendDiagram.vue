@@ -220,6 +220,7 @@
       }
     }
     .issue-assignee, .issue-qa {
+      text-align: center;
       .ivu-table-cell {
         padding: 0 5px;
       }
