@@ -3,6 +3,7 @@
 * [Introduction](#introduction)
 * [Features](#features)
 * [Architecture](#architecture)
+* [API](#api)
 * [Test Account](#test-account)
 * [Build Setup](#build-setup)
   + [Install Dependencies](#install-dependencies)
@@ -38,6 +39,21 @@ This project uses a standard front-and-backup-end-separation structure：
 - BFF: `Express`.
 - Cache：`LRU`.
 - CI: `pm2`.
+
+## API
+
+This project depends on following JIRA's API, which are configured in [config.json](https://github.com/ulivz/jira/blob/master/api/config/config.json).
+
+API Name | API URL
+---|---
+login | `auth/1/session`
+issue | `api/2/issue/{id}`
+issueWithChangelog | `api/2/issue/{id}?expand=changelog`
+user | `api/2/user?username={name}`
+backlogUrl | `greenhopper/1.0/xboard/plan/backlog/data.json`
+sprintList | `greenhopper/1.0/sprintquery/{teamId}`
+sprintIssues | `greenhopper/1.0/rapid/charts/scopechangeburndownchart.json`
+sprintReport | `greenhopper/1.0/rapid/charts/sprintreport?rapidViewId={teamId}&sprintId={sprintId}`
 
 ## Test Account
 
