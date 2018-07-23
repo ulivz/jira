@@ -32,11 +32,11 @@ JIRA itself provides a lot of valuable functions，e.g. **Scrum boards**, **Kanb
 
 ## Architecture
 
-This project leverages a standard **front-and-backup-end-separation** structure：
+This project follow the standard **separation-of-front-and-backup-end** structure, and uses `Node.js` as the middle layer(BFF).
 
-- FE: `Vue.js` / `vuex`
+- FE: `Vue.js`, `vuex`, `iview`
 - BFF: `Express`
-- Cache：`LRU-Cache`
+- API Cache：`LRU-Cache`
 - CI: `pm2`
 
 ## API
