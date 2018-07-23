@@ -203,9 +203,15 @@
     }
 
     .issue-id {
+      .ivu-table-cell {
+        padding: 0 10px;
+      }
       a {
         font-weight: bold;
         color: #3b73af;
+        @include scope-breakpoint($mobile) {
+          font-size: 12px;
+        }
       }
     }
     .issue-issue-type {
