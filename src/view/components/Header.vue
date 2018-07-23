@@ -10,67 +10,27 @@
     </div>
 
     <div class="header-right">
-
       <TeamSelect/>
-
-      <div class="welcome">Hello, @{{username}}</div>
-
-      <div class="logout">
-        <Button
-          type="dashed"
-          @click="openLogoutConfirmModal"
-        >
-          log out
-        </Button>
-        <Modal
-          v-model="logoutConfirmModal"
-          @on-ok="logout"
-          ok-text="OK"
-          cancel-text="Cancel"
-          @on-cancel="logoutCancel"
-        >
-          <p>Are you sure you want to log out?</p>
-        </Modal>
-      </div>
+      <Welcome/>
+      <Logout/>
     </div>
   </div>
 </template>
 
 <script>
-  import { mapState, mapMutations } from 'vuex'
   import TeamSelect from './TeamSelect.vue'
+  import Welcome from './Welcome.vue'
+  import Logout from './Logout.vue'
 
   export default {
     name: 'Header',
 
-    components: { TeamSelect },
+    components: { TeamSelect, Welcome, Logout },
 
     data() {
       return {
-        logoutConfirmModal: false,
         version: process.env.APP_VERSION
       }
-    },
-
-    computed: mapState(['username']),
-
-    methods: {
-      openLogoutConfirmModal() {
-        this.logoutConfirmModal = true
-      },
-
-      logoutCancel() {
-        this.$Message.info('Cancelled')
-      },
-
-      switchTeam(id) {
-        this.changeTeam(id)
-      },
-
-      ...mapMutations([
-        'logout',
-        'changeTeam'
-      ])
     }
   }
 </script>
@@ -117,18 +77,6 @@
         display: inline-block;
         margin-left: 20px;
       }
-      .welcome {
-      }
-      .logout {
-        margin-top: 25px;
-        .ivu-btn-dashed {
-          color: #fff;
-          &:hover {
-            color: #fff;
-          }
-        }
-      }
     }
-
   }
 </style>

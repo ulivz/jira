@@ -43,7 +43,6 @@
 
 <style lang="scss" scoped>
   .team-select {
-    width: 100px;
     a {
       color: #fff;
     }
