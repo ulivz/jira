@@ -230,6 +230,16 @@
         margin-top: 5px;
       }
     }
+    .issue-summary {
+      .ivu-table-cell {
+        overflow : hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        max-height: 60px;
+      }
+    }
     .issue-points {
       .ivu-table-cell {
         padding: 0 10px;
@@ -281,6 +291,9 @@
       }
     }
     .jira-status-column {
+      @include scope-breakpoint($mobile) {
+        font-size: 12px;
+      }
       .status-text {
         transition: all 0.3s;
       }

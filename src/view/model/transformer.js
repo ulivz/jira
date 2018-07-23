@@ -192,10 +192,10 @@ export function transformSprintData(sprint, {
       key: 'summary',
       className: 'issue-summary',
       fixed: isMobile ? null : 'left',
-      width: 400,
+      width: isMobile ? 300 : 400,
     }, // summary
     ...sprint.days.map(day => {
-      day.width = 100
+      day.width = isMobile ? 80 : 100
       day.className = 'jira-status-column'
       day.render = (h, params) => {
         const statusName = params.row.stampStatusMap[day.key]
