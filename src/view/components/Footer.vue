@@ -6,6 +6,7 @@
         <li
           v-for="(item, index) in leftLinks"
           :key="index"
+          :class="item.id"
         >
           <a
             target="_blank"
@@ -14,42 +15,51 @@
         </li>
       </ul>
 
-      <div class="footer-logo">
-        <img src="../../../static/assets/images/logo-ecg.png" alt="">
-      </div>
-
       <ul class="footer-right-links">
         <li
           v-for="(item, index) in rightLinks"
           :key="index"
+          :class="item.id"
         >
           <a
             target="_blank"
             :href="item.link"
+            @click="handleLinkClick(item.id, $event)"
           >{{ item.text }}</a>
         </li>
+        <Logout plain/>
       </ul>
     </div>
   </div>
 </template>
 
 <script>
+  import Logout from './Logout.vue'
+
   export default {
     name: 'Header',
+
+    components: { Logout },
 
     data() {
       return {
         leftLinks: [
-          { text: 'JIRA', link: 'https://www.atlassian.com/software/jira' },
-          { text: 'Github', link: 'https://github.com/ulivz/jira' }
+          { id: 'git', text: 'Github', link: 'https://github.com/ulivz/jira' }
         ],
         rightLinks: [
-          { text: 'Github', link: 'https://github.com/ulivz' }
+          { id: 'jira', text: 'JIRA', link: 'https://www.atlassian.com/software/jira' }
         ]
       }
     },
 
-    methods: {}
+    methods: {
+      handleLinkClick(linkId, event) {
+        if (linkId === 'sign-out') {
+          event.preventDefault()
+          this.logout()
+        }
+      }
+    }
   }
 </script>
 
@@ -57,17 +67,30 @@
 <style lang="scss" scoped>
   .footer {
     @extend %stripe-wrapper;
+    background-color: rgb(236, 236, 236);
+    margin-top: 40px;
+    height: 80px;
+    @include scope-breakpoint($mobile) {
+      margin-top: 20px;
+      height: 50px;
+    }
     .footer-wrapper {
       @extend %normal-full-expand;
-      margin-top: 40px;
       border-top: 1px solid #eaecef;;
-      height: 80px;
       display: flex;
+      align-items: center;
+      color: rgb(109, 109, 109);
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 3;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      @include scope-breakpoint($mobile) {
+        font-size: 12px;
+      }
     }
 
     ul.footer-left-links, ul.footer-right-links {
-      line-height: 80px;
-      flex: 1;
       list-style: none;
       li {
         display: inline-block;
@@ -75,6 +98,7 @@
     }
 
     ul.footer-left-links {
+      flex: 0 0 250px;
       text-align: left;
       li {
         margin-right: 20px;
@@ -82,19 +106,24 @@
     }
 
     ul.footer-right-links {
+      flex: 1;
       text-align: right;
       li {
         margin-left: 20px;
       }
-    }
-
-    .footer-logo {
-      flex: 0 0 100px;
-      display: flex;
-      img {
-        margin-top: 25px;
-        height: 30px;
-        width: 55px;
+      & > .jira {
+        @include scope-breakpoint($mobile) {
+          display: none;
+        }
+      }
+      & > .logout {
+        text-align: right;
+        @include scope-breakpoint($tablet) {
+          display: none;
+        }
+        @include scope-breakpoint($desktop) {
+          display: none;
+        }
       }
     }
   }

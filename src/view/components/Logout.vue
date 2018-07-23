@@ -1,11 +1,20 @@
 <template>
   <div class="logout">
     <Button
+      v-if="!plain"
       type="dashed"
       @click="openLogoutConfirmModal"
     >
-      log out
+      Sign out
     </Button>
+
+    <span
+      @click="openLogoutConfirmModal"
+      v-else
+    >
+      Sign out
+    </span>
+
     <Modal
       v-model="logoutConfirmModal"
       @on-ok="logout"
@@ -22,7 +31,14 @@
   import { mapState, mapMutations } from 'vuex'
 
   export default {
-    name: 'Welcome',
+    name: 'Logout',
+
+    props: {
+      plain: {
+        type: Boolean,
+        default: false
+      }
+    },
 
     data() {
       return {

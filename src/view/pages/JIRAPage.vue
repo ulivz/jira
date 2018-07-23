@@ -33,7 +33,9 @@
     />
 
     <Sidebar>
-      <Toolbox></Toolbox>
+      <span class="team-select-label">Team:</span>
+      <TeamSelect/>
+      <Toolbox/>
     </Sidebar>
   </div>
 
@@ -45,6 +47,7 @@
   import Footer from '../components/Footer.vue'
   import Toolbox from '../components/Toolbox.vue'
   import Sidebar from '../components/Sidebar.vue'
+  import TeamSelect from '../components/TeamSelect.vue'
   import GradientBackground from '../components/GradientBackground'
   import LoginForm from '../components/LoginForm'
   import Loading from '../components/Loading'
@@ -55,14 +58,15 @@
     name: 'JIRAPage',
 
     components: {
+      GradientBackground,
       JHeader: Header,
       JFooter: Footer,
-      GradientBackground,
       LoginForm,
       Loading,
       Sidebar,
+      SprintTrendDiagram,
       Toolbox,
-      SprintTrendDiagram
+      TeamSelect
     },
     methods: {
       ...mapMutations([
@@ -162,6 +166,12 @@
   }
 
   .sidebar {
+    .team-select-label {
+      color: #aaa;
+    }
+    .team-select {
+      margin-bottom: 20px;
+    }
     .tool-box {
       .tool-unit {
         margin-bottom: 20px;

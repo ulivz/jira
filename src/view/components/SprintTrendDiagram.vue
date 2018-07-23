@@ -181,6 +181,9 @@
     font-size: 14px;
     font-family: Arial, sans-serif;
     padding-top: 20px;
+    @include scope-breakpoint($mobile) {
+      padding-top: 12px;
+    }
 
     .tool-box-switch {
       transition: all 0.3s;
