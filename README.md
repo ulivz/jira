@@ -18,6 +18,8 @@
 
 ## Introduction
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ulivz/jira.svg)](https://greenkeeper.io/)
+
 [JIRA](https://www.atlassian.com/software/jira) Software is the project management tool for agile teams.
 
 JIRA itself provides a lot of valuable functions，e.g. **Scrum boards**, **Kanban boards**, **Agile reporting** etc. Surely, this project wasn't a duplicated wheel, It implements a small function that JIRA hasn't implemented at present, which I called `State Report`。
