@@ -29,7 +29,7 @@
     "iview": "^2.7.4",
     "koa": "^2.4.1",
     "lru-cache": "^4.1.1",
-    "request": "^2.83.0",
+    "request": "^2.88.0",
     "request-promise-native": "^1.0.5",
     "superagent": "^3.8.1",
     "vue": "^2.5.2",
